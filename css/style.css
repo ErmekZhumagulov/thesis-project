@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5, h6 {
   fill: #EA205E;
 }
 
+.сlickToChangeDefaultColor {
+  fill: white;
+}
+
 .сlickToChangeTextColor {
   fill: white;
 }
@@ -80,6 +84,13 @@ body {
 }
 
 text {
-  font-size: 18px;
+  font-size: 16px;
   color: black;
+  pointer-events: none;
+}
+
+path {
+  fill: white;
+  stroke: #736E74;
+  stroke-width: 1;
 }
