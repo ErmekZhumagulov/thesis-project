@@ -1,6 +1,20 @@
 @import "reboot.scss";
 
-.map {
-    position: relative;
-    text-align: center;
+//переменные
+$custom-grey: #736E74;
+$custom-red: #EA205E;
+
+
+
+.сlickToChangeColor{fill:$custom-red;}
+.сlickToChangeTextColor{fill:white;}
+
+body {
+    background-color: $custom-grey;
 }
+
+text {
+    font-size: 18px;
+    color: black;
+}
+
