@@ -9,6 +9,11 @@ $custom-red: #EA205E;
 .сlickToChangeColor{fill:$custom-red;}
 .сlickToChangeDefaultColor{fill:white;}
 .сlickToChangeTextColor{fill:white;}
+.сlickToChangeButtonColor {
+    background-color: $custom-red !important;
+    border: $custom-red !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -29,4 +34,13 @@ path {
 
 #text-1-227a, #text-1-left-boxroom {
     font-size: 10px;
+}
+
+.button {
+    padding: 50px 100px;
+    background-color: $custom-grey;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
 }
