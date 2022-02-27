@@ -304,3 +304,263 @@ function funcIconClick231(event) {
     iconClickPath231.removeEventListener("click", funcIconClick231);
 }
 document.addEventListener("click", funcIconClick231);
+
+// 1 - left - boxroom
+const iconClickPath1LeftBoxroom = document.getElementById('path-1-left-boxroom');
+const iconClickText1LeftBoxroom = document.getElementById('text-1-left-boxroom');
+function funcIconClick1LeftBoxroom(event) {
+    if (event.target.closest('#path-1-left-boxroom')) {
+        iconClickPath1LeftBoxroom.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-left-boxroom')) {
+        iconClickPath1LeftBoxroom.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-left-boxroom')) {
+        iconClickText1LeftBoxroom.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-left-boxroom')) {
+        iconClickText1LeftBoxroom.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath1LeftBoxroom.removeEventListener("click", funcIconClick1LeftBoxroom);
+}
+document.addEventListener("click", funcIconClick1LeftBoxroom);
+
+// 1 - left - wc
+const iconClickPath1LeftWc = document.getElementById('path-1-left-wc');
+const iconClickText1LeftWc = document.getElementById('text-1-left-wc');
+function funcIconClick1LeftWc(event) {
+    if (event.target.closest('#path-1-left-wc')) {
+        iconClickPath1LeftWc.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-left-wc')) {
+        iconClickPath1LeftWc.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-left-wc')) {
+        iconClickText1LeftWc.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-left-wc')) {
+        iconClickText1LeftWc.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath1LeftWc.removeEventListener("click", funcIconClick1LeftWc);
+}
+document.addEventListener("click", funcIconClick1LeftWc);
+
+// 1 - 222a
+const iconClickPath222a = document.getElementById('path-1-222a');
+const iconClickText222a = document.getElementById('text-1-222a');
+function funcIconClick222a(event) {
+    if (event.target.closest('#path-1-222a')) {
+        iconClickPath222a.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-222a')) {
+        iconClickPath222a.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-222a')) {
+        iconClickText222a.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-222a')) {
+        iconClickText222a.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath222a.removeEventListener("click", funcIconClick222a);
+}
+document.addEventListener("click", funcIconClick222a);
+
+// 1 - 222
+const iconClickPath222 = document.getElementById('path-1-222');
+const iconClickText222 = document.getElementById('text-1-222');
+function funcIconClick222(event) {
+    if (event.target.closest('#path-1-222')) {
+        iconClickPath222.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-222')) {
+        iconClickPath222.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-222')) {
+        iconClickText222.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-222')) {
+        iconClickText222.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath222.removeEventListener("click", funcIconClick222);
+}
+document.addEventListener("click", funcIconClick222);
+
+// 1 - 221
+const iconClickPath221 = document.getElementById('path-1-221');
+const iconClickText221 = document.getElementById('text-1-221');
+function funcIconClick221(event) {
+    if (event.target.closest('#path-1-221')) {
+        iconClickPath221.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-221')) {
+        iconClickPath221.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-221')) {
+        iconClickText221.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-221')) {
+        iconClickText221.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath221.removeEventListener("click", funcIconClick221);
+}
+document.addEventListener("click", funcIconClick221);
+
+// 1 - 315
+const iconClickPath315 = document.getElementById('path-1-315');
+const iconClickText315 = document.getElementById('text-1-315');
+function funcIconClick315(event) {
+    if (event.target.closest('#path-1-315')) {
+        iconClickPath315.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-315')) {
+        iconClickPath315.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-315')) {
+        iconClickText315.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-315')) {
+        iconClickText315.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath315.removeEventListener("click", funcIconClick315);
+}
+document.addEventListener("click", funcIconClick315);
+
+// 1 - 220
+const iconClickPath220 = document.getElementById('path-1-220');
+const iconClickText220 = document.getElementById('text-1-220');
+function funcIconClick220(event) {
+    if (event.target.closest('#path-1-220')) {
+        iconClickPath220.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-220')) {
+        iconClickPath220.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-220')) {
+        iconClickText220.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-220')) {
+        iconClickText220.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath220.removeEventListener("click", funcIconClick220);
+}
+document.addEventListener("click", funcIconClick220);
+
+// 1 - 219
+const iconClickPath219 = document.getElementById('path-1-219');
+const iconClickText219 = document.getElementById('text-1-219');
+function funcIconClick219(event) {
+    if (event.target.closest('#path-1-219')) {
+        iconClickPath219.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-219')) {
+        iconClickPath219.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-219')) {
+        iconClickText219.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-219')) {
+        iconClickText219.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath219.removeEventListener("click", funcIconClick219);
+}
+document.addEventListener("click", funcIconClick219);
+
+// 1 - 216
+const iconClickPath216 = document.getElementById('path-1-216');
+const iconClickText216 = document.getElementById('text-1-216');
+function funcIconClick216(event) {
+    if (event.target.closest('#path-1-216')) {
+        iconClickPath216.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-216')) {
+        iconClickPath216.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-216')) {
+        iconClickText216.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-216')) {
+        iconClickText216.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath216.removeEventListener("click", funcIconClick216);
+}
+document.addEventListener("click", funcIconClick216);
+
+// 1 - 215
+const iconClickPath215 = document.getElementById('path-1-215');
+const iconClickText215 = document.getElementById('text-1-215');
+function funcIconClick215(event) {
+    if (event.target.closest('#path-1-215')) {
+        iconClickPath215.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-215')) {
+        iconClickPath215.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-215')) {
+        iconClickText215.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-215')) {
+        iconClickText215.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath215.removeEventListener("click", funcIconClick215);
+}
+document.addEventListener("click", funcIconClick215);
+
+// 1 - 213
+const iconClickPath213 = document.getElementById('path-1-213');
+const iconClickText213 = document.getElementById('text-1-213');
+function funcIconClick213(event) {
+    if (event.target.closest('#path-1-213')) {
+        iconClickPath213.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-213')) {
+        iconClickPath213.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-213')) {
+        iconClickText213.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-213')) {
+        iconClickText213.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath213.removeEventListener("click", funcIconClick213);
+}
+document.addEventListener("click", funcIconClick213);
+
+// 1 - 212
+const iconClickPath212 = document.getElementById('path-1-212');
+const iconClickText212 = document.getElementById('text-1-212');
+function funcIconClick212(event) {
+    if (event.target.closest('#path-1-212')) {
+        iconClickPath212.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-212')) {
+        iconClickPath212.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-212')) {
+        iconClickText212.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-212')) {
+        iconClickText212.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath212.removeEventListener("click", funcIconClick212);
+}
+document.addEventListener("click", funcIconClick212);
+
+// 1 - 211
+const iconClickPath211 = document.getElementById('path-1-211');
+const iconClickText211 = document.getElementById('text-1-211');
+function funcIconClick211(event) {
+    if (event.target.closest('#path-1-211')) {
+        iconClickPath211.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-211')) {
+        iconClickPath211.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-211')) {
+        iconClickText211.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-211')) {
+        iconClickText211.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath211.removeEventListener("click", funcIconClick211);
+}
+document.addEventListener("click", funcIconClick211);
