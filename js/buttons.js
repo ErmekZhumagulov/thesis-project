@@ -22,7 +22,6 @@ ButtonClickAllWcText.forEach(elemWcText => {
         if (event.target.closest('#button-wc')) {
             elemWcText.classList.add('сlickToChangeTextColor');
         }
-        ButtonClickWcText.removeEventListener("click", funcButtonClickWcText);
     }
     document.addEventListener("click", funcButtonClickWcText);
 });
