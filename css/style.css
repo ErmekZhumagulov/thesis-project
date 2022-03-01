@@ -72,11 +72,11 @@ h1, h2, h3, h4, h5, h6 {
   fill: #EA205E;
 }
 
-.сlickToChangeDefaultColor {
+.сlickToChangeTextColor {
   fill: white;
 }
 
-.сlickToChangeTextColor {
+.сlickToChangeDefaultColor {
   fill: white;
 }
 
@@ -85,6 +85,14 @@ h1, h2, h3, h4, h5, h6 {
   border: #EA205E !important;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hide {
+  display: none;
+}
+
+.appear {
+  display: block !important;
 }
 
 body {
@@ -116,4 +124,34 @@ path {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+.search-point {
+  background-color: white;
+  position: absolute;
+  margin-top: 1px;
+}
+
+.search-point > li {
+  width: 300px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #736E74;
+}
+
+mark {
+  background-color: orange;
+}
+
+.search-point li {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.si-desc {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+}
+
+.si-click-style {
+  background-color: #cccccc;
 }

@@ -128,6 +128,7 @@ document.addEventListener("click", funcIconClick204);
 // 1 - 203
 const iconClickPath203 = document.getElementById('path-1-203');
 const iconClickText203 = document.getElementById('text-1-203');
+const iconClickSearch203 = document.getElementById('si-12203');
 function funcIconClick203(event) {
     if (event.target.closest('#path-1-203')) {
         iconClickPath203.classList.add('сlickToChangeColor');
@@ -140,6 +141,20 @@ function funcIconClick203(event) {
     }
     if (!event.target.closest('#path-1-203')) {
         iconClickText203.classList.remove('сlickToChangeTextColor');
+    }
+    //search-click
+    if (event.target.closest('#si-12203')) {
+        iconClickPath203.classList.add('сlickToChangeColor');
+    }
+    if (event.target.closest('#si-12203')) {
+        iconClickText203.classList.add('сlickToChangeTextColor');
+    }
+    //search-point-style
+    if (event.target.closest('#si-12203')) {
+        iconClickSearch203.classList.add('si-click-style');
+    }
+    if (!event.target.closest('#si-12203')) {
+        iconClickSearch203.classList.remove('si-click-style');
     }
     iconClickPath203.removeEventListener("click", funcIconClick203);
 }

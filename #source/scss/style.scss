@@ -7,12 +7,20 @@ $custom-red: #EA205E;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .сlickToChangeColor{fill:$custom-red;}
-.сlickToChangeDefaultColor{fill:white;}
 .сlickToChangeTextColor{fill:white;}
+.сlickToChangeDefaultColor{fill:white;}
 .сlickToChangeButtonColor {
     background-color: $custom-red !important;
     border: $custom-red !important;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.hide {
+    display: none;
+}
+
+.appear {
+    display: block !important;
 }
 
 body {
@@ -44,4 +52,34 @@ path {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.search-point {
+    background-color: white;
+    position: absolute;
+    margin-top: 1px;
+}
+
+.search-point > li {
+    width: 300px;
+    padding: 10px 20px;
+    border-bottom: 1px solid $custom-grey;
+}
+
+mark {
+    background-color: orange;
+}
+
+.search-point li {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.si-desc {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+
+.si-click-style {
+    background-color: rgb(204, 204, 204);
 }
