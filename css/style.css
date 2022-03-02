@@ -87,12 +87,16 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.hide {
+.search-point {
   display: none;
 }
 
 .appear {
-  display: block !important;
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 body {

@@ -4,7 +4,7 @@ document.querySelector("#search").oninput = function() {
     let valie = val.toUpperCase();
     let searchItems = document.querySelectorAll('.search-point li');
     if (valie != '') {
-        document.querySelector(".search-point").classList.add('appear');
+        document.querySelector(".search-point").style.display = 'block';
 
         searchItems.forEach(function(elem) {
             if(elem.innerText.search(valie) == -1) {
@@ -22,3 +22,15 @@ document.querySelector("#search").oninput = function() {
         document.querySelector(".search-point").classList.remove('appear');
     }
 }
+
+let searchItems = document.querySelectorAll('.search-point li');
+let searchItemsParent = document.querySelector('.search-point');
+let mySearchInput = document.querySelector("#search");
+searchItems.forEach(forelem => {
+    forelem.onclick = function() {
+        mySearchInput.value = '';
+        if (this.value = '0') {
+            searchItemsParent.style.display = 'none';
+        }
+    }
+});

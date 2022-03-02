@@ -15,12 +15,16 @@ $custom-red: #EA205E;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.hide {
+.search-point {
     display: none;
 }
 
 .appear {
-    display: block !important;
+    display: block;
+}
+
+.hide {
+    display: none;
 }
 
 body {
