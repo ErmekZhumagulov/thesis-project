@@ -68,6 +68,10 @@ path {
     width: 300px;
     padding: 10px 20px;
     border-bottom: 1px solid $custom-grey;
+    cursor: pointer;
+}
+.search-point > li:hover {
+    background-color: rgb(192, 192, 192);
 }
 
 mark {
@@ -84,6 +88,6 @@ mark {
     letter-spacing: 0.5px;
 }
 
-.si-click-style {
-    background-color: rgb(204, 204, 204);
-}
+// .si-click-style {
+//     background-color: rgb(204, 204, 204);
+// }

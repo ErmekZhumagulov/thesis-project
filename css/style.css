@@ -140,6 +140,11 @@ path {
   width: 300px;
   padding: 10px 20px;
   border-bottom: 1px solid #736E74;
+  cursor: pointer;
+}
+
+.search-point > li:hover {
+  background-color: silver;
 }
 
 mark {
@@ -154,8 +159,4 @@ mark {
 .si-desc {
   font-size: 11px;
   letter-spacing: 0.5px;
-}
-
-.si-click-style {
-  background-color: #cccccc;
 }
