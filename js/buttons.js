@@ -25,3 +25,6 @@ ButtonClickAllWcText.forEach(elemWcText => {
     }
     document.addEventListener("click", funcButtonClickWcText);
 });
+
+let fff = $( "#map-frame" ).contents().find( ".path-wc" );
+console.log(fff);
