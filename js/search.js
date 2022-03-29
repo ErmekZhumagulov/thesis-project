@@ -34,3 +34,13 @@ searchItems.forEach(forelem => {
         }
     }
 });
+
+$('#search').on('keyup',function(){
+    var $this = $(this),
+        val = $this.val();
+    if(val.length >= 1){
+        searchItemsParent.style.display = 'block';
+    } else {
+        searchItemsParent.style.display = 'none';
+    }
+})
