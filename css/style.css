@@ -116,7 +116,7 @@ path {
   stroke-width: 1;
 }
 
-#text-1-227a, #text-1-left-boxroom, #text-1-right-boxroom {
+#text-1-227a, #text-1-left-boxroom, #text-1-right-boxroom, #text-1-1boxroom, #text-1-left-wc, #text-1-left-wc1, #text-1-right-wc, #text-1-right-wc1, #text-1-1wc-man, #text-1-1wc-man1 {
   font-size: 10px;
 }
 
@@ -167,4 +167,8 @@ mark {
 
 .building1floor2, .building1floor1, .building1floor3, .building1floor4 {
   margin-top: -50px;
+}
+
+#path-1-1 {
+  fill: grey;
 }

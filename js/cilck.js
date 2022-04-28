@@ -343,6 +343,7 @@ document.addEventListener("click", funcIconClick1LeftBoxroom);
 // 1 - left - wc
 const iconClickPath1LeftWc = document.getElementById('path-1-left-wc');
 const iconClickText1LeftWc = document.getElementById('text-1-left-wc');
+const iconClickText1LeftWc1 = document.getElementById('text-1-left-wc1');
 function funcIconClick1LeftWc(event) {
     if (event.target.closest('#path-1-left-wc')) {
         iconClickPath1LeftWc.classList.add('сlickToChangeColor');
@@ -355,6 +356,12 @@ function funcIconClick1LeftWc(event) {
     }
     if (!event.target.closest('#path-1-left-wc')) {
         iconClickText1LeftWc.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-left-wc')) {
+        iconClickText1LeftWc1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-left-wc')) {
+        iconClickText1LeftWc1.classList.remove('сlickToChangeTextColor');
     }
     iconClickPath1LeftWc.removeEventListener("click", funcIconClick1LeftWc);
 }
@@ -1083,6 +1090,7 @@ document.addEventListener("click", funcIconClick1rightBoxroom);
 // 1 - right - wc
 const iconClickPath1rightWc = document.getElementById('path-1-right-wc');
 const iconClickText1rightWc = document.getElementById('text-1-right-wc');
+const iconClickText1rightWc1 = document.getElementById('text-1-right-wc1');
 function funcIconClick1rightWc(event) {
     if (event.target.closest('#path-1-right-wc')) {
         iconClickPath1rightWc.classList.add('сlickToChangeColor');
@@ -1095,6 +1103,12 @@ function funcIconClick1rightWc(event) {
     }
     if (!event.target.closest('#path-1-right-wc')) {
         iconClickText1rightWc.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-right-wc')) {
+        iconClickText1rightWc1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-right-wc')) {
+        iconClickText1rightWc1.classList.remove('сlickToChangeTextColor');
     }
     iconClickPath1rightWc.removeEventListener("click", funcIconClick1rightWc);
 }
@@ -1153,3 +1167,646 @@ function funcIconClick1bookstorage(event) {
     iconClickPath1bookstorage.removeEventListener("click", funcIconClick1bookstorage);
 }
 document.addEventListener("click", funcIconClick1bookstorage);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1 - 114
+const iconClickPath114 = document.getElementById('path-1-114');
+const iconClickText114 = document.getElementById('text-1-114');
+function funcIconClick114(event) {
+    if (event.target.closest('#path-1-114')) {
+        iconClickPath114.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-114')) {
+        iconClickPath114.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-114')) {
+        iconClickText114.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-114')) {
+        iconClickText114.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath114.removeEventListener("click", funcIconClick114);
+}
+document.addEventListener("click", funcIconClick114);
+
+// 1 - 113
+const iconClickPath113 = document.getElementById('path-1-113');
+const iconClickText113 = document.getElementById('text-1-113');
+function funcIconClick113(event) {
+    if (event.target.closest('#path-1-113')) {
+        iconClickPath113.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-113')) {
+        iconClickPath113.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-113')) {
+        iconClickText113.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-113')) {
+        iconClickText113.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath113.removeEventListener("click", funcIconClick113);
+}
+document.addEventListener("click", funcIconClick113);
+
+// 1 - 104
+const iconClickPath104 = document.getElementById('path-1-104');
+const iconClickText104 = document.getElementById('text-1-104');
+function funcIconClick104(event) {
+    if (event.target.closest('#path-1-104')) {
+        iconClickPath104.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-104')) {
+        iconClickPath104.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-104')) {
+        iconClickText104.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-104')) {
+        iconClickText104.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath104.removeEventListener("click", funcIconClick104);
+}
+document.addEventListener("click", funcIconClick104);
+
+// 1 - 103
+const iconClickPath103 = document.getElementById('path-1-103');
+const iconClickText103 = document.getElementById('text-1-103');
+function funcIconClick103(event) {
+    if (event.target.closest('#path-1-103')) {
+        iconClickPath103.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-103')) {
+        iconClickPath103.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-103')) {
+        iconClickText103.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-103')) {
+        iconClickText103.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath103.removeEventListener("click", funcIconClick103);
+}
+document.addEventListener("click", funcIconClick103);
+
+// 1 - 102
+const iconClickPath102 = document.getElementById('path-1-102');
+const iconClickText102 = document.getElementById('text-1-102');
+function funcIconClick102(event) {
+    if (event.target.closest('#path-1-102')) {
+        iconClickPath102.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-102')) {
+        iconClickPath102.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-102')) {
+        iconClickText102.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-102')) {
+        iconClickText102.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath102.removeEventListener("click", funcIconClick102);
+}
+document.addEventListener("click", funcIconClick102);
+
+// 1 - 101
+const iconClickPath101 = document.getElementById('path-1-101');
+const iconClickText101 = document.getElementById('text-1-101');
+function funcIconClick101(event) {
+    if (event.target.closest('#path-1-101')) {
+        iconClickPath101.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-101')) {
+        iconClickPath101.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-101')) {
+        iconClickText101.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-101')) {
+        iconClickText101.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath101.removeEventListener("click", funcIconClick101);
+}
+document.addEventListener("click", funcIconClick101);
+
+// 1 - 151
+const iconClickPath151 = document.getElementById('path-1-151');
+const iconClickText151 = document.getElementById('text-1-151');
+function funcIconClick151(event) {
+    if (event.target.closest('#path-1-151')) {
+        iconClickPath151.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-151')) {
+        iconClickPath151.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-151')) {
+        iconClickText151.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-151')) {
+        iconClickText151.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath151.removeEventListener("click", funcIconClick151);
+}
+document.addEventListener("click", funcIconClick151);
+
+// 1 - 152
+const iconClickPath152 = document.getElementById('path-1-152');
+const iconClickText152 = document.getElementById('text-1-152');
+function funcIconClick152(event) {
+    if (event.target.closest('#path-1-152')) {
+        iconClickPath152.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-152')) {
+        iconClickPath152.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-152')) {
+        iconClickText152.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-152')) {
+        iconClickText152.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath152.removeEventListener("click", funcIconClick152);
+}
+document.addEventListener("click", funcIconClick152);
+
+// 1 - 152a
+const iconClickPath152a = document.getElementById('path-1-152a');
+const iconClickText152a = document.getElementById('text-1-152a');
+function funcIconClick152a(event) {
+    if (event.target.closest('#path-1-152a')) {
+        iconClickPath152a.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-152a')) {
+        iconClickPath152a.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-152a')) {
+        iconClickText152a.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-152a')) {
+        iconClickText152a.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath152a.removeEventListener("click", funcIconClick152a);
+}
+document.addEventListener("click", funcIconClick152a);
+
+// 1 - 153
+const iconClickPath153 = document.getElementById('path-1-153');
+const iconClickText153 = document.getElementById('text-1-153');
+function funcIconClick153(event) {
+    if (event.target.closest('#path-1-153')) {
+        iconClickPath153.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-153')) {
+        iconClickPath153.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-153')) {
+        iconClickText153.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-153')) {
+        iconClickText153.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath153.removeEventListener("click", funcIconClick153);
+}
+document.addEventListener("click", funcIconClick153);
+
+// 1 - 153a
+const iconClickPath153a = document.getElementById('path-1-153a');
+const iconClickText153a = document.getElementById('text-1-153a');
+function funcIconClick153a(event) {
+    if (event.target.closest('#path-1-153a')) {
+        iconClickPath153a.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-153a')) {
+        iconClickPath153a.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-153a')) {
+        iconClickText153a.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-153a')) {
+        iconClickText153a.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath153a.removeEventListener("click", funcIconClick153a);
+}
+document.addEventListener("click", funcIconClick153a);
+
+// 1 - 154
+const iconClickPath154 = document.getElementById('path-1-154');
+const iconClickText154 = document.getElementById('text-1-154');
+function funcIconClick154(event) {
+    if (event.target.closest('#path-1-154')) {
+        iconClickPath154.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-154')) {
+        iconClickPath154.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-154')) {
+        iconClickText154.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-154')) {
+        iconClickText154.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath154.removeEventListener("click", funcIconClick154);
+}
+document.addEventListener("click", funcIconClick154);
+
+// 1 - 155
+const iconClickPath155 = document.getElementById('path-1-155');
+const iconClickText155 = document.getElementById('text-1-155');
+function funcIconClick155(event) {
+    if (event.target.closest('#path-1-155')) {
+        iconClickPath155.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-155')) {
+        iconClickPath155.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-155')) {
+        iconClickText155.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-155')) {
+        iconClickText155.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath155.removeEventListener("click", funcIconClick155);
+}
+document.addEventListener("click", funcIconClick155);
+
+// 1 - 156
+const iconClickPath156 = document.getElementById('path-1-156');
+const iconClickText156 = document.getElementById('text-1-156');
+function funcIconClick156(event) {
+    if (event.target.closest('#path-1-156')) {
+        iconClickPath156.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-156')) {
+        iconClickPath156.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-156')) {
+        iconClickText156.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-156')) {
+        iconClickText156.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath156.removeEventListener("click", funcIconClick156);
+}
+document.addEventListener("click", funcIconClick156);
+
+// 1 - 158
+const iconClickPath158 = document.getElementById('path-1-158');
+const iconClickText158 = document.getElementById('text-1-158');
+function funcIconClick158(event) {
+    if (event.target.closest('#path-1-158')) {
+        iconClickPath158.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-158')) {
+        iconClickPath158.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-158')) {
+        iconClickText158.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-158')) {
+        iconClickText158.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath158.removeEventListener("click", funcIconClick158);
+}
+document.addEventListener("click", funcIconClick158);
+
+// 1 - 158a
+const iconClickPath158a = document.getElementById('path-1-158a');
+const iconClickText158a = document.getElementById('text-1-158a');
+function funcIconClick158a(event) {
+    if (event.target.closest('#path-1-158a')) {
+        iconClickPath158a.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-158a')) {
+        iconClickPath158a.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-158a')) {
+        iconClickText158a.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-158a')) {
+        iconClickText158a.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath158a.removeEventListener("click", funcIconClick158a);
+}
+document.addEventListener("click", funcIconClick158a);
+
+// 1 - 159
+const iconClickPath159 = document.getElementById('path-1-159');
+const iconClickText159 = document.getElementById('text-1-159');
+function funcIconClick159(event) {
+    if (event.target.closest('#path-1-159')) {
+        iconClickPath159.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-159')) {
+        iconClickPath159.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-159')) {
+        iconClickText159.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-159')) {
+        iconClickText159.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath159.removeEventListener("click", funcIconClick159);
+}
+document.addEventListener("click", funcIconClick159);
+
+// 1 - 160
+const iconClickPath160 = document.getElementById('path-1-160');
+const iconClickText160 = document.getElementById('text-1-160');
+function funcIconClick160(event) {
+    if (event.target.closest('#path-1-160')) {
+        iconClickPath160.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-160')) {
+        iconClickPath160.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-160')) {
+        iconClickText160.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-160')) {
+        iconClickText160.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath160.removeEventListener("click", funcIconClick160);
+}
+document.addEventListener("click", funcIconClick160);
+
+// 1 - right - wc - man
+const iconClickPath1rightWcman = document.getElementById('path-1-1wc-man');
+const iconClickText1rightWcman = document.getElementById('text-1-1wc-man');
+const iconClickText1rightWc1man = document.getElementById('text-1-1wc-man1');
+function funcIconClick1rightWcman(event) {
+    if (event.target.closest('#path-1-1wc-man')) {
+        iconClickPath1rightWcman.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-1wc-man')) {
+        iconClickPath1rightWcman.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWcman.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWcman.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWc1man.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWc1man.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath1rightWcman.removeEventListener("click", funcIconClick1rightWcman);
+}
+document.addEventListener("click", funcIconClick1rightWcman);
+
+// 1 - 1 - boxroom
+const iconClickPath1right1Boxroom = document.getElementById('path-1-1boxroom');
+const iconClickText1right1Boxroom = document.getElementById('text-1-1boxroom');
+function funcIconClick1right1Boxroom(event) {
+    if (event.target.closest('#path-1-1boxroom')) {
+        iconClickPath1right1Boxroom.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-1boxroom')) {
+        iconClickPath1right1Boxroom.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-1boxroom')) {
+        iconClickText1right1Boxroom.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-1boxroom')) {
+        iconClickText1right1Boxroom.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath1right1Boxroom.removeEventListener("click", funcIconClick1right1Boxroom);
+}
+document.addEventListener("click", funcIconClick1right1Boxroom);
+
+// 1 - 167
+const iconClickPath167 = document.getElementById('path-1-167');
+const iconClickText167 = document.getElementById('text-1-167');
+function funcIconClick167(event) {
+    if (event.target.closest('#path-1-167')) {
+        iconClickPath167.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-167')) {
+        iconClickPath167.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-167')) {
+        iconClickText167.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-167')) {
+        iconClickText167.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath167.removeEventListener("click", funcIconClick167);
+}
+document.addEventListener("click", funcIconClick167);
+
+// 1 - 168
+const iconClickPath168 = document.getElementById('path-1-168');
+const iconClickText168 = document.getElementById('text-1-168');
+function funcIconClick168(event) {
+    if (event.target.closest('#path-1-168')) {
+        iconClickPath168.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-168')) {
+        iconClickPath168.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-168')) {
+        iconClickText168.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-168')) {
+        iconClickText168.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath168.removeEventListener("click", funcIconClick168);
+}
+document.addEventListener("click", funcIconClick168);
+
+// 1 - 169
+const iconClickPath169 = document.getElementById('path-1-169');
+const iconClickText169 = document.getElementById('text-1-169');
+function funcIconClick169(event) {
+    if (event.target.closest('#path-1-169')) {
+        iconClickPath169.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-169')) {
+        iconClickPath169.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-169')) {
+        iconClickText169.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-169')) {
+        iconClickText169.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath169.removeEventListener("click", funcIconClick169);
+}
+document.addEventListener("click", funcIconClick169);
+
+// 1 - 170
+const iconClickPath170 = document.getElementById('path-1-170');
+const iconClickText170 = document.getElementById('text-1-170');
+function funcIconClick170(event) {
+    if (event.target.closest('#path-1-170')) {
+        iconClickPath170.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-170')) {
+        iconClickPath170.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-170')) {
+        iconClickText170.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-170')) {
+        iconClickText170.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath170.removeEventListener("click", funcIconClick170);
+}
+document.addEventListener("click", funcIconClick170);
+
+// 1 - 171
+const iconClickPath171 = document.getElementById('path-1-171');
+const iconClickText171 = document.getElementById('text-1-171');
+function funcIconClick171(event) {
+    if (event.target.closest('#path-1-171')) {
+        iconClickPath171.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-171')) {
+        iconClickPath171.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-171')) {
+        iconClickText171.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-171')) {
+        iconClickText171.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath171.removeEventListener("click", funcIconClick171);
+}
+document.addEventListener("click", funcIconClick171);
+
+// 1 - 172
+const iconClickPath172 = document.getElementById('path-1-172');
+const iconClickText172 = document.getElementById('text-1-172');
+function funcIconClick172(event) {
+    if (event.target.closest('#path-1-172')) {
+        iconClickPath172.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-172')) {
+        iconClickPath172.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-172')) {
+        iconClickText172.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-172')) {
+        iconClickText172.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath172.removeEventListener("click", funcIconClick172);
+}
+document.addEventListener("click", funcIconClick172);
+
+// 1 - 107
+const iconClickPath107 = document.getElementById('path-1-107');
+const iconClickText107 = document.getElementById('text-1-107');
+function funcIconClick107(event) {
+    if (event.target.closest('#path-1-107')) {
+        iconClickPath107.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-107')) {
+        iconClickPath107.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-107')) {
+        iconClickText107.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-107')) {
+        iconClickText107.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath107.removeEventListener("click", funcIconClick107);
+}
+document.addEventListener("click", funcIconClick107);
+
+// 1 - 108
+const iconClickPath108 = document.getElementById('path-1-108');
+const iconClickText108 = document.getElementById('text-1-108');
+function funcIconClick108(event) {
+    if (event.target.closest('#path-1-108')) {
+        iconClickPath108.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-108')) {
+        iconClickPath108.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-108')) {
+        iconClickText108.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-108')) {
+        iconClickText108.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath108.removeEventListener("click", funcIconClick108);
+}
+document.addEventListener("click", funcIconClick108);
+
+// 1 - 109
+const iconClickPath109 = document.getElementById('path-1-109');
+const iconClickText109 = document.getElementById('text-1-109');
+function funcIconClick109(event) {
+    if (event.target.closest('#path-1-109')) {
+        iconClickPath109.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-109')) {
+        iconClickPath109.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-109')) {
+        iconClickText109.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-109')) {
+        iconClickText109.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath109.removeEventListener("click", funcIconClick109);
+}
+document.addEventListener("click", funcIconClick109);
+
+// 1 - 112
+const iconClickPath112 = document.getElementById('path-1-112');
+const iconClickText112 = document.getElementById('text-1-112');
+function funcIconClick112(event) {
+    if (event.target.closest('#path-1-112')) {
+        iconClickPath112.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-112')) {
+        iconClickPath112.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-112')) {
+        iconClickText112.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-112')) {
+        iconClickText112.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath112.removeEventListener("click", funcIconClick112);
+}
+document.addEventListener("click", funcIconClick112);
+
+// 1 - stolovaya
+const iconClickPathstolovaya = document.getElementById('path-1-stolovaya');
+const iconClickTextstolovaya = document.getElementById('text-1-stolovaya');
+function funcIconClickstolovaya(event) {
+    if (event.target.closest('#path-1-stolovaya')) {
+        iconClickPathstolovaya.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-stolovaya')) {
+        iconClickPathstolovaya.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-stolovaya')) {
+        iconClickTextstolovaya.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-stolovaya')) {
+        iconClickTextstolovaya.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPathstolovaya.removeEventListener("click", funcIconClickstolovaya);
+}
+document.addEventListener("click", funcIconClickstolovaya);
