@@ -44,8 +44,11 @@ path {
     stroke-width: 1;
 }
 
-#text-1-227a, #text-1-left-boxroom {
+#text-1-227a, #text-1-left-boxroom, #text-1-right-boxroom {
     font-size: 10px;
+}
+#text-1-book-storage, #text-1-book-storage1, #text-1-book-storage2 {
+    font-size: 9px;
 }
 
 .button {
@@ -91,3 +94,11 @@ mark {
 // .si-click-style {
 //     background-color: rgb(204, 204, 204);
 // }
+
+// .dropdown, .search-zone {
+//     position: absolute;
+// }
+
+.building1floor2, .building1floor1, .building1floor3, .building1floor4 {
+    margin-top: -50px;
+}

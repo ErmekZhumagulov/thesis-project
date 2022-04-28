@@ -116,8 +116,12 @@ path {
   stroke-width: 1;
 }
 
-#text-1-227a, #text-1-left-boxroom {
+#text-1-227a, #text-1-left-boxroom, #text-1-right-boxroom {
   font-size: 10px;
+}
+
+#text-1-book-storage, #text-1-book-storage1, #text-1-book-storage2 {
+  font-size: 9px;
 }
 
 .button {
@@ -159,4 +163,8 @@ mark {
 .si-desc {
   font-size: 11px;
   letter-spacing: 0.5px;
+}
+
+.building1floor2, .building1floor1, .building1floor3, .building1floor4 {
+  margin-top: -50px;
 }
