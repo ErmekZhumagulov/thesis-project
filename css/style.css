@@ -165,8 +165,13 @@ mark {
   letter-spacing: 0.5px;
 }
 
-.building1floor2, .building1floor1, .building1floor3, .building1floor4 {
-  margin-top: -50px;
+.dropdown {
+  position: absolute;
+  top: 50px;
+}
+
+.building1floor1, .building1floor2, .building1floor3, .building1floor4, .building2floor1, .building2floor2, .building2floor3, .building2floor4, .building2floor5, .building2floor6 {
+  margin-top: 100px;
 }
 
 #path-1-1 {
