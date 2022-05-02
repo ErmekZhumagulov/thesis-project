@@ -1,3 +1,4 @@
+// 1b - 2floor
 // 1 - 210
 const iconClickPath210 = document.getElementById('path-1-210');
 const iconClickText210 = document.getElementById('text-1-210');
@@ -1184,6 +1185,9 @@ document.addEventListener("click", funcIconClick1bookstorage);
 
 
 
+
+
+// 1b - 1floor
 // 1 - 114
 const iconClickPath114 = document.getElementById('path-1-114');
 const iconClickText114 = document.getElementById('text-1-114');
@@ -1810,6 +1814,1982 @@ function funcIconClickstolovaya(event) {
     iconClickPathstolovaya.removeEventListener("click", funcIconClickstolovaya);
 }
 document.addEventListener("click", funcIconClickstolovaya);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1b - 3floor
+// 1b - 3floor  -  left-up
+const iconClickPath13leftup1 = document.getElementById('path-1-3-left-up-1');
+const iconClickText13leftup1 = document.getElementById('text-1-3-left-up-1');
+function funcIconClick13leftup1(event) {
+    if (event.target.closest('#path-1-3-left-up-1')) {
+        iconClickPath13leftup1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-1')) {
+        iconClickPath13leftup1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-1')) {
+        iconClickText13leftup1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-1')) {
+        iconClickText13leftup1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup1.removeEventListener("click", funcIconClick13leftup1);
+}
+document.addEventListener("click", funcIconClick13leftup1);
+
+const iconClickPath13leftup2 = document.getElementById('path-1-3-left-up-2');
+const iconClickText13leftup2 = document.getElementById('text-1-3-left-up-2');
+function funcIconClick13leftup2(event) {
+    if (event.target.closest('#path-1-3-left-up-2')) {
+        iconClickPath13leftup2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-2')) {
+        iconClickPath13leftup2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-2')) {
+        iconClickText13leftup2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-2')) {
+        iconClickText13leftup2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup2.removeEventListener("click", funcIconClick13leftup2);
+}
+document.addEventListener("click", funcIconClick13leftup2);
+
+const iconClickPath13leftup3 = document.getElementById('path-1-3-left-up-3');
+const iconClickText13leftup3 = document.getElementById('text-1-3-left-up-3');
+function funcIconClick13leftup3(event) {
+    if (event.target.closest('#path-1-3-left-up-3')) {
+        iconClickPath13leftup3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-3')) {
+        iconClickPath13leftup3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-3')) {
+        iconClickText13leftup3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-3')) {
+        iconClickText13leftup3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup3.removeEventListener("click", funcIconClick13leftup3);
+}
+document.addEventListener("click", funcIconClick13leftup3);
+
+const iconClickPath13leftup4 = document.getElementById('path-1-3-left-up-4');
+const iconClickText13leftup4 = document.getElementById('text-1-3-left-up-4');
+function funcIconClick13leftup4(event) {
+    if (event.target.closest('#path-1-3-left-up-4')) {
+        iconClickPath13leftup4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-4')) {
+        iconClickPath13leftup4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-4')) {
+        iconClickText13leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-4')) {
+        iconClickText13leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup4.removeEventListener("click", funcIconClick13leftup4);
+}
+document.addEventListener("click", funcIconClick13leftup4);
+
+const iconClickPath13leftup5 = document.getElementById('path-1-3-left-up-5');
+const iconClickText13leftup5 = document.getElementById('text-1-3-left-up-5');
+function funcIconClick13leftup5(event) {
+    if (event.target.closest('#path-1-3-left-up-5')) {
+        iconClickPath13leftup5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-5')) {
+        iconClickPath13leftup5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-5')) {
+        iconClickText13leftup5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-5')) {
+        iconClickText13leftup5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup5.removeEventListener("click", funcIconClick13leftup5);
+}
+document.addEventListener("click", funcIconClick13leftup5);
+
+const iconClickPath13leftup6 = document.getElementById('path-1-3-left-up-6');
+const iconClickText13leftup6 = document.getElementById('text-1-3-left-up-6');
+function funcIconClick13leftup6(event) {
+    if (event.target.closest('#path-1-3-left-up-6')) {
+        iconClickPath13leftup6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-6')) {
+        iconClickPath13leftup6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-6')) {
+        iconClickText13leftup6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-6')) {
+        iconClickText13leftup6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup6.removeEventListener("click", funcIconClick13leftup6);
+}
+document.addEventListener("click", funcIconClick13leftup6);
+
+const iconClickPath13leftup7 = document.getElementById('path-1-3-left-up-7');
+const iconClickText13leftup7 = document.getElementById('text-1-3-left-up-7');
+function funcIconClick13leftup7(event) {
+    if (event.target.closest('#path-1-3-left-up-7')) {
+        iconClickPath13leftup7.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-7')) {
+        iconClickPath13leftup7.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-7')) {
+        iconClickText13leftup7.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-7')) {
+        iconClickText13leftup7.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup7.removeEventListener("click", funcIconClick13leftup7);
+}
+document.addEventListener("click", funcIconClick13leftup7);
+
+const iconClickPath13leftup8 = document.getElementById('path-1-3-left-up-8');
+const iconClickText13leftup8 = document.getElementById('text-1-3-left-up-8');
+function funcIconClick13leftup8(event) {
+    if (event.target.closest('#path-1-3-left-up-8')) {
+        iconClickPath13leftup8.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-8')) {
+        iconClickPath13leftup8.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-up-8')) {
+        iconClickText13leftup8.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-up-8')) {
+        iconClickText13leftup8.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftup8.removeEventListener("click", funcIconClick13leftup8);
+}
+document.addEventListener("click", funcIconClick13leftup8);
+
+// 1b - 3floor  -  right-up
+const iconClickPath13rightup1 = document.getElementById('path-1-3-right-up-1');
+const iconClickText13rightup1 = document.getElementById('text-1-3-right-up-1');
+function funcIconClick13rightup1(event) {
+    if (event.target.closest('#path-1-3-right-up-1')) {
+        iconClickPath13rightup1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-1')) {
+        iconClickPath13rightup1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-1')) {
+        iconClickText13rightup1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-1')) {
+        iconClickText13rightup1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup1.removeEventListener("click", funcIconClick13rightup1);
+}
+document.addEventListener("click", funcIconClick13rightup1);
+
+const iconClickPath13rightup2 = document.getElementById('path-1-3-right-up-2');
+const iconClickText13rightup2 = document.getElementById('text-1-3-right-up-2');
+function funcIconClick13rightup2(event) {
+    if (event.target.closest('#path-1-3-right-up-2')) {
+        iconClickPath13rightup2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-2')) {
+        iconClickPath13rightup2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-2')) {
+        iconClickText13rightup2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-2')) {
+        iconClickText13rightup2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup2.removeEventListener("click", funcIconClick13rightup2);
+}
+document.addEventListener("click", funcIconClick13rightup2);
+
+const iconClickPath13rightup3 = document.getElementById('path-1-3-right-up-3');
+const iconClickText13rightup3 = document.getElementById('text-1-3-right-up-3');
+function funcIconClick13rightup3(event) {
+    if (event.target.closest('#path-1-3-right-up-3')) {
+        iconClickPath13rightup3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-3')) {
+        iconClickPath13rightup3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-3')) {
+        iconClickText13rightup3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-3')) {
+        iconClickText13rightup3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup3.removeEventListener("click", funcIconClick13rightup3);
+}
+document.addEventListener("click", funcIconClick13rightup3);
+
+const iconClickPath13rightup4 = document.getElementById('path-1-3-right-up-4');
+const iconClickText13rightup4 = document.getElementById('text-1-3-right-up-4');
+function funcIconClick13rightup4(event) {
+    if (event.target.closest('#path-1-3-right-up-4')) {
+        iconClickPath13rightup4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-4')) {
+        iconClickPath13rightup4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-4')) {
+        iconClickText13rightup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-4')) {
+        iconClickText13rightup4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup4.removeEventListener("click", funcIconClick13rightup4);
+}
+document.addEventListener("click", funcIconClick13rightup4);
+
+const iconClickPath13rightup5 = document.getElementById('path-1-3-right-up-5');
+const iconClickText13rightup5 = document.getElementById('text-1-3-right-up-5');
+function funcIconClick13rightup5(event) {
+    if (event.target.closest('#path-1-3-right-up-5')) {
+        iconClickPath13rightup5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-5')) {
+        iconClickPath13rightup5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-5')) {
+        iconClickText13rightup5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-5')) {
+        iconClickText13rightup5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup5.removeEventListener("click", funcIconClick13rightup5);
+}
+document.addEventListener("click", funcIconClick13rightup5);
+
+const iconClickPath13rightup6 = document.getElementById('path-1-3-right-up-6');
+const iconClickText13rightup6 = document.getElementById('text-1-3-right-up-6');
+function funcIconClick13rightup6(event) {
+    if (event.target.closest('#path-1-3-right-up-6')) {
+        iconClickPath13rightup6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-6')) {
+        iconClickPath13rightup6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-6')) {
+        iconClickText13rightup6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-6')) {
+        iconClickText13rightup6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup6.removeEventListener("click", funcIconClick13rightup6);
+}
+document.addEventListener("click", funcIconClick13rightup6);
+
+const iconClickPath13rightup7 = document.getElementById('path-1-3-right-up-7');
+const iconClickText13rightup7 = document.getElementById('text-1-3-right-up-7');
+function funcIconClick13rightup7(event) {
+    if (event.target.closest('#path-1-3-right-up-7')) {
+        iconClickPath13rightup7.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-7')) {
+        iconClickPath13rightup7.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-7')) {
+        iconClickText13rightup7.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-7')) {
+        iconClickText13rightup7.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup7.removeEventListener("click", funcIconClick13rightup7);
+}
+document.addEventListener("click", funcIconClick13rightup7);
+
+const iconClickPath13rightup8 = document.getElementById('path-1-3-right-up-8');
+const iconClickText13rightup8 = document.getElementById('text-1-3-right-up-8');
+function funcIconClick13rightup8(event) {
+    if (event.target.closest('#path-1-3-right-up-8')) {
+        iconClickPath13rightup8.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-8')) {
+        iconClickPath13rightup8.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-up-8')) {
+        iconClickText13rightup8.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-up-8')) {
+        iconClickText13rightup8.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightup8.removeEventListener("click", funcIconClick13rightup8);
+}
+document.addEventListener("click", funcIconClick13rightup8);
+
+// 1b - 3floor  -  left-down
+const iconClickPath13leftdown1 = document.getElementById('path-1-3-left-down-1');
+const iconClickText13leftdown1 = document.getElementById('text-1-3-left-down-1');
+function funcIconClick13leftdown1(event) {
+    if (event.target.closest('#path-1-3-left-down-1')) {
+        iconClickPath13leftdown1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-1')) {
+        iconClickPath13leftdown1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-down-1')) {
+        iconClickText13leftdown1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-1')) {
+        iconClickText13leftdown1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftdown1.removeEventListener("click", funcIconClick13leftdown1);
+}
+document.addEventListener("click", funcIconClick13leftdown1);
+
+const iconClickPath13leftdown2 = document.getElementById('path-1-3-left-down-2');
+const iconClickText13leftdown2 = document.getElementById('text-1-3-left-down-2');
+function funcIconClick13leftdown2(event) {
+    if (event.target.closest('#path-1-3-left-down-2')) {
+        iconClickPath13leftdown2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-2')) {
+        iconClickPath13leftdown2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-down-2')) {
+        iconClickText13leftdown2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-2')) {
+        iconClickText13leftdown2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftdown2.removeEventListener("click", funcIconClick13leftdown2);
+}
+document.addEventListener("click", funcIconClick13leftdown2);
+
+const iconClickPath13leftdown3 = document.getElementById('path-1-3-left-down-3');
+const iconClickText13leftdown3 = document.getElementById('text-1-3-left-down-3');
+function funcIconClick13leftdown3(event) {
+    if (event.target.closest('#path-1-3-left-down-3')) {
+        iconClickPath13leftdown3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-3')) {
+        iconClickPath13leftdown3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-down-3')) {
+        iconClickText13leftdown3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-3')) {
+        iconClickText13leftdown3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftdown3.removeEventListener("click", funcIconClick13leftdown3);
+}
+document.addEventListener("click", funcIconClick13leftdown3);
+
+const iconClickPath13leftdown4 = document.getElementById('path-1-3-left-down-4');
+const iconClickText13leftdown4 = document.getElementById('text-1-3-left-down-4');
+function funcIconClick13leftdown4(event) {
+    if (event.target.closest('#path-1-3-left-down-4')) {
+        iconClickPath13leftdown4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-4')) {
+        iconClickPath13leftdown4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-down-4')) {
+        iconClickText13leftdown4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-4')) {
+        iconClickText13leftdown4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftdown4.removeEventListener("click", funcIconClick13leftdown4);
+}
+document.addEventListener("click", funcIconClick13leftdown4);
+
+const iconClickPath13leftdown5 = document.getElementById('path-1-3-left-down-5');
+const iconClickText13leftdown5 = document.getElementById('text-1-3-left-down-5');
+function funcIconClick13leftdown5(event) {
+    if (event.target.closest('#path-1-3-left-down-5')) {
+        iconClickPath13leftdown5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-5')) {
+        iconClickPath13leftdown5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-down-5')) {
+        iconClickText13leftdown5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-5')) {
+        iconClickText13leftdown5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftdown5.removeEventListener("click", funcIconClick13leftdown5);
+}
+document.addEventListener("click", funcIconClick13leftdown5);
+
+const iconClickPath13leftdown6 = document.getElementById('path-1-3-left-down-6');
+const iconClickText13leftdown6 = document.getElementById('text-1-3-left-down-6');
+function funcIconClick13leftdown6(event) {
+    if (event.target.closest('#path-1-3-left-down-6')) {
+        iconClickPath13leftdown6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-6')) {
+        iconClickPath13leftdown6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-down-6')) {
+        iconClickText13leftdown6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-down-6')) {
+        iconClickText13leftdown6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftdown6.removeEventListener("click", funcIconClick13leftdown6);
+}
+document.addEventListener("click", funcIconClick13leftdown6);
+
+// 1b - 3floor  -  straight
+const iconClickPath13straight = document.getElementById('path-1-3-straight');
+const iconClickText13straight = document.getElementById('text-1-3-straight');
+function funcIconClick13straight(event) {
+    if (event.target.closest('#path-1-3-straight')) {
+        iconClickPath13straight.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-straight')) {
+        iconClickPath13straight.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-straight')) {
+        iconClickText13straight.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-straight')) {
+        iconClickText13straight.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13straight.removeEventListener("click", funcIconClick13straight);
+}
+document.addEventListener("click", funcIconClick13straight);
+
+// 1b - 3floor  -  right-down
+const iconClickPath13rightdown1 = document.getElementById('path-1-3-right-down-1');
+const iconClickText13rightdown1 = document.getElementById('text-1-3-right-down-1');
+function funcIconClick13rightdown1(event) {
+    if (event.target.closest('#path-1-3-right-down-1')) {
+        iconClickPath13rightdown1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-down-1')) {
+        iconClickPath13rightdown1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-down-1')) {
+        iconClickText13rightdown1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-down-1')) {
+        iconClickText13rightdown1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightdown1.removeEventListener("click", funcIconClick13rightdown1);
+}
+document.addEventListener("click", funcIconClick13rightdown1);
+
+const iconClickPath13rightdown2 = document.getElementById('path-1-3-right-down-2');
+const iconClickText13rightdown2 = document.getElementById('text-1-3-right-down-2');
+function funcIconClick13rightdown2(event) {
+    if (event.target.closest('#path-1-3-right-down-2')) {
+        iconClickPath13rightdown2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-down-2')) {
+        iconClickPath13rightdown2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-down-2')) {
+        iconClickText13rightdown2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-down-2')) {
+        iconClickText13rightdown2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightdown2.removeEventListener("click", funcIconClick13rightdown2);
+}
+document.addEventListener("click", funcIconClick13rightdown2);
+
+const iconClickPath13rightdown3 = document.getElementById('path-1-3-right-down-3');
+const iconClickText13rightdown3 = document.getElementById('text-1-3-right-down-3');
+function funcIconClick13rightdown3(event) {
+    if (event.target.closest('#path-1-3-right-down-3')) {
+        iconClickPath13rightdown3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-down-3')) {
+        iconClickPath13rightdown3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-down-3')) {
+        iconClickText13rightdown3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-down-3')) {
+        iconClickText13rightdown3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightdown3.removeEventListener("click", funcIconClick13rightdown3);
+}
+document.addEventListener("click", funcIconClick13rightdown3);
+
+// 1b - 3floor  -  left-wing-1part
+const iconClickPath13leftwing1part1 = document.getElementById('path-1-3-left-wing-1part-1');
+const iconClickText13leftwing1part1 = document.getElementById('text-1-3-left-wing-1part-1');
+function funcIconClick13leftwing1part1(event) {
+    if (event.target.closest('#path-1-3-left-wing-1part-1')) {
+        iconClickPath13leftwing1part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-1')) {
+        iconClickPath13leftwing1part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-1part-1')) {
+        iconClickText13leftwing1part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-1')) {
+        iconClickText13leftwing1part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing1part1.removeEventListener("click", funcIconClick13leftwing1part1);
+}
+document.addEventListener("click", funcIconClick13leftwing1part1);
+
+const iconClickPath13leftwing1part2 = document.getElementById('path-1-3-left-wing-1part-2');
+const iconClickText13leftwing1part2 = document.getElementById('text-1-3-left-wing-1part-2');
+function funcIconClick13leftwing1part2(event) {
+    if (event.target.closest('#path-1-3-left-wing-1part-2')) {
+        iconClickPath13leftwing1part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-2')) {
+        iconClickPath13leftwing1part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-1part-2')) {
+        iconClickText13leftwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-2')) {
+        iconClickText13leftwing1part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing1part2.removeEventListener("click", funcIconClick13leftwing1part2);
+}
+document.addEventListener("click", funcIconClick13leftwing1part2);
+
+const iconClickPath13leftwing1part3 = document.getElementById('path-1-3-left-wing-1part-3');
+const iconClickText13leftwing1part3 = document.getElementById('text-1-3-left-wing-1part-3');
+function funcIconClick13leftwing1part3(event) {
+    if (event.target.closest('#path-1-3-left-wing-1part-3')) {
+        iconClickPath13leftwing1part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-3')) {
+        iconClickPath13leftwing1part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-1part-3')) {
+        iconClickText13leftwing1part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-3')) {
+        iconClickText13leftwing1part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing1part3.removeEventListener("click", funcIconClick13leftwing1part3);
+}
+document.addEventListener("click", funcIconClick13leftwing1part3);
+
+const iconClickPath13leftwing1part4 = document.getElementById('path-1-3-left-wing-1part-4');
+const iconClickText13leftwing1part4 = document.getElementById('text-1-3-left-wing-1part-4');
+function funcIconClick13leftwing1part4(event) {
+    if (event.target.closest('#path-1-3-left-wing-1part-4')) {
+        iconClickPath13leftwing1part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-4')) {
+        iconClickPath13leftwing1part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-1part-4')) {
+        iconClickText13leftwing1part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-4')) {
+        iconClickText13leftwing1part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing1part4.removeEventListener("click", funcIconClick13leftwing1part4);
+}
+document.addEventListener("click", funcIconClick13leftwing1part4);
+
+const iconClickPath13leftwing1part5 = document.getElementById('path-1-3-left-wing-1part-5');
+const iconClickText13leftwing1part5 = document.getElementById('text-1-3-left-wing-1part-5');
+function funcIconClick13leftwing1part5(event) {
+    if (event.target.closest('#path-1-3-left-wing-1part-5')) {
+        iconClickPath13leftwing1part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-5')) {
+        iconClickPath13leftwing1part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-1part-5')) {
+        iconClickText13leftwing1part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-1part-5')) {
+        iconClickText13leftwing1part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing1part5.removeEventListener("click", funcIconClick13leftwing1part5);
+}
+document.addEventListener("click", funcIconClick13leftwing1part5);
+
+// 1b - 3floor  -  left-wing-2part
+const iconClickPath13leftwing2part1 = document.getElementById('path-1-3-left-wing-2part-1');
+const iconClickText13leftwing2part1 = document.getElementById('text-1-3-left-wing-2part-1');
+function funcIconClick13leftwing2part1(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-1')) {
+        iconClickPath13leftwing2part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-1')) {
+        iconClickPath13leftwing2part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-1')) {
+        iconClickText13leftwing2part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-1')) {
+        iconClickText13leftwing2part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part1.removeEventListener("click", funcIconClick13leftwing2part1);
+}
+document.addEventListener("click", funcIconClick13leftwing2part1);
+
+const iconClickPath13leftwing2part2 = document.getElementById('path-1-3-left-wing-2part-2');
+const iconClickText13leftwing2part2 = document.getElementById('text-1-3-left-wing-2part-2');
+function funcIconClick13leftwing2part2(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickPath13leftwing2part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickPath13leftwing2part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickText13leftwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickText13leftwing2part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part2.removeEventListener("click", funcIconClick13leftwing2part2);
+}
+document.addEventListener("click", funcIconClick13leftwing2part2);
+
+const iconClickPath13leftwing2part3 = document.getElementById('path-1-3-left-wing-2part-3');
+const iconClickText13leftwing2part3 = document.getElementById('text-1-3-left-wing-2part-3');
+function funcIconClick13leftwing2part3(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-3')) {
+        iconClickPath13leftwing2part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-3')) {
+        iconClickPath13leftwing2part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-3')) {
+        iconClickText13leftwing2part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-3')) {
+        iconClickText13leftwing2part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part3.removeEventListener("click", funcIconClick13leftwing2part3);
+}
+document.addEventListener("click", funcIconClick13leftwing2part3);
+
+const iconClickPath13leftwing2part4 = document.getElementById('path-1-3-left-wing-2part-4');
+const iconClickText13leftwing2part4 = document.getElementById('text-1-3-left-wing-2part-4');
+function funcIconClick13leftwing2part4(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-4')) {
+        iconClickPath13leftwing2part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-4')) {
+        iconClickPath13leftwing2part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-4')) {
+        iconClickText13leftwing2part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-4')) {
+        iconClickText13leftwing2part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part4.removeEventListener("click", funcIconClick13leftwing2part4);
+}
+document.addEventListener("click", funcIconClick13leftwing2part4);
+
+const iconClickPath13leftwing2part5 = document.getElementById('path-1-3-left-wing-2part-5');
+const iconClickText13leftwing2part5 = document.getElementById('text-1-3-left-wing-2part-5');
+function funcIconClick13leftwing2part5(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-5')) {
+        iconClickPath13leftwing2part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-5')) {
+        iconClickPath13leftwing2part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-5')) {
+        iconClickText13leftwing2part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-5')) {
+        iconClickText13leftwing2part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part5.removeEventListener("click", funcIconClick13leftwing2part5);
+}
+document.addEventListener("click", funcIconClick13leftwing2part5);
+
+const iconClickPath13leftwing2part6 = document.getElementById('path-1-3-left-wing-2part-6');
+const iconClickText13leftwing2part6 = document.getElementById('text-1-3-left-wing-2part-6');
+function funcIconClick13leftwing2part6(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-6')) {
+        iconClickPath13leftwing2part6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-6')) {
+        iconClickPath13leftwing2part6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-6')) {
+        iconClickText13leftwing2part6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-6')) {
+        iconClickText13leftwing2part6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part6.removeEventListener("click", funcIconClick13leftwing2part6);
+}
+document.addEventListener("click", funcIconClick13leftwing2part6);
+
+const iconClickPath13leftwing2part7 = document.getElementById('path-1-3-left-wing-2part-7');
+const iconClickText13leftwing2part7 = document.getElementById('text-1-3-left-wing-2part-7');
+function funcIconClick13leftwing2part7(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-7')) {
+        iconClickPath13leftwing2part7.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-7')) {
+        iconClickPath13leftwing2part7.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-7')) {
+        iconClickText13leftwing2part7.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-7')) {
+        iconClickText13leftwing2part7.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part7.removeEventListener("click", funcIconClick13leftwing2part7);
+}
+document.addEventListener("click", funcIconClick13leftwing2part7);
+
+// 1b - 3floor  -  right-wing-1part
+const iconClickPath13rightwing1part1 = document.getElementById('path-1-3-right-wing-1part-1');
+const iconClickText13rightwing1part1 = document.getElementById('text-1-3-right-wing-1part-1');
+function funcIconClick13rightwing1part1(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-1')) {
+        iconClickPath13rightwing1part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-1')) {
+        iconClickPath13rightwing1part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-1')) {
+        iconClickText13rightwing1part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-1')) {
+        iconClickText13rightwing1part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part1.removeEventListener("click", funcIconClick13rightwing1part1);
+}
+document.addEventListener("click", funcIconClick13rightwing1part1);
+
+const iconClickPath13rightwing1part2 = document.getElementById('path-1-3-right-wing-1part-2');
+const iconClickText13rightwing1part2 = document.getElementById('text-1-3-right-wing-1part-2');
+function funcIconClick13rightwing1part2(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickPath13rightwing1part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickPath13rightwing1part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickText13rightwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickText13rightwing1part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part2.removeEventListener("click", funcIconClick13rightwing1part2);
+}
+document.addEventListener("click", funcIconClick13rightwing1part2);
+
+const iconClickPath13rightwing1part3 = document.getElementById('path-1-3-right-wing-1part-3');
+const iconClickText13rightwing1part3 = document.getElementById('text-1-3-right-wing-1part-3');
+function funcIconClick13rightwing1part3(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-3')) {
+        iconClickPath13rightwing1part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-3')) {
+        iconClickPath13rightwing1part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-3')) {
+        iconClickText13rightwing1part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-3')) {
+        iconClickText13rightwing1part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part3.removeEventListener("click", funcIconClick13rightwing1part3);
+}
+document.addEventListener("click", funcIconClick13rightwing1part3);
+
+const iconClickPath13rightwing1part4 = document.getElementById('path-1-3-right-wing-1part-4');
+const iconClickText13rightwing1part4 = document.getElementById('text-1-3-right-wing-1part-4');
+function funcIconClick13rightwing1part4(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-4')) {
+        iconClickPath13rightwing1part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-4')) {
+        iconClickPath13rightwing1part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-4')) {
+        iconClickText13rightwing1part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-4')) {
+        iconClickText13rightwing1part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part4.removeEventListener("click", funcIconClick13rightwing1part4);
+}
+document.addEventListener("click", funcIconClick13rightwing1part4);
+
+const iconClickPath13rightwing1part5 = document.getElementById('path-1-3-right-wing-1part-5');
+const iconClickText13rightwing1part5 = document.getElementById('text-1-3-right-wing-1part-5');
+function funcIconClick13rightwing1part5(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-5')) {
+        iconClickPath13rightwing1part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-5')) {
+        iconClickPath13rightwing1part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-5')) {
+        iconClickText13rightwing1part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-5')) {
+        iconClickText13rightwing1part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part5.removeEventListener("click", funcIconClick13rightwing1part5);
+}
+document.addEventListener("click", funcIconClick13rightwing1part5);
+
+const iconClickPath13rightwing1part6 = document.getElementById('path-1-3-right-wing-1part-6');
+const iconClickText13rightwing1part6 = document.getElementById('text-1-3-right-wing-1part-6');
+function funcIconClick13rightwing1part6(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickPath13rightwing1part6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickPath13rightwing1part6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickText13rightwing1part6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickText13rightwing1part6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part6.removeEventListener("click", funcIconClick13rightwing1part6);
+}
+document.addEventListener("click", funcIconClick13rightwing1part6);
+
+const iconClickPath13rightwing1part7 = document.getElementById('path-1-3-right-wing-1part-7');
+const iconClickText13rightwing1part7 = document.getElementById('text-1-3-right-wing-1part-7');
+function funcIconClick13rightwing1part7(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-7')) {
+        iconClickPath13rightwing1part7.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-7')) {
+        iconClickPath13rightwing1part7.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-7')) {
+        iconClickText13rightwing1part7.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-7')) {
+        iconClickText13rightwing1part7.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part7.removeEventListener("click", funcIconClick13rightwing1part7);
+}
+document.addEventListener("click", funcIconClick13rightwing1part7);
+
+// 1b - 3floor  -  right-wing-2part
+const iconClickPath13rightwing2part1 = document.getElementById('path-1-3-right-wing-2part-1');
+const iconClickText13rightwing2part1 = document.getElementById('text-1-3-right-wing-2part-1');
+function funcIconClick13rightwing2part1(event) {
+    if (event.target.closest('#path-1-3-right-wing-2part-1')) {
+        iconClickPath13rightwing2part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-1')) {
+        iconClickPath13rightwing2part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-2part-1')) {
+        iconClickText13rightwing2part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-1')) {
+        iconClickText13rightwing2part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing2part1.removeEventListener("click", funcIconClick13rightwing2part1);
+}
+document.addEventListener("click", funcIconClick13rightwing2part1);
+
+const iconClickPath13rightwing2part2 = document.getElementById('path-1-3-right-wing-2part-2');
+const iconClickText13rightwing2part2 = document.getElementById('text-1-3-right-wing-2part-2');
+function funcIconClick13rightwing2part2(event) {
+    if (event.target.closest('#path-1-3-right-wing-2part-2')) {
+        iconClickPath13rightwing2part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-2')) {
+        iconClickPath13rightwing2part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-2part-2')) {
+        iconClickText13rightwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-2')) {
+        iconClickText13rightwing2part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing2part2.removeEventListener("click", funcIconClick13rightwing2part2);
+}
+document.addEventListener("click", funcIconClick13rightwing2part2);
+
+const iconClickPath13rightwing2part3 = document.getElementById('path-1-3-right-wing-2part-3');
+const iconClickText13rightwing2part3 = document.getElementById('text-1-3-right-wing-2part-3');
+function funcIconClick13rightwing2part3(event) {
+    if (event.target.closest('#path-1-3-right-wing-2part-3')) {
+        iconClickPath13rightwing2part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-3')) {
+        iconClickPath13rightwing2part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-2part-3')) {
+        iconClickText13rightwing2part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-3')) {
+        iconClickText13rightwing2part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing2part3.removeEventListener("click", funcIconClick13rightwing2part3);
+}
+document.addEventListener("click", funcIconClick13rightwing2part3);
+
+const iconClickPath13rightwing2part4 = document.getElementById('path-1-3-right-wing-2part-4');
+const iconClickText13rightwing2part4 = document.getElementById('text-1-3-right-wing-2part-4');
+function funcIconClick13rightwing2part4(event) {
+    if (event.target.closest('#path-1-3-right-wing-2part-4')) {
+        iconClickPath13rightwing2part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-4')) {
+        iconClickPath13rightwing2part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-2part-4')) {
+        iconClickText13rightwing2part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-4')) {
+        iconClickText13rightwing2part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing2part4.removeEventListener("click", funcIconClick13rightwing2part4);
+}
+document.addEventListener("click", funcIconClick13rightwing2part4);
+
+const iconClickPath13rightwing2part5 = document.getElementById('path-1-3-right-wing-2part-5');
+const iconClickText13rightwing2part5 = document.getElementById('text-1-3-right-wing-2part-5');
+function funcIconClick13rightwing2part5(event) {
+    if (event.target.closest('#path-1-3-right-wing-2part-5')) {
+        iconClickPath13rightwing2part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-5')) {
+        iconClickPath13rightwing2part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-2part-5')) {
+        iconClickText13rightwing2part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-5')) {
+        iconClickText13rightwing2part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing2part5.removeEventListener("click", funcIconClick13rightwing2part5);
+}
+document.addEventListener("click", funcIconClick13rightwing2part5);
+
+const iconClickPath13rightwing2part6 = document.getElementById('path-1-3-right-wing-2part-6');
+const iconClickText13rightwing2part6 = document.getElementById('text-1-3-right-wing-2part-6');
+function funcIconClick13rightwing2part6(event) {
+    if (event.target.closest('#path-1-3-right-wing-2part-6')) {
+        iconClickPath13rightwing2part6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-6')) {
+        iconClickPath13rightwing2part6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-2part-6')) {
+        iconClickText13rightwing2part6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-2part-6')) {
+        iconClickText13rightwing2part6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing2part6.removeEventListener("click", funcIconClick13rightwing2part6);
+}
+document.addEventListener("click", funcIconClick13rightwing2part6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1b - 4floor
+// 1b - 4floor  -  left-up
+const iconClickPath14leftup1 = document.getElementById('path-1-4-left-up-1');
+const iconClickText14leftup1 = document.getElementById('text-1-4-left-up-1');
+function funcIconClick14leftup1(event) {
+    if (event.target.closest('#path-1-4-left-up-1')) {
+        iconClickPath14leftup1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-1')) {
+        iconClickPath14leftup1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-1')) {
+        iconClickText14leftup1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-1')) {
+        iconClickText14leftup1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup1.removeEventListener("click", funcIconClick14leftup1);
+}
+document.addEventListener("click", funcIconClick14leftup1);
+
+const iconClickPath14leftup2 = document.getElementById('path-1-4-left-up-2');
+const iconClickText14leftup2 = document.getElementById('text-1-4-left-up-2');
+function funcIconClick14leftup2(event) {
+    if (event.target.closest('#path-1-4-left-up-2')) {
+        iconClickPath14leftup2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-2')) {
+        iconClickPath14leftup2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-2')) {
+        iconClickText14leftup2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-2')) {
+        iconClickText14leftup2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup2.removeEventListener("click", funcIconClick14leftup2);
+}
+document.addEventListener("click", funcIconClick14leftup2);
+
+const iconClickPath14leftup3 = document.getElementById('path-1-4-left-up-3');
+const iconClickText14leftup3 = document.getElementById('text-1-4-left-up-3');
+function funcIconClick14leftup3(event) {
+    if (event.target.closest('#path-1-4-left-up-3')) {
+        iconClickPath14leftup3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-3')) {
+        iconClickPath14leftup3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-3')) {
+        iconClickText14leftup3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-3')) {
+        iconClickText14leftup3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup3.removeEventListener("click", funcIconClick14leftup3);
+}
+document.addEventListener("click", funcIconClick14leftup3);
+
+const iconClickPath14leftup4 = document.getElementById('path-1-4-left-up-4');
+const iconClickText14leftup4 = document.getElementById('text-1-4-left-up-4');
+function funcIconClick14leftup4(event) {
+    if (event.target.closest('#path-1-4-left-up-4')) {
+        iconClickPath14leftup4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-4')) {
+        iconClickPath14leftup4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-4')) {
+        iconClickText14leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-4')) {
+        iconClickText14leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup4.removeEventListener("click", funcIconClick14leftup4);
+}
+document.addEventListener("click", funcIconClick14leftup4);
+
+const iconClickPath14leftup5 = document.getElementById('path-1-4-left-up-5');
+const iconClickText14leftup5 = document.getElementById('text-1-4-left-up-5');
+function funcIconClick14leftup5(event) {
+    if (event.target.closest('#path-1-4-left-up-5')) {
+        iconClickPath14leftup5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-5')) {
+        iconClickPath14leftup5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-5')) {
+        iconClickText14leftup5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-5')) {
+        iconClickText14leftup5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup5.removeEventListener("click", funcIconClick14leftup5);
+}
+document.addEventListener("click", funcIconClick14leftup5);
+
+const iconClickPath14leftup6 = document.getElementById('path-1-4-left-up-6');
+const iconClickText14leftup6 = document.getElementById('text-1-4-left-up-6');
+function funcIconClick14leftup6(event) {
+    if (event.target.closest('#path-1-4-left-up-6')) {
+        iconClickPath14leftup6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-6')) {
+        iconClickPath14leftup6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-6')) {
+        iconClickText14leftup6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-6')) {
+        iconClickText14leftup6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup6.removeEventListener("click", funcIconClick14leftup6);
+}
+document.addEventListener("click", funcIconClick14leftup6);
+
+const iconClickPath14leftup7 = document.getElementById('path-1-4-left-up-7');
+const iconClickText14leftup7 = document.getElementById('text-1-4-left-up-7');
+function funcIconClick14leftup7(event) {
+    if (event.target.closest('#path-1-4-left-up-7')) {
+        iconClickPath14leftup7.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-7')) {
+        iconClickPath14leftup7.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-7')) {
+        iconClickText14leftup7.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-7')) {
+        iconClickText14leftup7.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup7.removeEventListener("click", funcIconClick14leftup7);
+}
+document.addEventListener("click", funcIconClick14leftup7);
+
+const iconClickPath14leftup8 = document.getElementById('path-1-4-left-up-8');
+const iconClickText14leftup8 = document.getElementById('text-1-4-left-up-8');
+function funcIconClick14leftup8(event) {
+    if (event.target.closest('#path-1-4-left-up-8')) {
+        iconClickPath14leftup8.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-8')) {
+        iconClickPath14leftup8.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-up-8')) {
+        iconClickText14leftup8.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-up-8')) {
+        iconClickText14leftup8.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftup8.removeEventListener("click", funcIconClick14leftup8);
+}
+document.addEventListener("click", funcIconClick14leftup8);
+
+// 1b - 4floor  -  right-up
+const iconClickPath14rightup1 = document.getElementById('path-1-4-right-up-1');
+const iconClickText14rightup1 = document.getElementById('text-1-4-right-up-1');
+function funcIconClick14rightup1(event) {
+    if (event.target.closest('#path-1-4-right-up-1')) {
+        iconClickPath14rightup1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-1')) {
+        iconClickPath14rightup1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-1')) {
+        iconClickText14rightup1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-1')) {
+        iconClickText14rightup1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup1.removeEventListener("click", funcIconClick14rightup1);
+}
+document.addEventListener("click", funcIconClick14rightup1);
+
+const iconClickPath14rightup2 = document.getElementById('path-1-4-right-up-2');
+const iconClickText14rightup2 = document.getElementById('text-1-4-right-up-2');
+function funcIconClick14rightup2(event) {
+    if (event.target.closest('#path-1-4-right-up-2')) {
+        iconClickPath14rightup2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-2')) {
+        iconClickPath14rightup2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-2')) {
+        iconClickText14rightup2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-2')) {
+        iconClickText14rightup2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup2.removeEventListener("click", funcIconClick14rightup2);
+}
+document.addEventListener("click", funcIconClick14rightup2);
+
+const iconClickPath14rightup3 = document.getElementById('path-1-4-right-up-3');
+const iconClickText14rightup3 = document.getElementById('text-1-4-right-up-3');
+function funcIconClick14rightup3(event) {
+    if (event.target.closest('#path-1-4-right-up-3')) {
+        iconClickPath14rightup3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-3')) {
+        iconClickPath14rightup3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-3')) {
+        iconClickText14rightup3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-3')) {
+        iconClickText14rightup3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup3.removeEventListener("click", funcIconClick14rightup3);
+}
+document.addEventListener("click", funcIconClick14rightup3);
+
+const iconClickPath14rightup4 = document.getElementById('path-1-4-right-up-4');
+const iconClickText14rightup4 = document.getElementById('text-1-4-right-up-4');
+function funcIconClick14rightup4(event) {
+    if (event.target.closest('#path-1-4-right-up-4')) {
+        iconClickPath14rightup4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-4')) {
+        iconClickPath14rightup4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-4')) {
+        iconClickText14rightup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-4')) {
+        iconClickText14rightup4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup4.removeEventListener("click", funcIconClick14rightup4);
+}
+document.addEventListener("click", funcIconClick14rightup4);
+
+const iconClickPath14rightup5 = document.getElementById('path-1-4-right-up-5');
+const iconClickText14rightup5 = document.getElementById('text-1-4-right-up-5');
+function funcIconClick14rightup5(event) {
+    if (event.target.closest('#path-1-4-right-up-5')) {
+        iconClickPath14rightup5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-5')) {
+        iconClickPath14rightup5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-5')) {
+        iconClickText14rightup5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-5')) {
+        iconClickText14rightup5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup5.removeEventListener("click", funcIconClick14rightup5);
+}
+document.addEventListener("click", funcIconClick14rightup5);
+
+const iconClickPath14rightup6 = document.getElementById('path-1-4-right-up-6');
+const iconClickText14rightup6 = document.getElementById('text-1-4-right-up-6');
+function funcIconClick14rightup6(event) {
+    if (event.target.closest('#path-1-4-right-up-6')) {
+        iconClickPath14rightup6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-6')) {
+        iconClickPath14rightup6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-6')) {
+        iconClickText14rightup6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-6')) {
+        iconClickText14rightup6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup6.removeEventListener("click", funcIconClick14rightup6);
+}
+document.addEventListener("click", funcIconClick14rightup6);
+
+const iconClickPath14rightup7 = document.getElementById('path-1-4-right-up-7');
+const iconClickText14rightup7 = document.getElementById('text-1-4-right-up-7');
+function funcIconClick14rightup7(event) {
+    if (event.target.closest('#path-1-4-right-up-7')) {
+        iconClickPath14rightup7.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-7')) {
+        iconClickPath14rightup7.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-up-7')) {
+        iconClickText14rightup7.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-up-7')) {
+        iconClickText14rightup7.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightup7.removeEventListener("click", funcIconClick14rightup7);
+}
+document.addEventListener("click", funcIconClick14rightup7);
+
+// 1b - 4floor  -  left-down
+const iconClickPath14leftdown1 = document.getElementById('path-1-4-left-down-1');
+const iconClickText14leftdown1 = document.getElementById('text-1-4-left-down-1');
+function funcIconClick14leftdown1(event) {
+    if (event.target.closest('#path-1-4-left-down-1')) {
+        iconClickPath14leftdown1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-1')) {
+        iconClickPath14leftdown1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-down-1')) {
+        iconClickText14leftdown1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-1')) {
+        iconClickText14leftdown1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftdown1.removeEventListener("click", funcIconClick14leftdown1);
+}
+document.addEventListener("click", funcIconClick14leftdown1);
+
+const iconClickPath14leftdown2 = document.getElementById('path-1-4-left-down-2');
+const iconClickText14leftdown2 = document.getElementById('text-1-4-left-down-2');
+function funcIconClick14leftdown2(event) {
+    if (event.target.closest('#path-1-4-left-down-2')) {
+        iconClickPath14leftdown2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-2')) {
+        iconClickPath14leftdown2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-down-2')) {
+        iconClickText14leftdown2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-2')) {
+        iconClickText14leftdown2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftdown2.removeEventListener("click", funcIconClick14leftdown2);
+}
+document.addEventListener("click", funcIconClick14leftdown2);
+
+const iconClickPath14leftdown3 = document.getElementById('path-1-4-left-down-3');
+const iconClickText14leftdown3 = document.getElementById('text-1-4-left-down-3');
+function funcIconClick14leftdown3(event) {
+    if (event.target.closest('#path-1-4-left-down-3')) {
+        iconClickPath14leftdown3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-3')) {
+        iconClickPath14leftdown3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-down-3')) {
+        iconClickText14leftdown3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-3')) {
+        iconClickText14leftdown3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftdown3.removeEventListener("click", funcIconClick14leftdown3);
+}
+document.addEventListener("click", funcIconClick14leftdown3);
+
+const iconClickPath14leftdown4 = document.getElementById('path-1-4-left-down-4');
+const iconClickText14leftdown4 = document.getElementById('text-1-4-left-down-4');
+function funcIconClick14leftdown4(event) {
+    if (event.target.closest('#path-1-4-left-down-4')) {
+        iconClickPath14leftdown4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-4')) {
+        iconClickPath14leftdown4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-down-4')) {
+        iconClickText14leftdown4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-4')) {
+        iconClickText14leftdown4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftdown4.removeEventListener("click", funcIconClick14leftdown4);
+}
+document.addEventListener("click", funcIconClick14leftdown4);
+
+const iconClickPath14leftdown5 = document.getElementById('path-1-4-left-down-5');
+const iconClickText14leftdown5 = document.getElementById('text-1-4-left-down-5');
+function funcIconClick14leftdown5(event) {
+    if (event.target.closest('#path-1-4-left-down-5')) {
+        iconClickPath14leftdown5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-5')) {
+        iconClickPath14leftdown5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-down-5')) {
+        iconClickText14leftdown5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-down-5')) {
+        iconClickText14leftdown5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftdown5.removeEventListener("click", funcIconClick14leftdown5);
+}
+document.addEventListener("click", funcIconClick14leftdown5);
+
+// 1b - 3floor  -  straight
+const iconClickPath14straight = document.getElementById('path-1-4-straight');
+const iconClickText14straight = document.getElementById('text-1-4-straight');
+function funcIconClick14straight(event) {
+    if (event.target.closest('#path-1-4-straight')) {
+        iconClickPath14straight.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-straight')) {
+        iconClickPath14straight.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-straight')) {
+        iconClickText14straight.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-straight')) {
+        iconClickText14straight.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14straight.removeEventListener("click", funcIconClick14straight);
+}
+document.addEventListener("click", funcIconClick14straight);
+
+// 1b - 4floor  -  right-down
+const iconClickPath14rightdown1 = document.getElementById('path-1-4-right-down-1');
+const iconClickText14rightdown1 = document.getElementById('text-1-4-right-down-1');
+function funcIconClick14rightdown1(event) {
+    if (event.target.closest('#path-1-4-right-down-1')) {
+        iconClickPath14rightdown1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-1')) {
+        iconClickPath14rightdown1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-down-1')) {
+        iconClickText14rightdown1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-1')) {
+        iconClickText14rightdown1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightdown1.removeEventListener("click", funcIconClick14rightdown1);
+}
+document.addEventListener("click", funcIconClick14rightdown1);
+
+const iconClickPath14rightdown2 = document.getElementById('path-1-4-right-down-2');
+const iconClickText14rightdown2 = document.getElementById('text-1-4-right-down-2');
+function funcIconClick14rightdown2(event) {
+    if (event.target.closest('#path-1-4-right-down-2')) {
+        iconClickPath14rightdown2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-2')) {
+        iconClickPath14rightdown2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-down-2')) {
+        iconClickText14rightdown2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-2')) {
+        iconClickText14rightdown2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightdown2.removeEventListener("click", funcIconClick14rightdown2);
+}
+document.addEventListener("click", funcIconClick14rightdown2);
+
+const iconClickPath14rightdown3 = document.getElementById('path-1-4-right-down-3');
+const iconClickText14rightdown3 = document.getElementById('text-1-4-right-down-3');
+function funcIconClick14rightdown3(event) {
+    if (event.target.closest('#path-1-4-right-down-3')) {
+        iconClickPath14rightdown3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-3')) {
+        iconClickPath14rightdown3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-down-3')) {
+        iconClickText14rightdown3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-3')) {
+        iconClickText14rightdown3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightdown3.removeEventListener("click", funcIconClick14rightdown3);
+}
+document.addEventListener("click", funcIconClick14rightdown3);
+
+const iconClickPath14rightdown4 = document.getElementById('path-1-4-right-down-4');
+const iconClickText14rightdown4 = document.getElementById('text-1-4-right-down-4');
+function funcIconClick14rightdown4(event) {
+    if (event.target.closest('#path-1-4-right-down-4')) {
+        iconClickPath14rightdown4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-4')) {
+        iconClickPath14rightdown4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-down-4')) {
+        iconClickText14rightdown4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-4')) {
+        iconClickText14rightdown4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightdown4.removeEventListener("click", funcIconClick14rightdown4);
+}
+document.addEventListener("click", funcIconClick14rightdown4);
+
+const iconClickPath14rightdown5 = document.getElementById('path-1-4-right-down-5');
+const iconClickText14rightdown5 = document.getElementById('text-1-4-right-down-5');
+function funcIconClick14rightdown5(event) {
+    if (event.target.closest('#path-1-4-right-down-5')) {
+        iconClickPath14rightdown5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-5')) {
+        iconClickPath14rightdown5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-down-5')) {
+        iconClickText14rightdown5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-down-5')) {
+        iconClickText14rightdown5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightdown5.removeEventListener("click", funcIconClick14rightdown5);
+}
+document.addEventListener("click", funcIconClick14rightdown5);
+
+// 1b - 4floor  -  left-wing-1part
+const iconClickPath14leftwing1part1 = document.getElementById('path-1-4-left-wing-1part-1');
+const iconClickText14leftwing1part1 = document.getElementById('text-1-4-left-wing-1part-1');
+function funcIconClick14leftwing1part1(event) {
+    if (event.target.closest('#path-1-4-left-wing-1part-1')) {
+        iconClickPath14leftwing1part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-1')) {
+        iconClickPath14leftwing1part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-1part-1')) {
+        iconClickText14leftwing1part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-1')) {
+        iconClickText14leftwing1part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing1part1.removeEventListener("click", funcIconClick14leftwing1part1);
+}
+document.addEventListener("click", funcIconClick14leftwing1part1);
+
+const iconClickPath14leftwing1part2 = document.getElementById('path-1-4-left-wing-1part-2');
+const iconClickText14leftwing1part2 = document.getElementById('text-1-4-left-wing-1part-2');
+function funcIconClick14leftwing1part2(event) {
+    if (event.target.closest('#path-1-4-left-wing-1part-2')) {
+        iconClickPath14leftwing1part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-2')) {
+        iconClickPath14leftwing1part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-1part-2')) {
+        iconClickText14leftwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-2')) {
+        iconClickText14leftwing1part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing1part2.removeEventListener("click", funcIconClick14leftwing1part2);
+}
+document.addEventListener("click", funcIconClick14leftwing1part2);
+
+const iconClickPath14leftwing1part3 = document.getElementById('path-1-4-left-wing-1part-3');
+const iconClickText14leftwing1part3 = document.getElementById('text-1-4-left-wing-1part-3');
+function funcIconClick14leftwing1part3(event) {
+    if (event.target.closest('#path-1-4-left-wing-1part-3')) {
+        iconClickPath14leftwing1part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-3')) {
+        iconClickPath14leftwing1part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-1part-3')) {
+        iconClickText14leftwing1part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-3')) {
+        iconClickText14leftwing1part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing1part3.removeEventListener("click", funcIconClick14leftwing1part3);
+}
+document.addEventListener("click", funcIconClick14leftwing1part3);
+
+const iconClickPath14leftwing1part4 = document.getElementById('path-1-4-left-wing-1part-4');
+const iconClickText14leftwing1part4 = document.getElementById('text-1-4-left-wing-1part-4');
+function funcIconClick14leftwing1part4(event) {
+    if (event.target.closest('#path-1-4-left-wing-1part-4')) {
+        iconClickPath14leftwing1part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-4')) {
+        iconClickPath14leftwing1part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-1part-4')) {
+        iconClickText14leftwing1part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-4')) {
+        iconClickText14leftwing1part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing1part4.removeEventListener("click", funcIconClick14leftwing1part4);
+}
+document.addEventListener("click", funcIconClick14leftwing1part4);
+
+const iconClickPath14leftwing1part5 = document.getElementById('path-1-4-left-wing-1part-5');
+const iconClickText14leftwing1part5 = document.getElementById('text-1-4-left-wing-1part-5');
+function funcIconClick14leftwing1part5(event) {
+    if (event.target.closest('#path-1-4-left-wing-1part-5')) {
+        iconClickPath14leftwing1part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-5')) {
+        iconClickPath14leftwing1part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-1part-5')) {
+        iconClickText14leftwing1part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-1part-5')) {
+        iconClickText14leftwing1part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing1part5.removeEventListener("click", funcIconClick14leftwing1part5);
+}
+document.addEventListener("click", funcIconClick14leftwing1part5);
+
+// 1b - 4floor  -  left-wing-2part
+const iconClickPath14leftwing2part1 = document.getElementById('path-1-4-left-wing-2part-1');
+const iconClickText14leftwing2part1 = document.getElementById('text-1-4-left-wing-2part-1');
+function funcIconClick14leftwing2part1(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-1')) {
+        iconClickPath14leftwing2part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-1')) {
+        iconClickPath14leftwing2part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-1')) {
+        iconClickText14leftwing2part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-1')) {
+        iconClickText14leftwing2part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part1.removeEventListener("click", funcIconClick14leftwing2part1);
+}
+document.addEventListener("click", funcIconClick14leftwing2part1);
+
+const iconClickPath14leftwing2part2 = document.getElementById('path-1-4-left-wing-2part-2');
+const iconClickText14leftwing2part2 = document.getElementById('text-1-4-left-wing-2part-2');
+function funcIconClick14leftwing2part2(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickPath14leftwing2part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickPath14leftwing2part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickText14leftwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickText14leftwing2part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part2.removeEventListener("click", funcIconClick14leftwing2part2);
+}
+document.addEventListener("click", funcIconClick14leftwing2part2);
+
+const iconClickPath14leftwing2part3 = document.getElementById('path-1-4-left-wing-2part-3');
+const iconClickText14leftwing2part3 = document.getElementById('text-1-4-left-wing-2part-3');
+function funcIconClick14leftwing2part3(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-3')) {
+        iconClickPath14leftwing2part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-3')) {
+        iconClickPath14leftwing2part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-3')) {
+        iconClickText14leftwing2part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-3')) {
+        iconClickText14leftwing2part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part3.removeEventListener("click", funcIconClick14leftwing2part3);
+}
+document.addEventListener("click", funcIconClick14leftwing2part3);
+
+const iconClickPath14leftwing2part4 = document.getElementById('path-1-4-left-wing-2part-4');
+const iconClickText14leftwing2part4 = document.getElementById('text-1-4-left-wing-2part-4');
+function funcIconClick14leftwing2part4(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-4')) {
+        iconClickPath14leftwing2part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-4')) {
+        iconClickPath14leftwing2part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-4')) {
+        iconClickText14leftwing2part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-4')) {
+        iconClickText14leftwing2part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part4.removeEventListener("click", funcIconClick14leftwing2part4);
+}
+document.addEventListener("click", funcIconClick14leftwing2part4);
+
+const iconClickPath14leftwing2part5 = document.getElementById('path-1-4-left-wing-2part-5');
+const iconClickText14leftwing2part5 = document.getElementById('text-1-4-left-wing-2part-5');
+function funcIconClick14leftwing2part5(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-5')) {
+        iconClickPath14leftwing2part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-5')) {
+        iconClickPath14leftwing2part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-5')) {
+        iconClickText14leftwing2part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-5')) {
+        iconClickText14leftwing2part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part5.removeEventListener("click", funcIconClick14leftwing2part5);
+}
+document.addEventListener("click", funcIconClick14leftwing2part5);
+
+const iconClickPath14leftwing2part6 = document.getElementById('path-1-4-left-wing-2part-6');
+const iconClickText14leftwing2part6 = document.getElementById('text-1-4-left-wing-2part-6');
+function funcIconClick14leftwing2part6(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-6')) {
+        iconClickPath14leftwing2part6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-6')) {
+        iconClickPath14leftwing2part6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-6')) {
+        iconClickText14leftwing2part6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-6')) {
+        iconClickText14leftwing2part6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part6.removeEventListener("click", funcIconClick14leftwing2part6);
+}
+document.addEventListener("click", funcIconClick14leftwing2part6);
+
+// 1b - 4floor  -  right-wing-1part
+const iconClickPath14rightwing1part1 = document.getElementById('path-1-4-right-wing-1part-1');
+const iconClickText14rightwing1part1 = document.getElementById('text-1-4-right-wing-1part-1');
+function funcIconClick14rightwing1part1(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-1')) {
+        iconClickPath14rightwing1part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-1')) {
+        iconClickPath14rightwing1part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-1part-1')) {
+        iconClickText14rightwing1part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-1')) {
+        iconClickText14rightwing1part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part1.removeEventListener("click", funcIconClick14rightwing1part1);
+}
+document.addEventListener("click", funcIconClick14rightwing1part1);
+
+const iconClickPath14rightwing1part2 = document.getElementById('path-1-4-right-wing-1part-2');
+const iconClickText14rightwing1part2 = document.getElementById('text-1-4-right-wing-1part-2');
+function funcIconClick14rightwing1part2(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickPath14rightwing1part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickPath14rightwing1part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickText14rightwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickText14rightwing1part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part2.removeEventListener("click", funcIconClick14rightwing1part2);
+}
+document.addEventListener("click", funcIconClick14rightwing1part2);
+
+const iconClickPath14rightwing1part3 = document.getElementById('path-1-4-right-wing-1part-3');
+const iconClickText14rightwing1part3 = document.getElementById('text-1-4-right-wing-1part-3');
+function funcIconClick14rightwing1part3(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-3')) {
+        iconClickPath14rightwing1part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-3')) {
+        iconClickPath14rightwing1part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-1part-3')) {
+        iconClickText14rightwing1part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-3')) {
+        iconClickText14rightwing1part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part3.removeEventListener("click", funcIconClick14rightwing1part3);
+}
+document.addEventListener("click", funcIconClick14rightwing1part3);
+
+const iconClickPath14rightwing1part4 = document.getElementById('path-1-4-right-wing-1part-4');
+const iconClickText14rightwing1part4 = document.getElementById('text-1-4-right-wing-1part-4');
+function funcIconClick14rightwing1part4(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-4')) {
+        iconClickPath14rightwing1part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-4')) {
+        iconClickPath14rightwing1part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-1part-4')) {
+        iconClickText14rightwing1part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-4')) {
+        iconClickText14rightwing1part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part4.removeEventListener("click", funcIconClick14rightwing1part4);
+}
+document.addEventListener("click", funcIconClick14rightwing1part4);
+
+const iconClickPath14rightwing1part5 = document.getElementById('path-1-4-right-wing-1part-5');
+const iconClickText14rightwing1part5 = document.getElementById('text-1-4-right-wing-1part-5');
+function funcIconClick14rightwing1part5(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-5')) {
+        iconClickPath14rightwing1part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-5')) {
+        iconClickPath14rightwing1part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-1part-5')) {
+        iconClickText14rightwing1part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-5')) {
+        iconClickText14rightwing1part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part5.removeEventListener("click", funcIconClick14rightwing1part5);
+}
+document.addEventListener("click", funcIconClick14rightwing1part5);
+
+const iconClickPath14rightwing1part6 = document.getElementById('path-1-4-right-wing-1part-6');
+const iconClickText14rightwing1part6 = document.getElementById('text-1-4-right-wing-1part-6');
+function funcIconClick14rightwing1part6(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-6')) {
+        iconClickPath14rightwing1part6.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-6')) {
+        iconClickPath14rightwing1part6.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-1part-6')) {
+        iconClickText14rightwing1part6.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-6')) {
+        iconClickText14rightwing1part6.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part6.removeEventListener("click", funcIconClick14rightwing1part6);
+}
+document.addEventListener("click", funcIconClick14rightwing1part6);
+
+// 1b - 4floor  -  right-wing-2part
+const iconClickPath14rightwing2part1 = document.getElementById('path-1-4-right-wing-2part-1');
+const iconClickText14rightwing2part1 = document.getElementById('text-1-4-right-wing-2part-1');
+function funcIconClick14rightwing2part1(event) {
+    if (event.target.closest('#path-1-4-right-wing-2part-1')) {
+        iconClickPath14rightwing2part1.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-1')) {
+        iconClickPath14rightwing2part1.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-2part-1')) {
+        iconClickText14rightwing2part1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-1')) {
+        iconClickText14rightwing2part1.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing2part1.removeEventListener("click", funcIconClick14rightwing2part1);
+}
+document.addEventListener("click", funcIconClick14rightwing2part1);
+
+const iconClickPath14rightwing2part2 = document.getElementById('path-1-4-right-wing-2part-2');
+const iconClickText14rightwing2part2 = document.getElementById('text-1-4-right-wing-2part-2');
+function funcIconClick14rightwing2part2(event) {
+    if (event.target.closest('#path-1-4-right-wing-2part-2')) {
+        iconClickPath14rightwing2part2.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-2')) {
+        iconClickPath14rightwing2part2.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-2part-2')) {
+        iconClickText14rightwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-2')) {
+        iconClickText14rightwing2part2.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing2part2.removeEventListener("click", funcIconClick14rightwing2part2);
+}
+document.addEventListener("click", funcIconClick14rightwing2part2);
+
+const iconClickPath14rightwing2part3 = document.getElementById('path-1-4-right-wing-2part-3');
+const iconClickText14rightwing2part3 = document.getElementById('text-1-4-right-wing-2part-3');
+function funcIconClick14rightwing2part3(event) {
+    if (event.target.closest('#path-1-4-right-wing-2part-3')) {
+        iconClickPath14rightwing2part3.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-3')) {
+        iconClickPath14rightwing2part3.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-2part-3')) {
+        iconClickText14rightwing2part3.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-3')) {
+        iconClickText14rightwing2part3.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing2part3.removeEventListener("click", funcIconClick14rightwing2part3);
+}
+document.addEventListener("click", funcIconClick14rightwing2part3);
+
+const iconClickPath14rightwing2part4 = document.getElementById('path-1-4-right-wing-2part-4');
+const iconClickText14rightwing2part4 = document.getElementById('text-1-4-right-wing-2part-4');
+function funcIconClick14rightwing2part4(event) {
+    if (event.target.closest('#path-1-4-right-wing-2part-4')) {
+        iconClickPath14rightwing2part4.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-4')) {
+        iconClickPath14rightwing2part4.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-2part-4')) {
+        iconClickText14rightwing2part4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-4')) {
+        iconClickText14rightwing2part4.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing2part4.removeEventListener("click", funcIconClick14rightwing2part4);
+}
+document.addEventListener("click", funcIconClick14rightwing2part4);
+
+const iconClickPath14rightwing2part5 = document.getElementById('path-1-4-right-wing-2part-5');
+const iconClickText14rightwing2part5 = document.getElementById('text-1-4-right-wing-2part-5');
+function funcIconClick14rightwing2part5(event) {
+    if (event.target.closest('#path-1-4-right-wing-2part-5')) {
+        iconClickPath14rightwing2part5.classList.add('сlickToChangeColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-5')) {
+        iconClickPath14rightwing2part5.classList.remove('сlickToChangeColor');
+    }
+    if (event.target.closest('#path-1-4-right-wing-2part-5')) {
+        iconClickText14rightwing2part5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-2part-5')) {
+        iconClickText14rightwing2part5.classList.remove('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing2part5.removeEventListener("click", funcIconClick14rightwing2part5);
+}
+document.addEventListener("click", funcIconClick14rightwing2part5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

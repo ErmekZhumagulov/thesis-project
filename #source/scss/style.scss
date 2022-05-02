@@ -95,15 +95,36 @@ mark {
 //     background-color: rgb(204, 204, 204);
 // }
 
-.dropdown {
-    position: absolute;
-    top: 50px;
-}
-
 .building1floor1, .building1floor2, .building1floor3, .building1floor4, .building2floor1, .building2floor2, .building2floor3, .building2floor4, .building2floor5, .building2floor6 {
     margin-top: 100px;
 }
 
 #path-1-3-1, #path-1-4-1 {
     fill: grey;
+}
+
+.dropdown {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    .buildings, .buildings-selected {
+        font-size: 18px;
+        color: white;
+        li {
+            cursor: pointer;
+        }
+    }
+}
+.сlickToChangeColorDropdown{color:$custom-red;}
+
+.all-desc {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    background-color: white;
+    padding: 20px 300px 350px 20px;
+    p {
+        color:black;
+        font-size: 18px;
+    }
 }

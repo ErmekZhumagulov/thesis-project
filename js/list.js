@@ -30,6 +30,8 @@ let b2f4list = document.querySelector('.b2floor4');
 let b2f5list = document.querySelector('.b2floor5');
 let b2f6list = document.querySelector('.b2floor6');
 
+b1f2list.classList.add("сlickToChangeColorDropdown");
+
 b1f1list.onclick = function() {
     b1f1.style.display = 'block';
     b1f2.style.display = 'none';
@@ -41,6 +43,16 @@ b1f1list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.add("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b1f2list.onclick = function() {
     b1f1.style.display = 'none';
@@ -53,6 +65,16 @@ b1f2list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.add("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b1f3list.onclick = function() {
     b1f1.style.display = 'none';
@@ -65,6 +87,16 @@ b1f3list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.add("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b1f4list.onclick = function() {
     b1f1.style.display = 'none';
@@ -77,6 +109,16 @@ b1f4list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.add("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b2f1list.onclick = function() {
     b1f1.style.display = 'none';
@@ -89,6 +131,16 @@ b2f1list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.add("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b2f2list.onclick = function() {
     b1f1.style.display = 'none';
@@ -101,6 +153,16 @@ b2f2list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.add("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b2f3list.onclick = function() {
     b1f1.style.display = 'none';
@@ -113,6 +175,16 @@ b2f3list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.add("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b2f4list.onclick = function() {
     b1f1.style.display = 'none';
@@ -125,6 +197,16 @@ b2f4list.onclick = function() {
     b2f4.style.display = 'block';
     b2f5.style.display = 'none';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.add("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b2f5list.onclick = function() {
     b1f1.style.display = 'none';
@@ -137,6 +219,16 @@ b2f5list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'block';
     b2f6.style.display = 'none';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.add("сlickToChangeColorDropdown");
+    b2f6list.classList.remove("сlickToChangeColorDropdown");
 }
 b2f6list.onclick = function() {
     b1f1.style.display = 'none';
@@ -149,4 +241,14 @@ b2f6list.onclick = function() {
     b2f4.style.display = 'none';
     b2f5.style.display = 'none';
     b2f6.style.display = 'block';
+    b1f1list.classList.remove("сlickToChangeColorDropdown");
+    b1f2list.classList.remove("сlickToChangeColorDropdown");
+    b1f3list.classList.remove("сlickToChangeColorDropdown");
+    b1f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f1list.classList.remove("сlickToChangeColorDropdown");
+    b2f2list.classList.remove("сlickToChangeColorDropdown");
+    b2f3list.classList.remove("сlickToChangeColorDropdown");
+    b2f4list.classList.remove("сlickToChangeColorDropdown");
+    b2f5list.classList.remove("сlickToChangeColorDropdown");
+    b2f6list.classList.add("сlickToChangeColorDropdown");
 }

@@ -165,15 +165,39 @@ mark {
   letter-spacing: 0.5px;
 }
 
-.dropdown {
-  position: absolute;
-  top: 50px;
-}
-
 .building1floor1, .building1floor2, .building1floor3, .building1floor4, .building2floor1, .building2floor2, .building2floor3, .building2floor4, .building2floor5, .building2floor6 {
   margin-top: 100px;
 }
 
 #path-1-3-1, #path-1-4-1 {
   fill: grey;
+}
+
+.dropdown {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}
+.dropdown .buildings, .dropdown .buildings-selected {
+  font-size: 18px;
+  color: white;
+}
+.dropdown .buildings li, .dropdown .buildings-selected li {
+  cursor: pointer;
+}
+
+.сlickToChangeColorDropdown {
+  color: #EA205E;
+}
+
+.all-desc {
+  position: absolute;
+  top: 500px;
+  left: 20px;
+  background-color: white;
+  padding: 20px 300px 350px 20px;
+}
+.all-desc p {
+  color: black;
+  font-size: 18px;
 }
