@@ -47,6 +47,9 @@ path {
 #text-1-227a, #text-1-left-boxroom, #text-1-right-boxroom, #text-1-1boxroom, #text-1-left-wc, #text-1-left-wc1, #text-1-right-wc, #text-1-right-wc1, #text-1-1wc-man, #text-1-1wc-man1 {
     font-size: 10px;
 }
+#text-1-4-right-wing-1part-2, #text-1-4-right-wing-1part-2-1, #text-1-4-left-wing-2part-2, #text-1-4-left-wing-2part-2-1, #text-1-406a {
+    font-size: 10px;
+}
 #text-1-book-storage, #text-1-book-storage1, #text-1-book-storage2 {
     font-size: 9px;
 }
@@ -122,9 +125,21 @@ mark {
     top: 500px;
     left: 20px;
     background-color: white;
-    padding: 20px 300px 350px 20px;
+    width: 450px;
+    height: 350px;
+    padding: 20px;
     p {
         color:black;
         font-size: 18px;
     }
+}
+
+#desc401, #desc402, #desc403, #desc404, #desc404a, #desc405, #desc406, #desc406a, #desc407, #desc408, #desc409, #desc410, #desc411, #desc411a, #desc412 {
+    display: none;
+}
+#desc414, #desc415, #desc416, #desc417, #desc417a, #desc418, #desc419, #desc451, #desc451a, #desc452, #desc453, #desc453a, #desc454, #desc455, #desc456, #desc457, #desc458 {
+    display: none;
+}
+#desc459, #desc459a, #desc460, #desc460a, #desc461, #desc462, #desc463, #desc464, #desc464a, #desc465, #desc465a, #desc466, #desc467, #desc452а {
+    display: none;
 }
