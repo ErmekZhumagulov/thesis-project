@@ -23,6 +23,11 @@ document.querySelector("#search").oninput = function() {
     }
 }
 
+document.getElementById("clear").onclick = function(e) {
+    document.getElementById("search").value = "";
+    document.querySelector(".search-point").style.display = 'none';
+}
+
 let searchItems = document.querySelectorAll('.search-point li');
 let searchItemsParent = document.querySelector('.search-point');
 let mySearchInput = document.querySelector("#search");
