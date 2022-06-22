@@ -231,7 +231,15 @@ mark {
   display: none;
 }
 
-#desc459, #desc459a, #desc460, #desc460a, #desc461, #desc462, #desc463, #desc464, #desc464a, #desc465, #desc465a, #desc466, #desc467, #desc452а, #desc452a {
+#desc459, #desc459a, #desc460, #desc460a, #desc461, #desc462, #desc463, #desc464, #desc464a, #desc465, #desc465a, #desc466, #desc467, #desc452а, #desc452a, #desc24331, #descwcmen, #descwcwomen {
+  display: none;
+}
+
+#descwcmen11, #descwcmen14, #descwcmen21, #descwcmen25, #descwcwomen13, #descwcwomen131, #descwcwomen14, #descsport {
+  display: none;
+}
+
+#descwcwomen22, #descwcwomen23, #descwcwomen231, #descwcwomen24, #descwcwomen25, #descwcwomen26, #descfablab, #descstolovaya, #descbook, #descmaz, #descbibl, #descbaz, #desckonf, #descbbaz {
   display: none;
 }
 

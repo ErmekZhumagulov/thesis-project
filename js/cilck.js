@@ -8789,16 +8789,18 @@ function funcIconClick1459(event) {
 }
 document.addEventListener("click", funcIconClick1459);
 
-// building2floor1
-// building2floor1 - left-up
+// building2floor1 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 const iconClickPath21leftup1 = document.getElementById('path-2-1-left-up-1');
 const iconClickText21leftup1 = document.getElementById('text-2-1-left-up-1');
+const iconClickText21leftup1desc = document.getElementById('desc2101');
 function funcIconClick21leftup1(event) {
     if (event.target.closest('#path-2-1-left-up-1')) {
         iconClickPath21leftup1.classList.add('сlickToChangeColor');
+        iconClickText21leftup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-1')) {
         iconClickPath21leftup1.classList.remove('сlickToChangeColor');
+        iconClickText21leftup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-1')) {
         iconClickText21leftup1.classList.add('сlickToChangeTextColor');
@@ -8806,18 +8808,48 @@ function funcIconClick21leftup1(event) {
     if (!event.target.closest('#path-2-1-left-up-1')) {
         iconClickText21leftup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21101')) {
+        iconClickPath21leftup1.classList.add('сlickToChangeColor');
+        iconClickText21leftup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21101')) {
+        iconClickText21leftup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup1.removeEventListener("click", funcIconClick21leftup1);
 }
 document.addEventListener("click", funcIconClick21leftup1);
 
 const iconClickPath21leftup2 = document.getElementById('path-2-1-left-up-2');
 const iconClickText21leftup2 = document.getElementById('text-2-1-left-up-2');
+const iconClickText21leftup2desc = document.getElementById('desc2102');
 function funcIconClick21leftup2(event) {
     if (event.target.closest('#path-2-1-left-up-2')) {
         iconClickPath21leftup2.classList.add('сlickToChangeColor');
+        iconClickText21leftup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-2')) {
         iconClickPath21leftup2.classList.remove('сlickToChangeColor');
+        iconClickText21leftup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-2')) {
         iconClickText21leftup2.classList.add('сlickToChangeTextColor');
@@ -8825,18 +8857,48 @@ function funcIconClick21leftup2(event) {
     if (!event.target.closest('#path-2-1-left-up-2')) {
         iconClickText21leftup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21102')) {
+        iconClickPath21leftup2.classList.add('сlickToChangeColor');
+        iconClickText21leftup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21102')) {
+        iconClickText21leftup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup2.removeEventListener("click", funcIconClick21leftup2);
 }
 document.addEventListener("click", funcIconClick21leftup2);
 
 const iconClickPath21leftup3 = document.getElementById('path-2-1-left-up-3');
 const iconClickText21leftup3 = document.getElementById('text-2-1-left-up-3');
+const iconClickText21leftup3desc = document.getElementById('desc2103');
 function funcIconClick21leftup3(event) {
     if (event.target.closest('#path-2-1-left-up-3')) {
         iconClickPath21leftup3.classList.add('сlickToChangeColor');
+        iconClickText21leftup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-3')) {
         iconClickPath21leftup3.classList.remove('сlickToChangeColor');
+        iconClickText21leftup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-3')) {
         iconClickText21leftup3.classList.add('сlickToChangeTextColor');
@@ -8844,44 +8906,48 @@ function funcIconClick21leftup3(event) {
     if (!event.target.closest('#path-2-1-left-up-3')) {
         iconClickText21leftup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21103')) {
+        iconClickPath21leftup3.classList.add('сlickToChangeColor');
+        iconClickText21leftup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21103')) {
+        iconClickText21leftup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup3.removeEventListener("click", funcIconClick21leftup3);
 }
 document.addEventListener("click", funcIconClick21leftup3);
 
-const iconClickPath21leftup4 = document.getElementById('path-2-1-left-up-4');
-const iconClickText21leftup4 = document.getElementById('text-2-1-left-up-4');
-const iconClickText21leftup41 = document.getElementById('text-2-1-left-up-4-1');
-function funcIconClick21leftup4(event) {
-    if (event.target.closest('#path-2-1-left-up-4')) {
-        iconClickPath21leftup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-1-left-up-4')) {
-        iconClickPath21leftup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-1-left-up-4')) {
-        iconClickText21leftup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-1-left-up-4')) {
-        iconClickText21leftup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-1-left-up-4')) {
-        iconClickText21leftup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-1-left-up-4')) {
-        iconClickText21leftup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath21leftup4.removeEventListener("click", funcIconClick21leftup4);
-}
-document.addEventListener("click", funcIconClick21leftup4);
-
 const iconClickPath21leftup5 = document.getElementById('path-2-1-left-up-5');
 const iconClickText21leftup5 = document.getElementById('text-2-1-left-up-5');
+const iconClickText21leftup5desc = document.getElementById('desc2104');
 function funcIconClick21leftup5(event) {
     if (event.target.closest('#path-2-1-left-up-5')) {
         iconClickPath21leftup5.classList.add('сlickToChangeColor');
+        iconClickText21leftup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-5')) {
         iconClickPath21leftup5.classList.remove('сlickToChangeColor');
+        iconClickText21leftup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-5')) {
         iconClickText21leftup5.classList.add('сlickToChangeTextColor');
@@ -8889,18 +8955,48 @@ function funcIconClick21leftup5(event) {
     if (!event.target.closest('#path-2-1-left-up-5')) {
         iconClickText21leftup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21104')) {
+        iconClickPath21leftup5.classList.add('сlickToChangeColor');
+        iconClickText21leftup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21104')) {
+        iconClickText21leftup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup5.removeEventListener("click", funcIconClick21leftup5);
 }
 document.addEventListener("click", funcIconClick21leftup5);
 
 const iconClickPath21leftup6 = document.getElementById('path-2-1-left-up-6');
 const iconClickText21leftup6 = document.getElementById('text-2-1-left-up-6');
+const iconClickText21leftup6desc = document.getElementById('desc2105');
 function funcIconClick21leftup6(event) {
     if (event.target.closest('#path-2-1-left-up-6')) {
         iconClickPath21leftup6.classList.add('сlickToChangeColor');
+        iconClickText21leftup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-6')) {
         iconClickPath21leftup6.classList.remove('сlickToChangeColor');
+        iconClickText21leftup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-6')) {
         iconClickText21leftup6.classList.add('сlickToChangeTextColor');
@@ -8908,18 +9004,48 @@ function funcIconClick21leftup6(event) {
     if (!event.target.closest('#path-2-1-left-up-6')) {
         iconClickText21leftup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21105')) {
+        iconClickPath21leftup6.classList.add('сlickToChangeColor');
+        iconClickText21leftup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21105')) {
+        iconClickText21leftup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup6.removeEventListener("click", funcIconClick21leftup6);
 }
 document.addEventListener("click", funcIconClick21leftup6);
 
 const iconClickPath21leftup7 = document.getElementById('path-2-1-left-up-7');
 const iconClickText21leftup7 = document.getElementById('text-2-1-left-up-7');
+const iconClickText21leftup7desc = document.getElementById('desc2106');
 function funcIconClick21leftup7(event) {
     if (event.target.closest('#path-2-1-left-up-7')) {
         iconClickPath21leftup7.classList.add('сlickToChangeColor');
+        iconClickText21leftup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-7')) {
         iconClickPath21leftup7.classList.remove('сlickToChangeColor');
+        iconClickText21leftup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-7')) {
         iconClickText21leftup7.classList.add('сlickToChangeTextColor');
@@ -8927,18 +9053,48 @@ function funcIconClick21leftup7(event) {
     if (!event.target.closest('#path-2-1-left-up-7')) {
         iconClickText21leftup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21106')) {
+        iconClickPath21leftup7.classList.add('сlickToChangeColor');
+        iconClickText21leftup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21106')) {
+        iconClickText21leftup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup7.removeEventListener("click", funcIconClick21leftup7);
 }
 document.addEventListener("click", funcIconClick21leftup7);
 
 const iconClickPath21leftup8 = document.getElementById('path-2-1-left-up-8');
 const iconClickText21leftup8 = document.getElementById('text-2-1-left-up-8');
+const iconClickText21leftup8desc = document.getElementById('desc2107');
 function funcIconClick21leftup8(event) {
     if (event.target.closest('#path-2-1-left-up-8')) {
         iconClickPath21leftup8.classList.add('сlickToChangeColor');
+        iconClickText21leftup8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-up-8')) {
         iconClickPath21leftup8.classList.remove('сlickToChangeColor');
+        iconClickText21leftup8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-up-8')) {
         iconClickText21leftup8.classList.add('сlickToChangeTextColor');
@@ -8946,19 +9102,48 @@ function funcIconClick21leftup8(event) {
     if (!event.target.closest('#path-2-1-left-up-8')) {
         iconClickText21leftup8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21107')) {
+        iconClickPath21leftup8.classList.add('сlickToChangeColor');
+        iconClickText21leftup8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21107')) {
+        iconClickText21leftup8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftup8.removeEventListener("click", funcIconClick21leftup8);
 }
 document.addEventListener("click", funcIconClick21leftup8);
 
-// building2floor1 - right-up
 const iconClickPath21rightup1 = document.getElementById('path-2-1-right-up-1');
 const iconClickText21rightup1 = document.getElementById('text-2-1-right-up-1');
+const iconClickText21rightup1desc = document.getElementById('desc2108');
 function funcIconClick21rightup1(event) {
     if (event.target.closest('#path-2-1-right-up-1')) {
         iconClickPath21rightup1.classList.add('сlickToChangeColor');
+        iconClickText21rightup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-up-1')) {
         iconClickPath21rightup1.classList.remove('сlickToChangeColor');
+        iconClickText21rightup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-up-1')) {
         iconClickText21rightup1.classList.add('сlickToChangeTextColor');
@@ -8966,18 +9151,48 @@ function funcIconClick21rightup1(event) {
     if (!event.target.closest('#path-2-1-right-up-1')) {
         iconClickText21rightup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21108')) {
+        iconClickPath21rightup1.classList.add('сlickToChangeColor');
+        iconClickText21rightup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21108')) {
+        iconClickText21rightup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightup1.removeEventListener("click", funcIconClick21rightup1);
 }
 document.addEventListener("click", funcIconClick21rightup1);
 
 const iconClickPath21rightup2 = document.getElementById('path-2-1-right-up-2');
 const iconClickText21rightup2 = document.getElementById('text-2-1-right-up-2');
+const iconClickText21rightup2desc = document.getElementById('desc2109');
 function funcIconClick21rightup2(event) {
     if (event.target.closest('#path-2-1-right-up-2')) {
         iconClickPath21rightup2.classList.add('сlickToChangeColor');
+        iconClickText21rightup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-up-2')) {
         iconClickPath21rightup2.classList.remove('сlickToChangeColor');
+        iconClickText21rightup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-up-2')) {
         iconClickText21rightup2.classList.add('сlickToChangeTextColor');
@@ -8985,18 +9200,48 @@ function funcIconClick21rightup2(event) {
     if (!event.target.closest('#path-2-1-right-up-2')) {
         iconClickText21rightup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21109')) {
+        iconClickPath21rightup2.classList.add('сlickToChangeColor');
+        iconClickText21rightup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21109')) {
+        iconClickText21rightup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightup2.removeEventListener("click", funcIconClick21rightup2);
 }
 document.addEventListener("click", funcIconClick21rightup2);
 
 const iconClickPath21rightup3 = document.getElementById('path-2-1-right-up-3');
 const iconClickText21rightup3 = document.getElementById('text-2-1-right-up-3');
+const iconClickText21rightup3desc = document.getElementById('desc2110');
 function funcIconClick21rightup3(event) {
     if (event.target.closest('#path-2-1-right-up-3')) {
         iconClickPath21rightup3.classList.add('сlickToChangeColor');
+        iconClickText21rightup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-up-3')) {
         iconClickPath21rightup3.classList.remove('сlickToChangeColor');
+        iconClickText21rightup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-up-3')) {
         iconClickText21rightup3.classList.add('сlickToChangeTextColor');
@@ -9004,19 +9249,48 @@ function funcIconClick21rightup3(event) {
     if (!event.target.closest('#path-2-1-right-up-3')) {
         iconClickText21rightup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21110')) {
+        iconClickPath21rightup3.classList.add('сlickToChangeColor');
+        iconClickText21rightup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21110')) {
+        iconClickText21rightup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightup3.removeEventListener("click", funcIconClick21rightup3);
 }
 document.addEventListener("click", funcIconClick21rightup3);
 
-// building2floor1 - left-down
 const iconClickPath21leftdown1 = document.getElementById('path-2-1-left-down-1');
 const iconClickText21leftdown1 = document.getElementById('text-2-1-left-down-1');
+const iconClickText21leftdown1desc = document.getElementById('desc2128');
 function funcIconClick21leftdown1(event) {
     if (event.target.closest('#path-2-1-left-down-1')) {
         iconClickPath21leftdown1.classList.add('сlickToChangeColor');
+        iconClickText21leftdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-down-1')) {
         iconClickPath21leftdown1.classList.remove('сlickToChangeColor');
+        iconClickText21leftdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-down-1')) {
         iconClickText21leftdown1.classList.add('сlickToChangeTextColor');
@@ -9024,18 +9298,97 @@ function funcIconClick21leftdown1(event) {
     if (!event.target.closest('#path-2-1-left-down-1')) {
         iconClickText21leftdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21128')) {
+        iconClickPath21leftdown1.classList.add('сlickToChangeColor');
+        iconClickText21leftdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21128')) {
+        iconClickText21leftdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftdown1.removeEventListener("click", funcIconClick21leftdown1);
 }
 document.addEventListener("click", funcIconClick21leftdown1);
 
+const iconClickPath2127 = document.getElementById('path-2-127');
+const iconClickText2127 = document.getElementById('text-2-127');
+const iconClickText2127desc = document.getElementById('desc2127');
+function funcIconClick2127(event) {
+    if (event.target.closest('#path-2-127')) {
+        iconClickPath2127.classList.add('сlickToChangeColor');
+        iconClickText2127desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-127')) {
+        iconClickPath2127.classList.remove('сlickToChangeColor');
+        iconClickText2127desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-127')) {
+        iconClickText2127.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-127')) {
+        iconClickText2127.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-21127')) {
+        iconClickPath2127.classList.add('сlickToChangeColor');
+        iconClickText2127desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21127')) {
+        iconClickText2127.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2127.removeEventListener("click", funcIconClick2127);
+}
+document.addEventListener("click", funcIconClick2127);
+
 const iconClickPath21leftdown2 = document.getElementById('path-2-1-left-down-2');
 const iconClickText21leftdown2 = document.getElementById('text-2-1-left-down-2');
+const iconClickText21leftdown2desc = document.getElementById('desc2126');
 function funcIconClick21leftdown2(event) {
     if (event.target.closest('#path-2-1-left-down-2')) {
         iconClickPath21leftdown2.classList.add('сlickToChangeColor');
+        iconClickText21leftdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-down-2')) {
         iconClickPath21leftdown2.classList.remove('сlickToChangeColor');
+        iconClickText21leftdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-down-2')) {
         iconClickText21leftdown2.classList.add('сlickToChangeTextColor');
@@ -9043,18 +9396,97 @@ function funcIconClick21leftdown2(event) {
     if (!event.target.closest('#path-2-1-left-down-2')) {
         iconClickText21leftdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21126')) {
+        iconClickPath21leftdown2.classList.add('сlickToChangeColor');
+        iconClickText21leftdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21126')) {
+        iconClickText21leftdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftdown2.removeEventListener("click", funcIconClick21leftdown2);
 }
 document.addEventListener("click", funcIconClick21leftdown2);
 
+const iconClickPath2125 = document.getElementById('path-2-125');
+const iconClickText2125 = document.getElementById('text-2-125');
+const iconClickText2125desc = document.getElementById('desc2125');
+function funcIconClick2125(event) {
+    if (event.target.closest('#path-2-125')) {
+        iconClickPath2125.classList.add('сlickToChangeColor');
+        iconClickText2125desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-125')) {
+        iconClickPath2125.classList.remove('сlickToChangeColor');
+        iconClickText2125desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-125')) {
+        iconClickText2125.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-125')) {
+        iconClickText2125.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-21125')) {
+        iconClickPath2125.classList.add('сlickToChangeColor');
+        iconClickText2125desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21125')) {
+        iconClickText2125.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2125.removeEventListener("click", funcIconClick2125);
+}
+document.addEventListener("click", funcIconClick2125);
+
 const iconClickPath21leftdown3 = document.getElementById('path-2-1-left-down-3');
 const iconClickText21leftdown3 = document.getElementById('text-2-1-left-down-3');
+const iconClickText21leftdown3desc = document.getElementById('desc2123');
 function funcIconClick21leftdown3(event) {
     if (event.target.closest('#path-2-1-left-down-3')) {
         iconClickPath21leftdown3.classList.add('сlickToChangeColor');
+        iconClickText21leftdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-down-3')) {
         iconClickPath21leftdown3.classList.remove('сlickToChangeColor');
+        iconClickText21leftdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-down-3')) {
         iconClickText21leftdown3.classList.add('сlickToChangeTextColor');
@@ -9062,18 +9494,48 @@ function funcIconClick21leftdown3(event) {
     if (!event.target.closest('#path-2-1-left-down-3')) {
         iconClickText21leftdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21123')) {
+        iconClickPath21leftdown3.classList.add('сlickToChangeColor');
+        iconClickText21leftdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21123')) {
+        iconClickText21leftdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftdown3.removeEventListener("click", funcIconClick21leftdown3);
 }
 document.addEventListener("click", funcIconClick21leftdown3);
 
 const iconClickPath21leftdown5 = document.getElementById('path-2-1-left-down-5');
 const iconClickText21leftdown5 = document.getElementById('text-2-1-left-down-5');
+const iconClickText21leftdown5desc = document.getElementById('desc2122');
 function funcIconClick21leftdown5(event) {
     if (event.target.closest('#path-2-1-left-down-5')) {
         iconClickPath21leftdown5.classList.add('сlickToChangeColor');
+        iconClickText21leftdown5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-down-5')) {
         iconClickPath21leftdown5.classList.remove('сlickToChangeColor');
+        iconClickText21leftdown5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-down-5')) {
         iconClickText21leftdown5.classList.add('сlickToChangeTextColor');
@@ -9081,18 +9543,48 @@ function funcIconClick21leftdown5(event) {
     if (!event.target.closest('#path-2-1-left-down-5')) {
         iconClickText21leftdown5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21122')) {
+        iconClickPath21leftdown5.classList.add('сlickToChangeColor');
+        iconClickText21leftdown5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21122')) {
+        iconClickText21leftdown5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftdown5.removeEventListener("click", funcIconClick21leftdown5);
 }
 document.addEventListener("click", funcIconClick21leftdown5);
 
 const iconClickPath21leftdown6 = document.getElementById('path-2-1-left-down-6');
 const iconClickText21leftdown6 = document.getElementById('text-2-1-left-down-6');
+const iconClickText21leftdown6desc = document.getElementById('desc2121');
 function funcIconClick21leftdown6(event) {
     if (event.target.closest('#path-2-1-left-down-6')) {
         iconClickPath21leftdown6.classList.add('сlickToChangeColor');
+        iconClickText21leftdown6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-down-6')) {
         iconClickPath21leftdown6.classList.remove('сlickToChangeColor');
+        iconClickText21leftdown6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-down-6')) {
         iconClickText21leftdown6.classList.add('сlickToChangeTextColor');
@@ -9100,18 +9592,48 @@ function funcIconClick21leftdown6(event) {
     if (!event.target.closest('#path-2-1-left-down-6')) {
         iconClickText21leftdown6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21121')) {
+        iconClickPath21leftdown6.classList.add('сlickToChangeColor');
+        iconClickText21leftdown6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21121')) {
+        iconClickText21leftdown6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftdown6.removeEventListener("click", funcIconClick21leftdown6);
 }
 document.addEventListener("click", funcIconClick21leftdown6);
 
 const iconClickPath21leftdown7 = document.getElementById('path-2-1-left-down-7');
 const iconClickText21leftdown7 = document.getElementById('text-2-1-left-down-7');
+const iconClickText21leftdown7desc = document.getElementById('desc2120');
 function funcIconClick21leftdown7(event) {
     if (event.target.closest('#path-2-1-left-down-7')) {
         iconClickPath21leftdown7.classList.add('сlickToChangeColor');
+        iconClickText21leftdown7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-left-down-7')) {
         iconClickPath21leftdown7.classList.remove('сlickToChangeColor');
+        iconClickText21leftdown7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-left-down-7')) {
         iconClickText21leftdown7.classList.add('сlickToChangeTextColor');
@@ -9119,19 +9641,48 @@ function funcIconClick21leftdown7(event) {
     if (!event.target.closest('#path-2-1-left-down-7')) {
         iconClickText21leftdown7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21120')) {
+        iconClickPath21leftdown7.classList.add('сlickToChangeColor');
+        iconClickText21leftdown7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21120')) {
+        iconClickText21leftdown7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21leftdown7.removeEventListener("click", funcIconClick21leftdown7);
 }
 document.addEventListener("click", funcIconClick21leftdown7);
 
-// building2floor1 - right-down
 const iconClickPath21rightdown1 = document.getElementById('path-2-1-right-down-1');
 const iconClickText21rightdown1 = document.getElementById('text-2-1-right-down-1');
+const iconClickText21rightdown1desc = document.getElementById('desc2119');
 function funcIconClick21rightdown1(event) {
     if (event.target.closest('#path-2-1-right-down-1')) {
         iconClickPath21rightdown1.classList.add('сlickToChangeColor');
+        iconClickText21rightdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-down-1')) {
         iconClickPath21rightdown1.classList.remove('сlickToChangeColor');
+        iconClickText21rightdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-down-1')) {
         iconClickText21rightdown1.classList.add('сlickToChangeTextColor');
@@ -9139,18 +9690,48 @@ function funcIconClick21rightdown1(event) {
     if (!event.target.closest('#path-2-1-right-down-1')) {
         iconClickText21rightdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21119')) {
+        iconClickPath21rightdown1.classList.add('сlickToChangeColor');
+        iconClickText21rightdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21119')) {
+        iconClickText21rightdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightdown1.removeEventListener("click", funcIconClick21rightdown1);
 }
 document.addEventListener("click", funcIconClick21rightdown1);
 
 const iconClickPath21rightdown2 = document.getElementById('path-2-1-right-down-2');
 const iconClickText21rightdown2 = document.getElementById('text-2-1-right-down-2');
+const iconClickText21rightdown2desc = document.getElementById('desc2118');
 function funcIconClick21rightdown2(event) {
     if (event.target.closest('#path-2-1-right-down-2')) {
         iconClickPath21rightdown2.classList.add('сlickToChangeColor');
+        iconClickText21rightdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-down-2')) {
         iconClickPath21rightdown2.classList.remove('сlickToChangeColor');
+        iconClickText21rightdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-down-2')) {
         iconClickText21rightdown2.classList.add('сlickToChangeTextColor');
@@ -9158,18 +9739,48 @@ function funcIconClick21rightdown2(event) {
     if (!event.target.closest('#path-2-1-right-down-2')) {
         iconClickText21rightdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21118')) {
+        iconClickPath21rightdown2.classList.add('сlickToChangeColor');
+        iconClickText21rightdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21118')) {
+        iconClickText21rightdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightdown2.removeEventListener("click", funcIconClick21rightdown2);
 }
 document.addEventListener("click", funcIconClick21rightdown2);
 
 const iconClickPath21rightdown3 = document.getElementById('path-2-1-right-down-3');
 const iconClickText21rightdown3 = document.getElementById('text-2-1-right-down-3');
+const iconClickText21rightdown3desc = document.getElementById('desc2117');
 function funcIconClick21rightdown3(event) {
     if (event.target.closest('#path-2-1-right-down-3')) {
         iconClickPath21rightdown3.classList.add('сlickToChangeColor');
+        iconClickText21rightdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-down-3')) {
         iconClickPath21rightdown3.classList.remove('сlickToChangeColor');
+        iconClickText21rightdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-down-3')) {
         iconClickText21rightdown3.classList.add('сlickToChangeTextColor');
@@ -9177,18 +9788,48 @@ function funcIconClick21rightdown3(event) {
     if (!event.target.closest('#path-2-1-right-down-3')) {
         iconClickText21rightdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21117')) {
+        iconClickPath21rightdown3.classList.add('сlickToChangeColor');
+        iconClickText21rightdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21117')) {
+        iconClickText21rightdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightdown3.removeEventListener("click", funcIconClick21rightdown3);
 }
 document.addEventListener("click", funcIconClick21rightdown3);
 
 const iconClickPath21rightdown4 = document.getElementById('path-2-1-right-down-4');
 const iconClickText21rightdown4 = document.getElementById('text-2-1-right-down-4');
+const iconClickText21rightdown4desc = document.getElementById('desc2116');
 function funcIconClick21rightdown4(event) {
     if (event.target.closest('#path-2-1-right-down-4')) {
         iconClickPath21rightdown4.classList.add('сlickToChangeColor');
+        iconClickText21rightdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-1-right-down-4')) {
         iconClickPath21rightdown4.classList.remove('сlickToChangeColor');
+        iconClickText21rightdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-1-right-down-4')) {
         iconClickText21rightdown4.classList.add('сlickToChangeTextColor');
@@ -9196,35 +9837,49 @@ function funcIconClick21rightdown4(event) {
     if (!event.target.closest('#path-2-1-right-down-4')) {
         iconClickText21rightdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-21116')) {
+        iconClickPath21rightdown4.classList.add('сlickToChangeColor');
+        iconClickText21rightdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'block';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.add("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-21116')) {
+        iconClickText21rightdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath21rightdown4.removeEventListener("click", funcIconClick21rightdown4);
 }
 document.addEventListener("click", funcIconClick21rightdown4);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// building2floor2
-// building2floor2 - left-up
+// building2floor2 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 const iconClickPath22leftup1 = document.getElementById('path-2-2-left-up-1');
 const iconClickText22leftup1 = document.getElementById('text-2-2-left-up-1');
+const iconClickText22leftup1desc = document.getElementById('desc2201a');
 function funcIconClick22leftup1(event) {
     if (event.target.closest('#path-2-2-left-up-1')) {
         iconClickPath22leftup1.classList.add('сlickToChangeColor');
+        iconClickText22leftup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-1')) {
         iconClickPath22leftup1.classList.remove('сlickToChangeColor');
+        iconClickText22leftup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-1')) {
         iconClickText22leftup1.classList.add('сlickToChangeTextColor');
@@ -9232,18 +9887,48 @@ function funcIconClick22leftup1(event) {
     if (!event.target.closest('#path-2-2-left-up-1')) {
         iconClickText22leftup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22201a')) {
+        iconClickPath22leftup1.classList.add('сlickToChangeColor');
+        iconClickText22leftup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22201a')) {
+        iconClickText22leftup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup1.removeEventListener("click", funcIconClick22leftup1);
 }
 document.addEventListener("click", funcIconClick22leftup1);
 
 const iconClickPath22leftup2 = document.getElementById('path-2-2-left-up-2');
 const iconClickText22leftup2 = document.getElementById('text-2-2-left-up-2');
+const iconClickText22leftup2desc = document.getElementById('desc2201');
 function funcIconClick22leftup2(event) {
     if (event.target.closest('#path-2-2-left-up-2')) {
         iconClickPath22leftup2.classList.add('сlickToChangeColor');
+        iconClickText22leftup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-2')) {
         iconClickPath22leftup2.classList.remove('сlickToChangeColor');
+        iconClickText22leftup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-2')) {
         iconClickText22leftup2.classList.add('сlickToChangeTextColor');
@@ -9251,18 +9936,48 @@ function funcIconClick22leftup2(event) {
     if (!event.target.closest('#path-2-2-left-up-2')) {
         iconClickText22leftup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22201')) {
+        iconClickPath22leftup2.classList.add('сlickToChangeColor');
+        iconClickText22leftup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22201')) {
+        iconClickText22leftup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup2.removeEventListener("click", funcIconClick22leftup2);
 }
 document.addEventListener("click", funcIconClick22leftup2);
 
 const iconClickPath22leftup3 = document.getElementById('path-2-2-left-up-3');
 const iconClickText22leftup3 = document.getElementById('text-2-2-left-up-3');
+const iconClickText22leftup3desc = document.getElementById('desc2202');
 function funcIconClick22leftup3(event) {
     if (event.target.closest('#path-2-2-left-up-3')) {
         iconClickPath22leftup3.classList.add('сlickToChangeColor');
+        iconClickText22leftup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-3')) {
         iconClickPath22leftup3.classList.remove('сlickToChangeColor');
+        iconClickText22leftup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-3')) {
         iconClickText22leftup3.classList.add('сlickToChangeTextColor');
@@ -9270,44 +9985,48 @@ function funcIconClick22leftup3(event) {
     if (!event.target.closest('#path-2-2-left-up-3')) {
         iconClickText22leftup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22202')) {
+        iconClickPath22leftup3.classList.add('сlickToChangeColor');
+        iconClickText22leftup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22202')) {
+        iconClickText22leftup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup3.removeEventListener("click", funcIconClick22leftup3);
 }
 document.addEventListener("click", funcIconClick22leftup3);
 
-const iconClickPath22leftup4 = document.getElementById('path-2-2-left-up-4');
-const iconClickText22leftup4 = document.getElementById('text-2-2-left-up-4');
-const iconClickText22leftup41 = document.getElementById('text-2-2-left-up-4-1');
-function funcIconClick22leftup4(event) {
-    if (event.target.closest('#path-2-2-left-up-4')) {
-        iconClickPath22leftup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-2-left-up-4')) {
-        iconClickPath22leftup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-2-left-up-4')) {
-        iconClickText22leftup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-2-left-up-4')) {
-        iconClickText22leftup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-2-left-up-4')) {
-        iconClickText22leftup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-2-left-up-4')) {
-        iconClickText22leftup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath22leftup4.removeEventListener("click", funcIconClick22leftup4);
-}
-document.addEventListener("click", funcIconClick22leftup4);
-
 const iconClickPath22leftup5 = document.getElementById('path-2-2-left-up-5');
 const iconClickText22leftup5 = document.getElementById('text-2-2-left-up-5');
+const iconClickText22leftup5desc = document.getElementById('desc2203');
 function funcIconClick22leftup5(event) {
     if (event.target.closest('#path-2-2-left-up-5')) {
         iconClickPath22leftup5.classList.add('сlickToChangeColor');
+        iconClickText22leftup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-5')) {
         iconClickPath22leftup5.classList.remove('сlickToChangeColor');
+        iconClickText22leftup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-5')) {
         iconClickText22leftup5.classList.add('сlickToChangeTextColor');
@@ -9315,18 +10034,48 @@ function funcIconClick22leftup5(event) {
     if (!event.target.closest('#path-2-2-left-up-5')) {
         iconClickText22leftup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22203')) {
+        iconClickPath22leftup5.classList.add('сlickToChangeColor');
+        iconClickText22leftup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22203')) {
+        iconClickText22leftup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup5.removeEventListener("click", funcIconClick22leftup5);
 }
 document.addEventListener("click", funcIconClick22leftup5);
 
 const iconClickPath22leftup6 = document.getElementById('path-2-2-left-up-6');
 const iconClickText22leftup6 = document.getElementById('text-2-2-left-up-6');
+const iconClickText22leftup6desc = document.getElementById('desc2204');
 function funcIconClick22leftup6(event) {
     if (event.target.closest('#path-2-2-left-up-6')) {
         iconClickPath22leftup6.classList.add('сlickToChangeColor');
+        iconClickText22leftup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-6')) {
         iconClickPath22leftup6.classList.remove('сlickToChangeColor');
+        iconClickText22leftup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-6')) {
         iconClickText22leftup6.classList.add('сlickToChangeTextColor');
@@ -9334,18 +10083,97 @@ function funcIconClick22leftup6(event) {
     if (!event.target.closest('#path-2-2-left-up-6')) {
         iconClickText22leftup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22204')) {
+        iconClickPath22leftup6.classList.add('сlickToChangeColor');
+        iconClickText22leftup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22204')) {
+        iconClickText22leftup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup6.removeEventListener("click", funcIconClick22leftup6);
 }
 document.addEventListener("click", funcIconClick22leftup6);
 
+const iconClickPath2205 = document.getElementById('path-2-205');
+const iconClickText2205 = document.getElementById('text-2-205');
+const iconClickText2205desc = document.getElementById('desc2205');
+function funcIconClick2205(event) {
+    if (event.target.closest('#path-2-205')) {
+        iconClickPath2205.classList.add('сlickToChangeColor');
+        iconClickText2205desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-205')) {
+        iconClickPath2205.classList.remove('сlickToChangeColor');
+        iconClickText2205desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-205')) {
+        iconClickText2205.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-205')) {
+        iconClickText2205.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-22205')) {
+        iconClickPath2205.classList.add('сlickToChangeColor');
+        iconClickText2205desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22205')) {
+        iconClickText2205.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2205.removeEventListener("click", funcIconClick2205);
+}
+document.addEventListener("click", funcIconClick2205);
+
 const iconClickPath22leftup7 = document.getElementById('path-2-2-left-up-7');
 const iconClickText22leftup7 = document.getElementById('text-2-2-left-up-7');
+const iconClickText22leftup7desc = document.getElementById('desc2206');
 function funcIconClick22leftup7(event) {
     if (event.target.closest('#path-2-2-left-up-7')) {
         iconClickPath22leftup7.classList.add('сlickToChangeColor');
+        iconClickText22leftup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-7')) {
         iconClickPath22leftup7.classList.remove('сlickToChangeColor');
+        iconClickText22leftup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-7')) {
         iconClickText22leftup7.classList.add('сlickToChangeTextColor');
@@ -9353,18 +10181,48 @@ function funcIconClick22leftup7(event) {
     if (!event.target.closest('#path-2-2-left-up-7')) {
         iconClickText22leftup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22206')) {
+        iconClickPath22leftup7.classList.add('сlickToChangeColor');
+        iconClickText22leftup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22206')) {
+        iconClickText22leftup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup7.removeEventListener("click", funcIconClick22leftup7);
 }
 document.addEventListener("click", funcIconClick22leftup7);
 
 const iconClickPath22leftup8 = document.getElementById('path-2-2-left-up-8');
 const iconClickText22leftup8 = document.getElementById('text-2-2-left-up-8');
+const iconClickText22leftup8desc = document.getElementById('desc2207');
 function funcIconClick22leftup8(event) {
     if (event.target.closest('#path-2-2-left-up-8')) {
         iconClickPath22leftup8.classList.add('сlickToChangeColor');
+        iconClickText22leftup8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-up-8')) {
         iconClickPath22leftup8.classList.remove('сlickToChangeColor');
+        iconClickText22leftup8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-up-8')) {
         iconClickText22leftup8.classList.add('сlickToChangeTextColor');
@@ -9372,19 +10230,97 @@ function funcIconClick22leftup8(event) {
     if (!event.target.closest('#path-2-2-left-up-8')) {
         iconClickText22leftup8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22207')) {
+        iconClickPath22leftup8.classList.add('сlickToChangeColor');
+        iconClickText22leftup8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22207')) {
+        iconClickText22leftup8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftup8.removeEventListener("click", funcIconClick22leftup8);
 }
 document.addEventListener("click", funcIconClick22leftup8);
 
-// building2floor2 - right-up
+const iconClickPath2209 = document.getElementById('path-2-209');
+const iconClickText2209 = document.getElementById('text-2-209');
+const iconClickText2209desc = document.getElementById('desc2209');
+function funcIconClick2209(event) {
+    if (event.target.closest('#path-2-209')) {
+        iconClickPath2209.classList.add('сlickToChangeColor');
+        iconClickText2209desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-209')) {
+        iconClickPath2209.classList.remove('сlickToChangeColor');
+        iconClickText2209desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-209')) {
+        iconClickText2209.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-209')) {
+        iconClickText2209.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-22209')) {
+        iconClickPath2209.classList.add('сlickToChangeColor');
+        iconClickText2209desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22209')) {
+        iconClickText2209.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2209.removeEventListener("click", funcIconClick2209);
+}
+document.addEventListener("click", funcIconClick2209);
+
 const iconClickPath22rightup1 = document.getElementById('path-2-2-right-up-1');
 const iconClickText22rightup1 = document.getElementById('text-2-2-right-up-1');
+const iconClickText22rightup1desc = document.getElementById('desc2210');
 function funcIconClick22rightup1(event) {
     if (event.target.closest('#path-2-2-right-up-1')) {
         iconClickPath22rightup1.classList.add('сlickToChangeColor');
+        iconClickText22rightup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-up-1')) {
         iconClickPath22rightup1.classList.remove('сlickToChangeColor');
+        iconClickText22rightup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-up-1')) {
         iconClickText22rightup1.classList.add('сlickToChangeTextColor');
@@ -9392,18 +10328,48 @@ function funcIconClick22rightup1(event) {
     if (!event.target.closest('#path-2-2-right-up-1')) {
         iconClickText22rightup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22210')) {
+        iconClickPath22rightup1.classList.add('сlickToChangeColor');
+        iconClickText22rightup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22210')) {
+        iconClickText22rightup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightup1.removeEventListener("click", funcIconClick22rightup1);
 }
 document.addEventListener("click", funcIconClick22rightup1);
 
 const iconClickPath22rightup2 = document.getElementById('path-2-2-right-up-2');
 const iconClickText22rightup2 = document.getElementById('text-2-2-right-up-2');
+const iconClickText22rightup2desc = document.getElementById('desc2211');
 function funcIconClick22rightup2(event) {
     if (event.target.closest('#path-2-2-right-up-2')) {
         iconClickPath22rightup2.classList.add('сlickToChangeColor');
+        iconClickText22rightup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-up-2')) {
         iconClickPath22rightup2.classList.remove('сlickToChangeColor');
+        iconClickText22rightup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-up-2')) {
         iconClickText22rightup2.classList.add('сlickToChangeTextColor');
@@ -9411,18 +10377,48 @@ function funcIconClick22rightup2(event) {
     if (!event.target.closest('#path-2-2-right-up-2')) {
         iconClickText22rightup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22211')) {
+        iconClickPath22rightup2.classList.add('сlickToChangeColor');
+        iconClickText22rightup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22211')) {
+        iconClickText22rightup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightup2.removeEventListener("click", funcIconClick22rightup2);
 }
 document.addEventListener("click", funcIconClick22rightup2);
 
 const iconClickPath22rightup3 = document.getElementById('path-2-2-right-up-3');
 const iconClickText22rightup3 = document.getElementById('text-2-2-right-up-3');
+const iconClickText22rightup3desc = document.getElementById('desc2212');
 function funcIconClick22rightup3(event) {
     if (event.target.closest('#path-2-2-right-up-3')) {
         iconClickPath22rightup3.classList.add('сlickToChangeColor');
+        iconClickText22rightup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-up-3')) {
         iconClickPath22rightup3.classList.remove('сlickToChangeColor');
+        iconClickText22rightup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-up-3')) {
         iconClickText22rightup3.classList.add('сlickToChangeTextColor');
@@ -9430,18 +10426,48 @@ function funcIconClick22rightup3(event) {
     if (!event.target.closest('#path-2-2-right-up-3')) {
         iconClickText22rightup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22212')) {
+        iconClickPath22rightup3.classList.add('сlickToChangeColor');
+        iconClickText22rightup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22212')) {
+        iconClickText22rightup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightup3.removeEventListener("click", funcIconClick22rightup3);
 }
 document.addEventListener("click", funcIconClick22rightup3);
 
 const iconClickPath22rightup4 = document.getElementById('path-2-2-right-up-4');
 const iconClickText22rightup4 = document.getElementById('text-2-2-right-up-4');
+const iconClickText22rightup4desc = document.getElementById('desc2213');
 function funcIconClick22rightup4(event) {
     if (event.target.closest('#path-2-2-right-up-4')) {
         iconClickPath22rightup4.classList.add('сlickToChangeColor');
+        iconClickText22rightup4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-up-4')) {
         iconClickPath22rightup4.classList.remove('сlickToChangeColor');
+        iconClickText22rightup4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-up-4')) {
         iconClickText22rightup4.classList.add('сlickToChangeTextColor');
@@ -9449,18 +10475,48 @@ function funcIconClick22rightup4(event) {
     if (!event.target.closest('#path-2-2-right-up-4')) {
         iconClickText22rightup4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22213')) {
+        iconClickPath22rightup4.classList.add('сlickToChangeColor');
+        iconClickText22rightup4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22213')) {
+        iconClickText22rightup4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightup4.removeEventListener("click", funcIconClick22rightup4);
 }
 document.addEventListener("click", funcIconClick22rightup4);
 
 const iconClickPath22rightup5 = document.getElementById('path-2-2-right-up-5');
 const iconClickText22rightup5 = document.getElementById('text-2-2-right-up-5');
+const iconClickText22rightup5desc = document.getElementById('desc2213a');
 function funcIconClick22rightup5(event) {
     if (event.target.closest('#path-2-2-right-up-5')) {
         iconClickPath22rightup5.classList.add('сlickToChangeColor');
+        iconClickText22rightup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-up-5')) {
         iconClickPath22rightup5.classList.remove('сlickToChangeColor');
+        iconClickText22rightup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-up-5')) {
         iconClickText22rightup5.classList.add('сlickToChangeTextColor');
@@ -9468,18 +10524,97 @@ function funcIconClick22rightup5(event) {
     if (!event.target.closest('#path-2-2-right-up-5')) {
         iconClickText22rightup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22213a')) {
+        iconClickPath22rightup5.classList.add('сlickToChangeColor');
+        iconClickText22rightup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22213a')) {
+        iconClickText22rightup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightup5.removeEventListener("click", funcIconClick22rightup5);
 }
 document.addEventListener("click", funcIconClick22rightup5);
 
+const iconClickPath2214 = document.getElementById('path-2-214');
+const iconClickText2214 = document.getElementById('text-2-214');
+const iconClickText2214desc = document.getElementById('desc2214');
+function funcIconClick2214(event) {
+    if (event.target.closest('#path-2-214')) {
+        iconClickPath2214.classList.add('сlickToChangeColor');
+        iconClickText2214desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-214')) {
+        iconClickPath2214.classList.remove('сlickToChangeColor');
+        iconClickText2214desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-214')) {
+        iconClickText2214.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-214')) {
+        iconClickText2214.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-22214')) {
+        iconClickPath2214.classList.add('сlickToChangeColor');
+        iconClickText2214desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22214')) {
+        iconClickText2214.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2214.removeEventListener("click", funcIconClick2214);
+}
+document.addEventListener("click", funcIconClick2214);
+
 const iconClickPath22rightup6 = document.getElementById('path-2-2-right-up-6');
 const iconClickText22rightup6 = document.getElementById('text-2-2-right-up-6');
+const iconClickText22rightup6desc = document.getElementById('desc2215');
 function funcIconClick22rightup6(event) {
     if (event.target.closest('#path-2-2-right-up-6')) {
         iconClickPath22rightup6.classList.add('сlickToChangeColor');
+        iconClickText22rightup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-up-6')) {
         iconClickPath22rightup6.classList.remove('сlickToChangeColor');
+        iconClickText22rightup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-up-6')) {
         iconClickText22rightup6.classList.add('сlickToChangeTextColor');
@@ -9487,19 +10622,97 @@ function funcIconClick22rightup6(event) {
     if (!event.target.closest('#path-2-2-right-up-6')) {
         iconClickText22rightup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22215')) {
+        iconClickPath22rightup6.classList.add('сlickToChangeColor');
+        iconClickText22rightup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22215')) {
+        iconClickText22rightup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightup6.removeEventListener("click", funcIconClick22rightup6);
 }
 document.addEventListener("click", funcIconClick22rightup6);
 
-// building2floor2 - left-down
+const iconClickPath2216 = document.getElementById('path-2-216');
+const iconClickText2216 = document.getElementById('text-2-216');
+const iconClickText2216desc = document.getElementById('desc2216');
+function funcIconClick2216(event) {
+    if (event.target.closest('#path-2-216')) {
+        iconClickPath2216.classList.add('сlickToChangeColor');
+        iconClickText2216desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-216')) {
+        iconClickPath2216.classList.remove('сlickToChangeColor');
+        iconClickText2216desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-216')) {
+        iconClickText2216.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-216')) {
+        iconClickText2216.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-22216')) {
+        iconClickPath2216.classList.add('сlickToChangeColor');
+        iconClickText2216desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22216')) {
+        iconClickText2216.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2216.removeEventListener("click", funcIconClick2216);
+}
+document.addEventListener("click", funcIconClick2216);
+
 const iconClickPath22leftdown1 = document.getElementById('path-2-2-left-down-1');
 const iconClickText22leftdown1 = document.getElementById('text-2-2-left-down-1');
+const iconClickText22leftdown1desc = document.getElementById('desc2228');
 function funcIconClick22leftdown1(event) {
     if (event.target.closest('#path-2-2-left-down-1')) {
         iconClickPath22leftdown1.classList.add('сlickToChangeColor');
+        iconClickText22leftdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-down-1')) {
         iconClickPath22leftdown1.classList.remove('сlickToChangeColor');
+        iconClickText22leftdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-down-1')) {
         iconClickText22leftdown1.classList.add('сlickToChangeTextColor');
@@ -9507,18 +10720,97 @@ function funcIconClick22leftdown1(event) {
     if (!event.target.closest('#path-2-2-left-down-1')) {
         iconClickText22leftdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22228')) {
+        iconClickPath22leftdown1.classList.add('сlickToChangeColor');
+        iconClickText22leftdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22228')) {
+        iconClickText22leftdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftdown1.removeEventListener("click", funcIconClick22leftdown1);
 }
 document.addEventListener("click", funcIconClick22leftdown1);
 
+const iconClickPath2227 = document.getElementById('path-2-227');
+const iconClickText2227 = document.getElementById('text-2-227');
+const iconClickText2227desc = document.getElementById('desc2227');
+function funcIconClick2227(event) {
+    if (event.target.closest('#path-2-227')) {
+        iconClickPath2227.classList.add('сlickToChangeColor');
+        iconClickText2227desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-227')) {
+        iconClickPath2227.classList.remove('сlickToChangeColor');
+        iconClickText2227desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-227')) {
+        iconClickText2227.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-227')) {
+        iconClickText2227.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-22227')) {
+        iconClickPath2227.classList.add('сlickToChangeColor');
+        iconClickText2227desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22227')) {
+        iconClickText2227.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2227.removeEventListener("click", funcIconClick2227);
+}
+document.addEventListener("click", funcIconClick2227);
+
 const iconClickPath22leftdown2 = document.getElementById('path-2-2-left-down-2');
 const iconClickText22leftdown2 = document.getElementById('text-2-2-left-down-2');
+const iconClickText22leftdown2desc = document.getElementById('desc2226');
 function funcIconClick22leftdown2(event) {
     if (event.target.closest('#path-2-2-left-down-2')) {
         iconClickPath22leftdown2.classList.add('сlickToChangeColor');
+        iconClickText22leftdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-down-2')) {
         iconClickPath22leftdown2.classList.remove('сlickToChangeColor');
+        iconClickText22leftdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-down-2')) {
         iconClickText22leftdown2.classList.add('сlickToChangeTextColor');
@@ -9526,18 +10818,48 @@ function funcIconClick22leftdown2(event) {
     if (!event.target.closest('#path-2-2-left-down-2')) {
         iconClickText22leftdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22226')) {
+        iconClickPath22leftdown2.classList.add('сlickToChangeColor');
+        iconClickText22leftdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22226')) {
+        iconClickText22leftdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftdown2.removeEventListener("click", funcIconClick22leftdown2);
 }
 document.addEventListener("click", funcIconClick22leftdown2);
 
 const iconClickPath22leftdown3 = document.getElementById('path-2-2-left-down-3');
 const iconClickText22leftdown3 = document.getElementById('text-2-2-left-down-3');
+const iconClickText22leftdown3desc = document.getElementById('desc2225');
 function funcIconClick22leftdown3(event) {
     if (event.target.closest('#path-2-2-left-down-3')) {
         iconClickPath22leftdown3.classList.add('сlickToChangeColor');
+        iconClickText22leftdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-down-3')) {
         iconClickPath22leftdown3.classList.remove('сlickToChangeColor');
+        iconClickText22leftdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-down-3')) {
         iconClickText22leftdown3.classList.add('сlickToChangeTextColor');
@@ -9545,18 +10867,48 @@ function funcIconClick22leftdown3(event) {
     if (!event.target.closest('#path-2-2-left-down-3')) {
         iconClickText22leftdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22225')) {
+        iconClickPath22leftdown3.classList.add('сlickToChangeColor');
+        iconClickText22leftdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22225')) {
+        iconClickText22leftdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftdown3.removeEventListener("click", funcIconClick22leftdown3);
 }
 document.addEventListener("click", funcIconClick22leftdown3);
 
 const iconClickPath22leftdown6 = document.getElementById('path-2-2-left-down-6');
 const iconClickText22leftdown6 = document.getElementById('text-2-2-left-down-6');
+const iconClickText22leftdown6desc = document.getElementById('desc2224');
 function funcIconClick22leftdown6(event) {
     if (event.target.closest('#path-2-2-left-down-6')) {
         iconClickPath22leftdown6.classList.add('сlickToChangeColor');
+        iconClickText22leftdown6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-down-6')) {
         iconClickPath22leftdown6.classList.remove('сlickToChangeColor');
+        iconClickText22leftdown6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-down-6')) {
         iconClickText22leftdown6.classList.add('сlickToChangeTextColor');
@@ -9564,18 +10916,48 @@ function funcIconClick22leftdown6(event) {
     if (!event.target.closest('#path-2-2-left-down-6')) {
         iconClickText22leftdown6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22224')) {
+        iconClickPath22leftdown6.classList.add('сlickToChangeColor');
+        iconClickText22leftdown6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22224')) {
+        iconClickText22leftdown6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftdown6.removeEventListener("click", funcIconClick22leftdown6);
 }
 document.addEventListener("click", funcIconClick22leftdown6);
 
 const iconClickPath22leftdown7 = document.getElementById('path-2-2-left-down-7');
 const iconClickText22leftdown7 = document.getElementById('text-2-2-left-down-7');
+const iconClickText22leftdown7desc = document.getElementById('desc2223');
 function funcIconClick22leftdown7(event) {
     if (event.target.closest('#path-2-2-left-down-7')) {
         iconClickPath22leftdown7.classList.add('сlickToChangeColor');
+        iconClickText22leftdown7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-down-7')) {
         iconClickPath22leftdown7.classList.remove('сlickToChangeColor');
+        iconClickText22leftdown7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-down-7')) {
         iconClickText22leftdown7.classList.add('сlickToChangeTextColor');
@@ -9583,18 +10965,48 @@ function funcIconClick22leftdown7(event) {
     if (!event.target.closest('#path-2-2-left-down-7')) {
         iconClickText22leftdown7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22223')) {
+        iconClickPath22leftdown7.classList.add('сlickToChangeColor');
+        iconClickText22leftdown7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22223')) {
+        iconClickText22leftdown7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftdown7.removeEventListener("click", funcIconClick22leftdown7);
 }
 document.addEventListener("click", funcIconClick22leftdown7);
 
 const iconClickPath22leftdown8 = document.getElementById('path-2-2-left-down-8');
 const iconClickText22leftdown8 = document.getElementById('text-2-2-left-down-8');
+const iconClickText22leftdown8desc = document.getElementById('desc2222');
 function funcIconClick22leftdown8(event) {
     if (event.target.closest('#path-2-2-left-down-8')) {
         iconClickPath22leftdown8.classList.add('сlickToChangeColor');
+        iconClickText22leftdown8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-left-down-8')) {
         iconClickPath22leftdown8.classList.remove('сlickToChangeColor');
+        iconClickText22leftdown8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-left-down-8')) {
         iconClickText22leftdown8.classList.add('сlickToChangeTextColor');
@@ -9602,19 +11014,48 @@ function funcIconClick22leftdown8(event) {
     if (!event.target.closest('#path-2-2-left-down-8')) {
         iconClickText22leftdown8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22222')) {
+        iconClickPath22leftdown8.classList.add('сlickToChangeColor');
+        iconClickText22leftdown8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22222')) {
+        iconClickText22leftdown8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22leftdown8.removeEventListener("click", funcIconClick22leftdown8);
 }
 document.addEventListener("click", funcIconClick22leftdown8);
 
-// building2floor2 - right-down
 const iconClickPath22rightdown1 = document.getElementById('path-2-2-right-down-1');
 const iconClickText22rightdown1 = document.getElementById('text-2-2-right-down-1');
+const iconClickText22rightdown1desc = document.getElementById('desc2221a');
 function funcIconClick22rightdown1(event) {
     if (event.target.closest('#path-2-2-right-down-1')) {
         iconClickPath22rightdown1.classList.add('сlickToChangeColor');
+        iconClickText22rightdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-down-1')) {
         iconClickPath22rightdown1.classList.remove('сlickToChangeColor');
+        iconClickText22rightdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-down-1')) {
         iconClickText22rightdown1.classList.add('сlickToChangeTextColor');
@@ -9622,18 +11063,48 @@ function funcIconClick22rightdown1(event) {
     if (!event.target.closest('#path-2-2-right-down-1')) {
         iconClickText22rightdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22221a')) {
+        iconClickPath22rightdown1.classList.add('сlickToChangeColor');
+        iconClickText22rightdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22221a')) {
+        iconClickText22rightdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightdown1.removeEventListener("click", funcIconClick22rightdown1);
 }
 document.addEventListener("click", funcIconClick22rightdown1);
 
 const iconClickPath22rightdown2 = document.getElementById('path-2-2-right-down-2');
 const iconClickText22rightdown2 = document.getElementById('text-2-2-right-down-2');
+const iconClickText22rightdown2desc = document.getElementById('desc2221');
 function funcIconClick22rightdown2(event) {
     if (event.target.closest('#path-2-2-right-down-2')) {
         iconClickPath22rightdown2.classList.add('сlickToChangeColor');
+        iconClickText22rightdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-down-2')) {
         iconClickPath22rightdown2.classList.remove('сlickToChangeColor');
+        iconClickText22rightdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-down-2')) {
         iconClickText22rightdown2.classList.add('сlickToChangeTextColor');
@@ -9641,18 +11112,48 @@ function funcIconClick22rightdown2(event) {
     if (!event.target.closest('#path-2-2-right-down-2')) {
         iconClickText22rightdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22221')) {
+        iconClickPath22rightdown2.classList.add('сlickToChangeColor');
+        iconClickText22rightdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22221')) {
+        iconClickText22rightdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightdown2.removeEventListener("click", funcIconClick22rightdown2);
 }
 document.addEventListener("click", funcIconClick22rightdown2);
 
 const iconClickPath22rightdown3 = document.getElementById('path-2-2-right-down-3');
 const iconClickText22rightdown3 = document.getElementById('text-2-2-right-down-3');
+const iconClickText22rightdown3desc = document.getElementById('desc2220');
 function funcIconClick22rightdown3(event) {
     if (event.target.closest('#path-2-2-right-down-3')) {
         iconClickPath22rightdown3.classList.add('сlickToChangeColor');
+        iconClickText22rightdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-down-3')) {
         iconClickPath22rightdown3.classList.remove('сlickToChangeColor');
+        iconClickText22rightdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-down-3')) {
         iconClickText22rightdown3.classList.add('сlickToChangeTextColor');
@@ -9660,18 +11161,48 @@ function funcIconClick22rightdown3(event) {
     if (!event.target.closest('#path-2-2-right-down-3')) {
         iconClickText22rightdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22220')) {
+        iconClickPath22rightdown3.classList.add('сlickToChangeColor');
+        iconClickText22rightdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22220')) {
+        iconClickText22rightdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightdown3.removeEventListener("click", funcIconClick22rightdown3);
 }
 document.addEventListener("click", funcIconClick22rightdown3);
 
 const iconClickPath22rightdown4 = document.getElementById('path-2-2-right-down-4');
 const iconClickText22rightdown4 = document.getElementById('text-2-2-right-down-4');
+const iconClickText22rightdown4desc = document.getElementById('desc2219');
 function funcIconClick22rightdown4(event) {
     if (event.target.closest('#path-2-2-right-down-4')) {
         iconClickPath22rightdown4.classList.add('сlickToChangeColor');
+        iconClickText22rightdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-down-4')) {
         iconClickPath22rightdown4.classList.remove('сlickToChangeColor');
+        iconClickText22rightdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-down-4')) {
         iconClickText22rightdown4.classList.add('сlickToChangeTextColor');
@@ -9679,18 +11210,48 @@ function funcIconClick22rightdown4(event) {
     if (!event.target.closest('#path-2-2-right-down-4')) {
         iconClickText22rightdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22219')) {
+        iconClickPath22rightdown4.classList.add('сlickToChangeColor');
+        iconClickText22rightdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22219')) {
+        iconClickText22rightdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightdown4.removeEventListener("click", funcIconClick22rightdown4);
 }
 document.addEventListener("click", funcIconClick22rightdown4);
 
 const iconClickPath22rightdown5 = document.getElementById('path-2-2-right-down-5');
 const iconClickText22rightdown5 = document.getElementById('text-2-2-right-down-5');
+const iconClickText22rightdown5desc = document.getElementById('desc2218');
 function funcIconClick22rightdown5(event) {
     if (event.target.closest('#path-2-2-right-down-5')) {
         iconClickPath22rightdown5.classList.add('сlickToChangeColor');
+        iconClickText22rightdown5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-2-right-down-5')) {
         iconClickPath22rightdown5.classList.remove('сlickToChangeColor');
+        iconClickText22rightdown5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-2-right-down-5')) {
         iconClickText22rightdown5.classList.add('сlickToChangeTextColor');
@@ -9698,36 +11259,98 @@ function funcIconClick22rightdown5(event) {
     if (!event.target.closest('#path-2-2-right-down-5')) {
         iconClickText22rightdown5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-22218')) {
+        iconClickPath22rightdown5.classList.add('сlickToChangeColor');
+        iconClickText22rightdown5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22218')) {
+        iconClickText22rightdown5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath22rightdown5.removeEventListener("click", funcIconClick22rightdown5);
 }
 document.addEventListener("click", funcIconClick22rightdown5);
 
+const iconClickPath2217 = document.getElementById('path-2-217');
+const iconClickText2217 = document.getElementById('text-2-217');
+const iconClickText2217desc = document.getElementById('desc2217');
+function funcIconClick2217(event) {
+    if (event.target.closest('#path-2-217')) {
+        iconClickPath2217.classList.add('сlickToChangeColor');
+        iconClickText2217desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-217')) {
+        iconClickPath2217.classList.remove('сlickToChangeColor');
+        iconClickText2217desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-217')) {
+        iconClickText2217.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-217')) {
+        iconClickText2217.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-22217')) {
+        iconClickPath2217.classList.add('сlickToChangeColor');
+        iconClickText2217desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'block';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.add("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-22217')) {
+        iconClickText2217.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2217.removeEventListener("click", funcIconClick2217);
+}
+document.addEventListener("click", funcIconClick2217);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// building2floor3
-// building2floor3 - left-up
+// building2floor3 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 const iconClickPath23leftup1 = document.getElementById('path-2-3-left-up-1');
 const iconClickText23leftup1 = document.getElementById('text-2-3-left-up-1');
+const iconClickText23leftup1desc = document.getElementById('desc2300');
 function funcIconClick23leftup1(event) {
     if (event.target.closest('#path-2-3-left-up-1')) {
         iconClickPath23leftup1.classList.add('сlickToChangeColor');
+        iconClickText23leftup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-1')) {
         iconClickPath23leftup1.classList.remove('сlickToChangeColor');
+        iconClickText23leftup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-1')) {
         iconClickText23leftup1.classList.add('сlickToChangeTextColor');
@@ -9735,18 +11358,48 @@ function funcIconClick23leftup1(event) {
     if (!event.target.closest('#path-2-3-left-up-1')) {
         iconClickText23leftup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23300')) {
+        iconClickPath23leftup1.classList.add('сlickToChangeColor');
+        iconClickText23leftup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23300')) {
+        iconClickText23leftup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup1.removeEventListener("click", funcIconClick23leftup1);
 }
 document.addEventListener("click", funcIconClick23leftup1);
 
 const iconClickPath23leftup2 = document.getElementById('path-2-3-left-up-2');
 const iconClickText23leftup2 = document.getElementById('text-2-3-left-up-2');
+const iconClickText23leftup2desc = document.getElementById('desc2301a');
 function funcIconClick23leftup2(event) {
     if (event.target.closest('#path-2-3-left-up-2')) {
         iconClickPath23leftup2.classList.add('сlickToChangeColor');
+        iconClickText23leftup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-2')) {
         iconClickPath23leftup2.classList.remove('сlickToChangeColor');
+        iconClickText23leftup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-2')) {
         iconClickText23leftup2.classList.add('сlickToChangeTextColor');
@@ -9754,18 +11407,48 @@ function funcIconClick23leftup2(event) {
     if (!event.target.closest('#path-2-3-left-up-2')) {
         iconClickText23leftup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23301a')) {
+        iconClickPath23leftup2.classList.add('сlickToChangeColor');
+        iconClickText23leftup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23301a')) {
+        iconClickText23leftup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup2.removeEventListener("click", funcIconClick23leftup2);
 }
 document.addEventListener("click", funcIconClick23leftup2);
 
 const iconClickPath23leftup3 = document.getElementById('path-2-3-left-up-3');
 const iconClickText23leftup3 = document.getElementById('text-2-3-left-up-3');
+const iconClickText23leftup3desc = document.getElementById('desc2301');
 function funcIconClick23leftup3(event) {
     if (event.target.closest('#path-2-3-left-up-3')) {
         iconClickPath23leftup3.classList.add('сlickToChangeColor');
+        iconClickText23leftup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-3')) {
         iconClickPath23leftup3.classList.remove('сlickToChangeColor');
+        iconClickText23leftup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-3')) {
         iconClickText23leftup3.classList.add('сlickToChangeTextColor');
@@ -9773,44 +11456,48 @@ function funcIconClick23leftup3(event) {
     if (!event.target.closest('#path-2-3-left-up-3')) {
         iconClickText23leftup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23301')) {
+        iconClickPath23leftup3.classList.add('сlickToChangeColor');
+        iconClickText23leftup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23301')) {
+        iconClickText23leftup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup3.removeEventListener("click", funcIconClick23leftup3);
 }
 document.addEventListener("click", funcIconClick23leftup3);
 
-const iconClickPath23leftup4 = document.getElementById('path-2-3-left-up-4');
-const iconClickText23leftup4 = document.getElementById('text-2-3-left-up-4');
-const iconClickText23leftup41 = document.getElementById('text-2-3-left-up-4-1');
-function funcIconClick23leftup4(event) {
-    if (event.target.closest('#path-2-3-left-up-4')) {
-        iconClickPath23leftup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-3-left-up-4')) {
-        iconClickPath23leftup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-3-left-up-4')) {
-        iconClickText23leftup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-3-left-up-4')) {
-        iconClickText23leftup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-3-left-up-4')) {
-        iconClickText23leftup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-3-left-up-4')) {
-        iconClickText23leftup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath23leftup4.removeEventListener("click", funcIconClick23leftup4);
-}
-document.addEventListener("click", funcIconClick23leftup4);
-
 const iconClickPath23leftup5 = document.getElementById('path-2-3-left-up-5');
 const iconClickText23leftup5 = document.getElementById('text-2-3-left-up-5');
+const iconClickText23leftup5desc = document.getElementById('desc2302');
 function funcIconClick23leftup5(event) {
     if (event.target.closest('#path-2-3-left-up-5')) {
         iconClickPath23leftup5.classList.add('сlickToChangeColor');
+        iconClickText23leftup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-5')) {
         iconClickPath23leftup5.classList.remove('сlickToChangeColor');
+        iconClickText23leftup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-5')) {
         iconClickText23leftup5.classList.add('сlickToChangeTextColor');
@@ -9818,18 +11505,48 @@ function funcIconClick23leftup5(event) {
     if (!event.target.closest('#path-2-3-left-up-5')) {
         iconClickText23leftup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23302')) {
+        iconClickPath23leftup5.classList.add('сlickToChangeColor');
+        iconClickText23leftup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23302')) {
+        iconClickText23leftup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup5.removeEventListener("click", funcIconClick23leftup5);
 }
 document.addEventListener("click", funcIconClick23leftup5);
 
 const iconClickPath23leftup6 = document.getElementById('path-2-3-left-up-6');
 const iconClickText23leftup6 = document.getElementById('text-2-3-left-up-6');
+const iconClickText23leftup6desc = document.getElementById('desc2303');
 function funcIconClick23leftup6(event) {
     if (event.target.closest('#path-2-3-left-up-6')) {
         iconClickPath23leftup6.classList.add('сlickToChangeColor');
+        iconClickText23leftup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-6')) {
         iconClickPath23leftup6.classList.remove('сlickToChangeColor');
+        iconClickText23leftup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-6')) {
         iconClickText23leftup6.classList.add('сlickToChangeTextColor');
@@ -9837,18 +11554,48 @@ function funcIconClick23leftup6(event) {
     if (!event.target.closest('#path-2-3-left-up-6')) {
         iconClickText23leftup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23303')) {
+        iconClickPath23leftup6.classList.add('сlickToChangeColor');
+        iconClickText23leftup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23303')) {
+        iconClickText23leftup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup6.removeEventListener("click", funcIconClick23leftup6);
 }
 document.addEventListener("click", funcIconClick23leftup6);
 
 const iconClickPath23leftup7 = document.getElementById('path-2-3-left-up-7');
 const iconClickText23leftup7 = document.getElementById('text-2-3-left-up-7');
+const iconClickText23leftup7desc = document.getElementById('desc2304');
 function funcIconClick23leftup7(event) {
     if (event.target.closest('#path-2-3-left-up-7')) {
         iconClickPath23leftup7.classList.add('сlickToChangeColor');
+        iconClickText23leftup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-7')) {
         iconClickPath23leftup7.classList.remove('сlickToChangeColor');
+        iconClickText23leftup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-7')) {
         iconClickText23leftup7.classList.add('сlickToChangeTextColor');
@@ -9856,18 +11603,48 @@ function funcIconClick23leftup7(event) {
     if (!event.target.closest('#path-2-3-left-up-7')) {
         iconClickText23leftup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23304')) {
+        iconClickPath23leftup7.classList.add('сlickToChangeColor');
+        iconClickText23leftup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23304')) {
+        iconClickText23leftup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup7.removeEventListener("click", funcIconClick23leftup7);
 }
 document.addEventListener("click", funcIconClick23leftup7);
 
 const iconClickPath23leftup8 = document.getElementById('path-2-3-left-up-8');
 const iconClickText23leftup8 = document.getElementById('text-2-3-left-up-8');
+const iconClickText23leftup8desc = document.getElementById('desc2306');
 function funcIconClick23leftup8(event) {
     if (event.target.closest('#path-2-3-left-up-8')) {
         iconClickPath23leftup8.classList.add('сlickToChangeColor');
+        iconClickText23leftup8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-up-8')) {
         iconClickPath23leftup8.classList.remove('сlickToChangeColor');
+        iconClickText23leftup8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-up-8')) {
         iconClickText23leftup8.classList.add('сlickToChangeTextColor');
@@ -9875,19 +11652,48 @@ function funcIconClick23leftup8(event) {
     if (!event.target.closest('#path-2-3-left-up-8')) {
         iconClickText23leftup8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23306')) {
+        iconClickPath23leftup8.classList.add('сlickToChangeColor');
+        iconClickText23leftup8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23306')) {
+        iconClickText23leftup8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftup8.removeEventListener("click", funcIconClick23leftup8);
 }
 document.addEventListener("click", funcIconClick23leftup8);
 
-// building2floor3 - right-up
 const iconClickPath23rightup1 = document.getElementById('path-2-3-right-up-1');
 const iconClickText23rightup1 = document.getElementById('text-2-3-right-up-1');
+const iconClickText23rightup1desc = document.getElementById('desc2307');
 function funcIconClick23rightup1(event) {
     if (event.target.closest('#path-2-3-right-up-1')) {
         iconClickPath23rightup1.classList.add('сlickToChangeColor');
+        iconClickText23rightup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-up-1')) {
         iconClickPath23rightup1.classList.remove('сlickToChangeColor');
+        iconClickText23rightup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-up-1')) {
         iconClickText23rightup1.classList.add('сlickToChangeTextColor');
@@ -9895,18 +11701,48 @@ function funcIconClick23rightup1(event) {
     if (!event.target.closest('#path-2-3-right-up-1')) {
         iconClickText23rightup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23307')) {
+        iconClickPath23rightup1.classList.add('сlickToChangeColor');
+        iconClickText23rightup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23307')) {
+        iconClickText23rightup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightup1.removeEventListener("click", funcIconClick23rightup1);
 }
 document.addEventListener("click", funcIconClick23rightup1);
 
 const iconClickPath23rightup2 = document.getElementById('path-2-3-right-up-2');
 const iconClickText23rightup2 = document.getElementById('text-2-3-right-up-2');
+const iconClickText23rightup2desc = document.getElementById('desc2308');
 function funcIconClick23rightup2(event) {
     if (event.target.closest('#path-2-3-right-up-2')) {
         iconClickPath23rightup2.classList.add('сlickToChangeColor');
+        iconClickText23rightup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-up-2')) {
         iconClickPath23rightup2.classList.remove('сlickToChangeColor');
+        iconClickText23rightup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-up-2')) {
         iconClickText23rightup2.classList.add('сlickToChangeTextColor');
@@ -9914,18 +11750,48 @@ function funcIconClick23rightup2(event) {
     if (!event.target.closest('#path-2-3-right-up-2')) {
         iconClickText23rightup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23308')) {
+        iconClickPath23rightup2.classList.add('сlickToChangeColor');
+        iconClickText23rightup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23308')) {
+        iconClickText23rightup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightup2.removeEventListener("click", funcIconClick23rightup2);
 }
 document.addEventListener("click", funcIconClick23rightup2);
 
 const iconClickPath23rightup3 = document.getElementById('path-2-3-right-up-3');
 const iconClickText23rightup3 = document.getElementById('text-2-3-right-up-3');
+const iconClickText23rightup3desc = document.getElementById('desc2309');
 function funcIconClick23rightup3(event) {
     if (event.target.closest('#path-2-3-right-up-3')) {
         iconClickPath23rightup3.classList.add('сlickToChangeColor');
+        iconClickText23rightup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-up-3')) {
         iconClickPath23rightup3.classList.remove('сlickToChangeColor');
+        iconClickText23rightup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-up-3')) {
         iconClickText23rightup3.classList.add('сlickToChangeTextColor');
@@ -9933,44 +11799,48 @@ function funcIconClick23rightup3(event) {
     if (!event.target.closest('#path-2-3-right-up-3')) {
         iconClickText23rightup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23309')) {
+        iconClickPath23rightup3.classList.add('сlickToChangeColor');
+        iconClickText23rightup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23309')) {
+        iconClickText23rightup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightup3.removeEventListener("click", funcIconClick23rightup3);
 }
 document.addEventListener("click", funcIconClick23rightup3);
 
-const iconClickPath23rightup4 = document.getElementById('path-2-3-right-up-4');
-const iconClickText23rightup4 = document.getElementById('text-2-3-right-up-4');
-const iconClickText23rightup41 = document.getElementById('text-2-3-right-up-4-1');
-function funcIconClick23rightup4(event) {
-    if (event.target.closest('#path-2-3-right-up-4')) {
-        iconClickPath23rightup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-3-right-up-4')) {
-        iconClickPath23rightup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-3-right-up-4')) {
-        iconClickText23rightup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-3-right-up-4')) {
-        iconClickText23rightup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-3-right-up-4')) {
-        iconClickText23rightup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-3-right-up-4')) {
-        iconClickText23rightup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath23rightup4.removeEventListener("click", funcIconClick23rightup4);
-}
-document.addEventListener("click", funcIconClick23rightup4);
-
 const iconClickPath23rightup5 = document.getElementById('path-2-3-right-up-5');
 const iconClickText23rightup5 = document.getElementById('text-2-3-right-up-5');
+const iconClickText23rightup5desc = document.getElementById('desc2310');
 function funcIconClick23rightup5(event) {
     if (event.target.closest('#path-2-3-right-up-5')) {
         iconClickPath23rightup5.classList.add('сlickToChangeColor');
+        iconClickText23rightup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-up-5')) {
         iconClickPath23rightup5.classList.remove('сlickToChangeColor');
+        iconClickText23rightup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-up-5')) {
         iconClickText23rightup5.classList.add('сlickToChangeTextColor');
@@ -9978,18 +11848,48 @@ function funcIconClick23rightup5(event) {
     if (!event.target.closest('#path-2-3-right-up-5')) {
         iconClickText23rightup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23310')) {
+        iconClickPath23rightup5.classList.add('сlickToChangeColor');
+        iconClickText23rightup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23310')) {
+        iconClickText23rightup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightup5.removeEventListener("click", funcIconClick23rightup5);
 }
 document.addEventListener("click", funcIconClick23rightup5);
 
 const iconClickPath23rightup7 = document.getElementById('path-2-3-right-up-7');
 const iconClickText23rightup7 = document.getElementById('text-2-3-right-up-7');
+const iconClickText23rightup7desc = document.getElementById('desc2311');
 function funcIconClick23rightup7(event) {
     if (event.target.closest('#path-2-3-right-up-7')) {
         iconClickPath23rightup7.classList.add('сlickToChangeColor');
+        iconClickText23rightup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-up-7')) {
         iconClickPath23rightup7.classList.remove('сlickToChangeColor');
+        iconClickText23rightup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-up-7')) {
         iconClickText23rightup7.classList.add('сlickToChangeTextColor');
@@ -9997,19 +11897,48 @@ function funcIconClick23rightup7(event) {
     if (!event.target.closest('#path-2-3-right-up-7')) {
         iconClickText23rightup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23311')) {
+        iconClickPath23rightup7.classList.add('сlickToChangeColor');
+        iconClickText23rightup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23311')) {
+        iconClickText23rightup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightup7.removeEventListener("click", funcIconClick23rightup7);
 }
 document.addEventListener("click", funcIconClick23rightup7);
 
-// building2floor3 - left-down
 const iconClickPath23leftdown1 = document.getElementById('path-2-3-left-down-1');
 const iconClickText23leftdown1 = document.getElementById('text-2-3-left-down-1');
+const iconClickText23leftdown1desc = document.getElementById('desc2331');
 function funcIconClick23leftdown1(event) {
     if (event.target.closest('#path-2-3-left-down-1')) {
         iconClickPath23leftdown1.classList.add('сlickToChangeColor');
+        iconClickText23leftdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-1')) {
         iconClickPath23leftdown1.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-1')) {
         iconClickText23leftdown1.classList.add('сlickToChangeTextColor');
@@ -10017,18 +11946,48 @@ function funcIconClick23leftdown1(event) {
     if (!event.target.closest('#path-2-3-left-down-1')) {
         iconClickText23leftdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23331')) {
+        iconClickPath23leftdown1.classList.add('сlickToChangeColor');
+        iconClickText23leftdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23331')) {
+        iconClickText23leftdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown1.removeEventListener("click", funcIconClick23leftdown1);
 }
 document.addEventListener("click", funcIconClick23leftdown1);
 
 const iconClickPath23leftdown2 = document.getElementById('path-2-3-left-down-2');
 const iconClickText23leftdown2 = document.getElementById('text-2-3-left-down-2');
+const iconClickText23leftdown2desc = document.getElementById('desc2330a');
 function funcIconClick23leftdown2(event) {
     if (event.target.closest('#path-2-3-left-down-2')) {
         iconClickPath23leftdown2.classList.add('сlickToChangeColor');
+        iconClickText23leftdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-2')) {
         iconClickPath23leftdown2.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-2')) {
         iconClickText23leftdown2.classList.add('сlickToChangeTextColor');
@@ -10036,18 +11995,97 @@ function funcIconClick23leftdown2(event) {
     if (!event.target.closest('#path-2-3-left-down-2')) {
         iconClickText23leftdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23330a')) {
+        iconClickPath23leftdown2.classList.add('сlickToChangeColor');
+        iconClickText23leftdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23330a')) {
+        iconClickText23leftdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown2.removeEventListener("click", funcIconClick23leftdown2);
 }
 document.addEventListener("click", funcIconClick23leftdown2);
 
+const iconClickPath2330 = document.getElementById('path-2-330');
+const iconClickText2330 = document.getElementById('text-2-330');
+const iconClickText2330desc = document.getElementById('desc2330');
+function funcIconClick2330(event) {
+    if (event.target.closest('#path-2-330')) {
+        iconClickPath2330.classList.add('сlickToChangeColor');
+        iconClickText2330desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-330')) {
+        iconClickPath2330.classList.remove('сlickToChangeColor');
+        iconClickText2330desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-330')) {
+        iconClickText2330.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-330')) {
+        iconClickText2330.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-23330')) {
+        iconClickPath2330.classList.add('сlickToChangeColor');
+        iconClickText2330desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23330')) {
+        iconClickText2330.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2330.removeEventListener("click", funcIconClick2330);
+}
+document.addEventListener("click", funcIconClick2330);
+
 const iconClickPath23leftdown3 = document.getElementById('path-2-3-left-down-3');
 const iconClickText23leftdown3 = document.getElementById('text-2-3-left-down-3');
+const iconClickText23leftdown3desc = document.getElementById('desc2329a');
 function funcIconClick23leftdown3(event) {
     if (event.target.closest('#path-2-3-left-down-3')) {
         iconClickPath23leftdown3.classList.add('сlickToChangeColor');
+        iconClickText23leftdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-3')) {
         iconClickPath23leftdown3.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-3')) {
         iconClickText23leftdown3.classList.add('сlickToChangeTextColor');
@@ -10055,18 +12093,48 @@ function funcIconClick23leftdown3(event) {
     if (!event.target.closest('#path-2-3-left-down-3')) {
         iconClickText23leftdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23329a')) {
+        iconClickPath23leftdown3.classList.add('сlickToChangeColor');
+        iconClickText23leftdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23329a')) {
+        iconClickText23leftdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown3.removeEventListener("click", funcIconClick23leftdown3);
 }
 document.addEventListener("click", funcIconClick23leftdown3);
 
 const iconClickPath23leftdown4 = document.getElementById('path-2-3-left-down-4');
 const iconClickText23leftdown4 = document.getElementById('text-2-3-left-down-4');
+const iconClickText23leftdown4desc = document.getElementById('desc2329');
 function funcIconClick23leftdown4(event) {
     if (event.target.closest('#path-2-3-left-down-4')) {
         iconClickPath23leftdown4.classList.add('сlickToChangeColor');
+        iconClickText23leftdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-4')) {
         iconClickPath23leftdown4.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-4')) {
         iconClickText23leftdown4.classList.add('сlickToChangeTextColor');
@@ -10074,18 +12142,48 @@ function funcIconClick23leftdown4(event) {
     if (!event.target.closest('#path-2-3-left-down-4')) {
         iconClickText23leftdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23329')) {
+        iconClickPath23leftdown4.classList.add('сlickToChangeColor');
+        iconClickText23leftdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23329')) {
+        iconClickText23leftdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown4.removeEventListener("click", funcIconClick23leftdown4);
 }
 document.addEventListener("click", funcIconClick23leftdown4);
 
 const iconClickPath23leftdown5 = document.getElementById('path-2-3-left-down-5');
 const iconClickText23leftdown5 = document.getElementById('text-2-3-left-down-5');
+const iconClickText23leftdown5desc = document.getElementById('desc2328');
 function funcIconClick23leftdown5(event) {
     if (event.target.closest('#path-2-3-left-down-5')) {
         iconClickPath23leftdown5.classList.add('сlickToChangeColor');
+        iconClickText23leftdown5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-5')) {
         iconClickPath23leftdown5.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-5')) {
         iconClickText23leftdown5.classList.add('сlickToChangeTextColor');
@@ -10093,18 +12191,48 @@ function funcIconClick23leftdown5(event) {
     if (!event.target.closest('#path-2-3-left-down-5')) {
         iconClickText23leftdown5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23328')) {
+        iconClickPath23leftdown5.classList.add('сlickToChangeColor');
+        iconClickText23leftdown5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23328')) {
+        iconClickText23leftdown5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown5.removeEventListener("click", funcIconClick23leftdown5);
 }
 document.addEventListener("click", funcIconClick23leftdown5);
 
 const iconClickPath23leftdown6 = document.getElementById('path-2-3-left-down-6');
 const iconClickText23leftdown6 = document.getElementById('text-2-3-left-down-6');
+const iconClickText23leftdown6desc = document.getElementById('desc2327');
 function funcIconClick23leftdown6(event) {
     if (event.target.closest('#path-2-3-left-down-6')) {
         iconClickPath23leftdown6.classList.add('сlickToChangeColor');
+        iconClickText23leftdown6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-6')) {
         iconClickPath23leftdown6.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-6')) {
         iconClickText23leftdown6.classList.add('сlickToChangeTextColor');
@@ -10112,18 +12240,48 @@ function funcIconClick23leftdown6(event) {
     if (!event.target.closest('#path-2-3-left-down-6')) {
         iconClickText23leftdown6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23327')) {
+        iconClickPath23leftdown6.classList.add('сlickToChangeColor');
+        iconClickText23leftdown6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23327')) {
+        iconClickText23leftdown6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown6.removeEventListener("click", funcIconClick23leftdown6);
 }
 document.addEventListener("click", funcIconClick23leftdown6);
 
 const iconClickPath23leftdown7 = document.getElementById('path-2-3-left-down-7');
 const iconClickText23leftdown7 = document.getElementById('text-2-3-left-down-7');
+const iconClickText23leftdown7desc = document.getElementById('desc2326');
 function funcIconClick23leftdown7(event) {
     if (event.target.closest('#path-2-3-left-down-7')) {
         iconClickPath23leftdown7.classList.add('сlickToChangeColor');
+        iconClickText23leftdown7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-left-down-7')) {
         iconClickPath23leftdown7.classList.remove('сlickToChangeColor');
+        iconClickText23leftdown7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-left-down-7')) {
         iconClickText23leftdown7.classList.add('сlickToChangeTextColor');
@@ -10131,19 +12289,48 @@ function funcIconClick23leftdown7(event) {
     if (!event.target.closest('#path-2-3-left-down-7')) {
         iconClickText23leftdown7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23326')) {
+        iconClickPath23leftdown7.classList.add('сlickToChangeColor');
+        iconClickText23leftdown7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23326')) {
+        iconClickText23leftdown7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23leftdown7.removeEventListener("click", funcIconClick23leftdown7);
 }
 document.addEventListener("click", funcIconClick23leftdown7);
 
-// building2floor3 - right-down
 const iconClickPath23rightdown1 = document.getElementById('path-2-3-right-down-1');
 const iconClickText23rightdown1 = document.getElementById('text-2-3-right-down-1');
+const iconClickText23rightdown1desc = document.getElementById('desc2315');
 function funcIconClick23rightdown1(event) {
     if (event.target.closest('#path-2-3-right-down-1')) {
         iconClickPath23rightdown1.classList.add('сlickToChangeColor');
+        iconClickText23rightdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-down-1')) {
         iconClickPath23rightdown1.classList.remove('сlickToChangeColor');
+        iconClickText23rightdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-down-1')) {
         iconClickText23rightdown1.classList.add('сlickToChangeTextColor');
@@ -10151,18 +12338,48 @@ function funcIconClick23rightdown1(event) {
     if (!event.target.closest('#path-2-3-right-down-1')) {
         iconClickText23rightdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23315')) {
+        iconClickPath23rightdown1.classList.add('сlickToChangeColor');
+        iconClickText23rightdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23315')) {
+        iconClickText23rightdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightdown1.removeEventListener("click", funcIconClick23rightdown1);
 }
 document.addEventListener("click", funcIconClick23rightdown1);
 
 const iconClickPath23rightdown2 = document.getElementById('path-2-3-right-down-2');
 const iconClickText23rightdown2 = document.getElementById('text-2-3-right-down-2');
+const iconClickText23rightdown2desc = document.getElementById('desc2314');
 function funcIconClick23rightdown2(event) {
     if (event.target.closest('#path-2-3-right-down-2')) {
         iconClickPath23rightdown2.classList.add('сlickToChangeColor');
+        iconClickText23rightdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-down-2')) {
         iconClickPath23rightdown2.classList.remove('сlickToChangeColor');
+        iconClickText23rightdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-down-2')) {
         iconClickText23rightdown2.classList.add('сlickToChangeTextColor');
@@ -10170,18 +12387,48 @@ function funcIconClick23rightdown2(event) {
     if (!event.target.closest('#path-2-3-right-down-2')) {
         iconClickText23rightdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23314')) {
+        iconClickPath23rightdown2.classList.add('сlickToChangeColor');
+        iconClickText23rightdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23314')) {
+        iconClickText23rightdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightdown2.removeEventListener("click", funcIconClick23rightdown2);
 }
 document.addEventListener("click", funcIconClick23rightdown2);
 
 const iconClickPath23rightdown3 = document.getElementById('path-2-3-right-down-3');
 const iconClickText23rightdown3 = document.getElementById('text-2-3-right-down-3');
+const iconClickText23rightdown3desc = document.getElementById('desc2312');
 function funcIconClick23rightdown3(event) {
     if (event.target.closest('#path-2-3-right-down-3')) {
         iconClickPath23rightdown3.classList.add('сlickToChangeColor');
+        iconClickText23rightdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-right-down-3')) {
         iconClickPath23rightdown3.classList.remove('сlickToChangeColor');
+        iconClickText23rightdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-right-down-3')) {
         iconClickText23rightdown3.classList.add('сlickToChangeTextColor');
@@ -10189,19 +12436,48 @@ function funcIconClick23rightdown3(event) {
     if (!event.target.closest('#path-2-3-right-down-3')) {
         iconClickText23rightdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23312')) {
+        iconClickPath23rightdown3.classList.add('сlickToChangeColor');
+        iconClickText23rightdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23312')) {
+        iconClickText23rightdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23rightdown3.removeEventListener("click", funcIconClick23rightdown3);
 }
 document.addEventListener("click", funcIconClick23rightdown3);
 
-// building2floor3 - straight-left
 const iconClickPath23straightleft1 = document.getElementById('path-2-3-straight-left-1');
 const iconClickText23straightleft1 = document.getElementById('text-2-3-straight-left-1');
+const iconClickText23straightleft1desc = document.getElementById('desc2325');
 function funcIconClick23straightleft1(event) {
     if (event.target.closest('#path-2-3-straight-left-1')) {
         iconClickPath23straightleft1.classList.add('сlickToChangeColor');
+        iconClickText23straightleft1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-left-1')) {
         iconClickPath23straightleft1.classList.remove('сlickToChangeColor');
+        iconClickText23straightleft1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-left-1')) {
         iconClickText23straightleft1.classList.add('сlickToChangeTextColor');
@@ -10209,18 +12485,48 @@ function funcIconClick23straightleft1(event) {
     if (!event.target.closest('#path-2-3-straight-left-1')) {
         iconClickText23straightleft1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23325')) {
+        iconClickPath23straightleft1.classList.add('сlickToChangeColor');
+        iconClickText23straightleft1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23325')) {
+        iconClickText23straightleft1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightleft1.removeEventListener("click", funcIconClick23straightleft1);
 }
 document.addEventListener("click", funcIconClick23straightleft1);
 
 const iconClickPath23straightleft2 = document.getElementById('path-2-3-straight-left-2');
 const iconClickText23straightleft2 = document.getElementById('text-2-3-straight-left-2');
+const iconClickText23straightleft2desc = document.getElementById('desc2324');
 function funcIconClick23straightleft2(event) {
     if (event.target.closest('#path-2-3-straight-left-2')) {
         iconClickPath23straightleft2.classList.add('сlickToChangeColor');
+        iconClickText23straightleft2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-left-2')) {
         iconClickPath23straightleft2.classList.remove('сlickToChangeColor');
+        iconClickText23straightleft2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-left-2')) {
         iconClickText23straightleft2.classList.add('сlickToChangeTextColor');
@@ -10228,18 +12534,48 @@ function funcIconClick23straightleft2(event) {
     if (!event.target.closest('#path-2-3-straight-left-2')) {
         iconClickText23straightleft2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23324')) {
+        iconClickPath23straightleft2.classList.add('сlickToChangeColor');
+        iconClickText23straightleft2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23324')) {
+        iconClickText23straightleft2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightleft2.removeEventListener("click", funcIconClick23straightleft2);
 }
 document.addEventListener("click", funcIconClick23straightleft2);
 
 const iconClickPath23straightleft3 = document.getElementById('path-2-3-straight-left-3');
 const iconClickText23straightleft3 = document.getElementById('text-2-3-straight-left-3');
+const iconClickText23straightleft3desc = document.getElementById('desc2323');
 function funcIconClick23straightleft3(event) {
     if (event.target.closest('#path-2-3-straight-left-3')) {
         iconClickPath23straightleft3.classList.add('сlickToChangeColor');
+        iconClickText23straightleft3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-left-3')) {
         iconClickPath23straightleft3.classList.remove('сlickToChangeColor');
+        iconClickText23straightleft3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-left-3')) {
         iconClickText23straightleft3.classList.add('сlickToChangeTextColor');
@@ -10247,18 +12583,48 @@ function funcIconClick23straightleft3(event) {
     if (!event.target.closest('#path-2-3-straight-left-3')) {
         iconClickText23straightleft3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23323')) {
+        iconClickPath23straightleft3.classList.add('сlickToChangeColor');
+        iconClickText23straightleft3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23323')) {
+        iconClickText23straightleft3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightleft3.removeEventListener("click", funcIconClick23straightleft3);
 }
 document.addEventListener("click", funcIconClick23straightleft3);
 
 const iconClickPath23straightleft4 = document.getElementById('path-2-3-straight-left-4');
 const iconClickText23straightleft4 = document.getElementById('text-2-3-straight-left-4');
+const iconClickText23straightleft4desc = document.getElementById('desc2322');
 function funcIconClick23straightleft4(event) {
     if (event.target.closest('#path-2-3-straight-left-4')) {
         iconClickPath23straightleft4.classList.add('сlickToChangeColor');
+        iconClickText23straightleft4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-left-4')) {
         iconClickPath23straightleft4.classList.remove('сlickToChangeColor');
+        iconClickText23straightleft4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-left-4')) {
         iconClickText23straightleft4.classList.add('сlickToChangeTextColor');
@@ -10266,18 +12632,48 @@ function funcIconClick23straightleft4(event) {
     if (!event.target.closest('#path-2-3-straight-left-4')) {
         iconClickText23straightleft4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23322')) {
+        iconClickPath23straightleft4.classList.add('сlickToChangeColor');
+        iconClickText23straightleft4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23322')) {
+        iconClickText23straightleft4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightleft4.removeEventListener("click", funcIconClick23straightleft4);
 }
 document.addEventListener("click", funcIconClick23straightleft4);
 
 const iconClickPath23straightleft5 = document.getElementById('path-2-3-straight-left-5');
 const iconClickText23straightleft5 = document.getElementById('text-2-3-straight-left-5');
+const iconClickText23straightleft5desc = document.getElementById('desc2321');
 function funcIconClick23straightleft5(event) {
     if (event.target.closest('#path-2-3-straight-left-5')) {
         iconClickPath23straightleft5.classList.add('сlickToChangeColor');
+        iconClickText23straightleft5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-left-5')) {
         iconClickPath23straightleft5.classList.remove('сlickToChangeColor');
+        iconClickText23straightleft5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-left-5')) {
         iconClickText23straightleft5.classList.add('сlickToChangeTextColor');
@@ -10285,19 +12681,48 @@ function funcIconClick23straightleft5(event) {
     if (!event.target.closest('#path-2-3-straight-left-5')) {
         iconClickText23straightleft5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23321')) {
+        iconClickPath23straightleft5.classList.add('сlickToChangeColor');
+        iconClickText23straightleft5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23321')) {
+        iconClickText23straightleft5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightleft5.removeEventListener("click", funcIconClick23straightleft5);
 }
 document.addEventListener("click", funcIconClick23straightleft5);
 
-// building2floor3 - straight-right
 const iconClickPath23straightright1 = document.getElementById('path-2-3-straight-right-1');
 const iconClickText23straightright1 = document.getElementById('text-2-3-straight-right-1');
+const iconClickText23straightright1desc = document.getElementById('desc2316');
 function funcIconClick23straightright1(event) {
     if (event.target.closest('#path-2-3-straight-right-1')) {
         iconClickPath23straightright1.classList.add('сlickToChangeColor');
+        iconClickText23straightright1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-right-1')) {
         iconClickPath23straightright1.classList.remove('сlickToChangeColor');
+        iconClickText23straightright1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-right-1')) {
         iconClickText23straightright1.classList.add('сlickToChangeTextColor');
@@ -10305,18 +12730,48 @@ function funcIconClick23straightright1(event) {
     if (!event.target.closest('#path-2-3-straight-right-1')) {
         iconClickText23straightright1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23316')) {
+        iconClickPath23straightright1.classList.add('сlickToChangeColor');
+        iconClickText23straightright1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23316')) {
+        iconClickText23straightright1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightright1.removeEventListener("click", funcIconClick23straightright1);
 }
 document.addEventListener("click", funcIconClick23straightright1);
 
 const iconClickPath23straightright3 = document.getElementById('path-2-3-straight-right-3');
 const iconClickText23straightright3 = document.getElementById('text-2-3-straight-right-3');
+const iconClickText23straightright3desc = document.getElementById('desc2317');
 function funcIconClick23straightright3(event) {
     if (event.target.closest('#path-2-3-straight-right-3')) {
         iconClickPath23straightright3.classList.add('сlickToChangeColor');
+        iconClickText23straightright3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-right-3')) {
         iconClickPath23straightright3.classList.remove('сlickToChangeColor');
+        iconClickText23straightright3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-right-3')) {
         iconClickText23straightright3.classList.add('сlickToChangeTextColor');
@@ -10324,18 +12779,48 @@ function funcIconClick23straightright3(event) {
     if (!event.target.closest('#path-2-3-straight-right-3')) {
         iconClickText23straightright3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23317')) {
+        iconClickPath23straightright3.classList.add('сlickToChangeColor');
+        iconClickText23straightright3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23317')) {
+        iconClickText23straightright3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightright3.removeEventListener("click", funcIconClick23straightright3);
 }
 document.addEventListener("click", funcIconClick23straightright3);
 
 const iconClickPath23straightright4 = document.getElementById('path-2-3-straight-right-4');
 const iconClickText23straightright4 = document.getElementById('text-2-3-straight-right-4');
+const iconClickText23straightright4desc = document.getElementById('desc2318');
 function funcIconClick23straightright4(event) {
     if (event.target.closest('#path-2-3-straight-right-4')) {
         iconClickPath23straightright4.classList.add('сlickToChangeColor');
+        iconClickText23straightright4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-right-4')) {
         iconClickPath23straightright4.classList.remove('сlickToChangeColor');
+        iconClickText23straightright4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-right-4')) {
         iconClickText23straightright4.classList.add('сlickToChangeTextColor');
@@ -10343,18 +12828,48 @@ function funcIconClick23straightright4(event) {
     if (!event.target.closest('#path-2-3-straight-right-4')) {
         iconClickText23straightright4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23318')) {
+        iconClickPath23straightright4.classList.add('сlickToChangeColor');
+        iconClickText23straightright4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23318')) {
+        iconClickText23straightright4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightright4.removeEventListener("click", funcIconClick23straightright4);
 }
 document.addEventListener("click", funcIconClick23straightright4);
 
 const iconClickPath23straightright5 = document.getElementById('path-2-3-straight-right-5');
 const iconClickText23straightright5 = document.getElementById('text-2-3-straight-right-5');
+const iconClickText23straightright5desc = document.getElementById('desc2319');
 function funcIconClick23straightright5(event) {
     if (event.target.closest('#path-2-3-straight-right-5')) {
         iconClickPath23straightright5.classList.add('сlickToChangeColor');
+        iconClickText23straightright5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-right-5')) {
         iconClickPath23straightright5.classList.remove('сlickToChangeColor');
+        iconClickText23straightright5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-right-5')) {
         iconClickText23straightright5.classList.add('сlickToChangeTextColor');
@@ -10362,18 +12877,48 @@ function funcIconClick23straightright5(event) {
     if (!event.target.closest('#path-2-3-straight-right-5')) {
         iconClickText23straightright5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23319')) {
+        iconClickPath23straightright5.classList.add('сlickToChangeColor');
+        iconClickText23straightright5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23319')) {
+        iconClickText23straightright5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightright5.removeEventListener("click", funcIconClick23straightright5);
 }
 document.addEventListener("click", funcIconClick23straightright5);
 
 const iconClickPath23straightright6 = document.getElementById('path-2-3-straight-right-6');
 const iconClickText23straightright6 = document.getElementById('text-2-3-straight-right-6');
+const iconClickText23straightright6desc = document.getElementById('desc2320');
 function funcIconClick23straightright6(event) {
     if (event.target.closest('#path-2-3-straight-right-6')) {
         iconClickPath23straightright6.classList.add('сlickToChangeColor');
+        iconClickText23straightright6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-3-straight-right-6')) {
         iconClickPath23straightright6.classList.remove('сlickToChangeColor');
+        iconClickText23straightright6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-3-straight-right-6')) {
         iconClickText23straightright6.classList.add('сlickToChangeTextColor');
@@ -10381,36 +12926,49 @@ function funcIconClick23straightright6(event) {
     if (!event.target.closest('#path-2-3-straight-right-6')) {
         iconClickText23straightright6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-23320')) {
+        iconClickPath23straightright6.classList.add('сlickToChangeColor');
+        iconClickText23straightright6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'block';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.add("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-23320')) {
+        iconClickText23straightright6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath23straightright6.removeEventListener("click", funcIconClick23straightright6);
 }
 document.addEventListener("click", funcIconClick23straightright6);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// building2floor4
-// building2floor4 - left-up
+// building2floor4 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 const iconClickPath24leftup1 = document.getElementById('path-2-4-left-up-1');
 const iconClickText24leftup1 = document.getElementById('text-2-4-left-up-1');
+const iconClickText24leftup1desc = document.getElementById('desc2400a');
 function funcIconClick24leftup1(event) {
     if (event.target.closest('#path-2-4-left-up-1')) {
         iconClickPath24leftup1.classList.add('сlickToChangeColor');
+        iconClickText24leftup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-1')) {
         iconClickPath24leftup1.classList.remove('сlickToChangeColor');
+        iconClickText24leftup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-1')) {
         iconClickText24leftup1.classList.add('сlickToChangeTextColor');
@@ -10418,18 +12976,48 @@ function funcIconClick24leftup1(event) {
     if (!event.target.closest('#path-2-4-left-up-1')) {
         iconClickText24leftup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24400a')) {
+        iconClickPath24leftup1.classList.add('сlickToChangeColor');
+        iconClickText24leftup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24400a')) {
+        iconClickText24leftup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup1.removeEventListener("click", funcIconClick24leftup1);
 }
 document.addEventListener("click", funcIconClick24leftup1);
 
 const iconClickPath24leftup2 = document.getElementById('path-2-4-left-up-2');
 const iconClickText24leftup2 = document.getElementById('text-2-4-left-up-2');
+const iconClickText24leftup2desc = document.getElementById('desc2400');
 function funcIconClick24leftup2(event) {
     if (event.target.closest('#path-2-4-left-up-2')) {
         iconClickPath24leftup2.classList.add('сlickToChangeColor');
+        iconClickText24leftup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-2')) {
         iconClickPath24leftup2.classList.remove('сlickToChangeColor');
+        iconClickText24leftup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-2')) {
         iconClickText24leftup2.classList.add('сlickToChangeTextColor');
@@ -10437,18 +13025,48 @@ function funcIconClick24leftup2(event) {
     if (!event.target.closest('#path-2-4-left-up-2')) {
         iconClickText24leftup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24400')) {
+        iconClickPath24leftup2.classList.add('сlickToChangeColor');
+        iconClickText24leftup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24400')) {
+        iconClickText24leftup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup2.removeEventListener("click", funcIconClick24leftup2);
 }
 document.addEventListener("click", funcIconClick24leftup2);
 
 const iconClickPath24leftup3 = document.getElementById('path-2-4-left-up-3');
 const iconClickText24leftup3 = document.getElementById('text-2-4-left-up-3');
+const iconClickText24leftup3desc = document.getElementById('desc2401');
 function funcIconClick24leftup3(event) {
     if (event.target.closest('#path-2-4-left-up-3')) {
         iconClickPath24leftup3.classList.add('сlickToChangeColor');
+        iconClickText24leftup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-3')) {
         iconClickPath24leftup3.classList.remove('сlickToChangeColor');
+        iconClickText24leftup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-3')) {
         iconClickText24leftup3.classList.add('сlickToChangeTextColor');
@@ -10456,44 +13074,48 @@ function funcIconClick24leftup3(event) {
     if (!event.target.closest('#path-2-4-left-up-3')) {
         iconClickText24leftup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24401')) {
+        iconClickPath24leftup3.classList.add('сlickToChangeColor');
+        iconClickText24leftup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24401')) {
+        iconClickText24leftup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup3.removeEventListener("click", funcIconClick24leftup3);
 }
 document.addEventListener("click", funcIconClick24leftup3);
 
-const iconClickPath24leftup4 = document.getElementById('path-2-4-left-up-4');
-const iconClickText24leftup4 = document.getElementById('text-2-4-left-up-4');
-const iconClickText24leftup41 = document.getElementById('text-2-4-left-up-4-1');
-function funcIconClick24leftup4(event) {
-    if (event.target.closest('#path-2-4-left-up-4')) {
-        iconClickPath24leftup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-4-left-up-4')) {
-        iconClickPath24leftup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-4-left-up-4')) {
-        iconClickText24leftup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-4-left-up-4')) {
-        iconClickText24leftup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-4-left-up-4')) {
-        iconClickText24leftup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-4-left-up-4')) {
-        iconClickText24leftup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath24leftup4.removeEventListener("click", funcIconClick24leftup4);
-}
-document.addEventListener("click", funcIconClick24leftup4);
-
 const iconClickPath24leftup5 = document.getElementById('path-2-4-left-up-5');
 const iconClickText24leftup5 = document.getElementById('text-2-4-left-up-5');
+const iconClickText24leftup5desc = document.getElementById('desc2404');
 function funcIconClick24leftup5(event) {
     if (event.target.closest('#path-2-4-left-up-5')) {
         iconClickPath24leftup5.classList.add('сlickToChangeColor');
+        iconClickText24leftup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-5')) {
         iconClickPath24leftup5.classList.remove('сlickToChangeColor');
+        iconClickText24leftup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-5')) {
         iconClickText24leftup5.classList.add('сlickToChangeTextColor');
@@ -10501,18 +13123,48 @@ function funcIconClick24leftup5(event) {
     if (!event.target.closest('#path-2-4-left-up-5')) {
         iconClickText24leftup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24404')) {
+        iconClickPath24leftup5.classList.add('сlickToChangeColor');
+        iconClickText24leftup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24404')) {
+        iconClickText24leftup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup5.removeEventListener("click", funcIconClick24leftup5);
 }
 document.addEventListener("click", funcIconClick24leftup5);
 
 const iconClickPath24leftup6 = document.getElementById('path-2-4-left-up-6');
 const iconClickText24leftup6 = document.getElementById('text-2-4-left-up-6');
+const iconClickText24leftup6desc = document.getElementById('desc2405');
 function funcIconClick24leftup6(event) {
     if (event.target.closest('#path-2-4-left-up-6')) {
         iconClickPath24leftup6.classList.add('сlickToChangeColor');
+        iconClickText24leftup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-6')) {
         iconClickPath24leftup6.classList.remove('сlickToChangeColor');
+        iconClickText24leftup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-6')) {
         iconClickText24leftup6.classList.add('сlickToChangeTextColor');
@@ -10520,18 +13172,48 @@ function funcIconClick24leftup6(event) {
     if (!event.target.closest('#path-2-4-left-up-6')) {
         iconClickText24leftup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24405')) {
+        iconClickPath24leftup6.classList.add('сlickToChangeColor');
+        iconClickText24leftup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24405')) {
+        iconClickText24leftup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup6.removeEventListener("click", funcIconClick24leftup6);
 }
 document.addEventListener("click", funcIconClick24leftup6);
 
 const iconClickPath24leftup7 = document.getElementById('path-2-4-left-up-7');
 const iconClickText24leftup7 = document.getElementById('text-2-4-left-up-7');
+const iconClickText24leftup7desc = document.getElementById('desc2406');
 function funcIconClick24leftup7(event) {
     if (event.target.closest('#path-2-4-left-up-7')) {
         iconClickPath24leftup7.classList.add('сlickToChangeColor');
+        iconClickText24leftup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-7')) {
         iconClickPath24leftup7.classList.remove('сlickToChangeColor');
+        iconClickText24leftup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-7')) {
         iconClickText24leftup7.classList.add('сlickToChangeTextColor');
@@ -10539,18 +13221,48 @@ function funcIconClick24leftup7(event) {
     if (!event.target.closest('#path-2-4-left-up-7')) {
         iconClickText24leftup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24406')) {
+        iconClickPath24leftup7.classList.add('сlickToChangeColor');
+        iconClickText24leftup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24406')) {
+        iconClickText24leftup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup7.removeEventListener("click", funcIconClick24leftup7);
 }
 document.addEventListener("click", funcIconClick24leftup7);
 
 const iconClickPath24leftup8 = document.getElementById('path-2-4-left-up-8');
 const iconClickText24leftup8 = document.getElementById('text-2-4-left-up-8');
+const iconClickText24leftup8desc = document.getElementById('desc2407');
 function funcIconClick24leftup8(event) {
     if (event.target.closest('#path-2-4-left-up-8')) {
         iconClickPath24leftup8.classList.add('сlickToChangeColor');
+        iconClickText24leftup8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-up-8')) {
         iconClickPath24leftup8.classList.remove('сlickToChangeColor');
+        iconClickText24leftup8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-up-8')) {
         iconClickText24leftup8.classList.add('сlickToChangeTextColor');
@@ -10558,19 +13270,48 @@ function funcIconClick24leftup8(event) {
     if (!event.target.closest('#path-2-4-left-up-8')) {
         iconClickText24leftup8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24407')) {
+        iconClickPath24leftup8.classList.add('сlickToChangeColor');
+        iconClickText24leftup8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24407')) {
+        iconClickText24leftup8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftup8.removeEventListener("click", funcIconClick24leftup8);
 }
 document.addEventListener("click", funcIconClick24leftup8);
 
-// building2floor4 - right-up
 const iconClickPath24rightup1 = document.getElementById('path-2-4-right-up-1');
 const iconClickText24rightup1 = document.getElementById('text-2-4-right-up-1');
+const iconClickText24rightup1desc = document.getElementById('desc2408');
 function funcIconClick24rightup1(event) {
     if (event.target.closest('#path-2-4-right-up-1')) {
         iconClickPath24rightup1.classList.add('сlickToChangeColor');
+        iconClickText24rightup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-up-1')) {
         iconClickPath24rightup1.classList.remove('сlickToChangeColor');
+        iconClickText24rightup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-up-1')) {
         iconClickText24rightup1.classList.add('сlickToChangeTextColor');
@@ -10578,18 +13319,48 @@ function funcIconClick24rightup1(event) {
     if (!event.target.closest('#path-2-4-right-up-1')) {
         iconClickText24rightup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24408')) {
+        iconClickPath24rightup1.classList.add('сlickToChangeColor');
+        iconClickText24rightup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24408')) {
+        iconClickText24rightup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightup1.removeEventListener("click", funcIconClick24rightup1);
 }
 document.addEventListener("click", funcIconClick24rightup1);
 
 const iconClickPath24rightup2 = document.getElementById('path-2-4-right-up-2');
 const iconClickText24rightup2 = document.getElementById('text-2-4-right-up-2');
+const iconClickText24rightup2desc = document.getElementById('desc2409');
 function funcIconClick24rightup2(event) {
     if (event.target.closest('#path-2-4-right-up-2')) {
         iconClickPath24rightup2.classList.add('сlickToChangeColor');
+        iconClickText24rightup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-up-2')) {
         iconClickPath24rightup2.classList.remove('сlickToChangeColor');
+        iconClickText24rightup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-up-2')) {
         iconClickText24rightup2.classList.add('сlickToChangeTextColor');
@@ -10597,18 +13368,48 @@ function funcIconClick24rightup2(event) {
     if (!event.target.closest('#path-2-4-right-up-2')) {
         iconClickText24rightup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24409')) {
+        iconClickPath24rightup2.classList.add('сlickToChangeColor');
+        iconClickText24rightup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24409')) {
+        iconClickText24rightup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightup2.removeEventListener("click", funcIconClick24rightup2);
 }
 document.addEventListener("click", funcIconClick24rightup2);
 
 const iconClickPath24rightup3 = document.getElementById('path-2-4-right-up-3');
 const iconClickText24rightup3 = document.getElementById('text-2-4-right-up-3');
+const iconClickText24rightup3desc = document.getElementById('desc2410');
 function funcIconClick24rightup3(event) {
     if (event.target.closest('#path-2-4-right-up-3')) {
         iconClickPath24rightup3.classList.add('сlickToChangeColor');
+        iconClickText24rightup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-up-3')) {
         iconClickPath24rightup3.classList.remove('сlickToChangeColor');
+        iconClickText24rightup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-up-3')) {
         iconClickText24rightup3.classList.add('сlickToChangeTextColor');
@@ -10616,18 +13417,48 @@ function funcIconClick24rightup3(event) {
     if (!event.target.closest('#path-2-4-right-up-3')) {
         iconClickText24rightup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24410')) {
+        iconClickPath24rightup3.classList.add('сlickToChangeColor');
+        iconClickText24rightup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24410')) {
+        iconClickText24rightup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightup3.removeEventListener("click", funcIconClick24rightup3);
 }
 document.addEventListener("click", funcIconClick24rightup3);
 
 const iconClickPath24rightup4 = document.getElementById('path-2-4-right-up-4');
 const iconClickText24rightup4 = document.getElementById('text-2-4-right-up-4');
+const iconClickText24rightup4desc = document.getElementById('desc2411');
 function funcIconClick24rightup4(event) {
     if (event.target.closest('#path-2-4-right-up-4')) {
         iconClickPath24rightup4.classList.add('сlickToChangeColor');
+        iconClickText24rightup4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-up-4')) {
         iconClickPath24rightup4.classList.remove('сlickToChangeColor');
+        iconClickText24rightup4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-up-4')) {
         iconClickText24rightup4.classList.add('сlickToChangeTextColor');
@@ -10635,18 +13466,48 @@ function funcIconClick24rightup4(event) {
     if (!event.target.closest('#path-2-4-right-up-4')) {
         iconClickText24rightup4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24411')) {
+        iconClickPath24rightup4.classList.add('сlickToChangeColor');
+        iconClickText24rightup4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24411')) {
+        iconClickText24rightup4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightup4.removeEventListener("click", funcIconClick24rightup4);
 }
 document.addEventListener("click", funcIconClick24rightup4);
 
 const iconClickPath24rightup5 = document.getElementById('path-2-4-right-up-5');
 const iconClickText24rightup5 = document.getElementById('text-2-4-right-up-5');
+const iconClickText24rightup5desc = document.getElementById('desc2412');
 function funcIconClick24rightup5(event) {
     if (event.target.closest('#path-2-4-right-up-5')) {
         iconClickPath24rightup5.classList.add('сlickToChangeColor');
+        iconClickText24rightup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-up-5')) {
         iconClickPath24rightup5.classList.remove('сlickToChangeColor');
+        iconClickText24rightup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-up-5')) {
         iconClickText24rightup5.classList.add('сlickToChangeTextColor');
@@ -10654,18 +13515,97 @@ function funcIconClick24rightup5(event) {
     if (!event.target.closest('#path-2-4-right-up-5')) {
         iconClickText24rightup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24412')) {
+        iconClickPath24rightup5.classList.add('сlickToChangeColor');
+        iconClickText24rightup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24412')) {
+        iconClickText24rightup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightup5.removeEventListener("click", funcIconClick24rightup5);
 }
 document.addEventListener("click", funcIconClick24rightup5);
 
+const iconClickPath2413 = document.getElementById('path-2-413');
+const iconClickText2413 = document.getElementById('text-2-413');
+const iconClickText2413desc = document.getElementById('desc2413');
+function funcIconClick2413(event) {
+    if (event.target.closest('#path-2-413')) {
+        iconClickPath2413.classList.add('сlickToChangeColor');
+        iconClickText2413desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-413')) {
+        iconClickPath2413.classList.remove('сlickToChangeColor');
+        iconClickText2413desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-413')) {
+        iconClickText2413.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-413')) {
+        iconClickText2413.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-24413')) {
+        iconClickPath2413.classList.add('сlickToChangeColor');
+        iconClickText2413desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24413')) {
+        iconClickText2413.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2413.removeEventListener("click", funcIconClick2413);
+}
+document.addEventListener("click", funcIconClick2413);
+
 const iconClickPath24rightup6 = document.getElementById('path-2-4-right-up-6');
 const iconClickText24rightup6 = document.getElementById('text-2-4-right-up-6');
+const iconClickText24rightup6desc = document.getElementById('desc2413a');
 function funcIconClick24rightup6(event) {
     if (event.target.closest('#path-2-4-right-up-6')) {
         iconClickPath24rightup6.classList.add('сlickToChangeColor');
+        iconClickText24rightup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-up-6')) {
         iconClickPath24rightup6.classList.remove('сlickToChangeColor');
+        iconClickText24rightup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-up-6')) {
         iconClickText24rightup6.classList.add('сlickToChangeTextColor');
@@ -10673,19 +13613,97 @@ function funcIconClick24rightup6(event) {
     if (!event.target.closest('#path-2-4-right-up-6')) {
         iconClickText24rightup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24413a')) {
+        iconClickPath24rightup6.classList.add('сlickToChangeColor');
+        iconClickText24rightup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24413a')) {
+        iconClickText24rightup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightup6.removeEventListener("click", funcIconClick24rightup6);
 }
 document.addEventListener("click", funcIconClick24rightup6);
 
-// building2floor4 - left-down
+const iconClickPath2414 = document.getElementById('path-2-414');
+const iconClickText2414 = document.getElementById('text-2-414');
+const iconClickText2414desc = document.getElementById('desc2414');
+function funcIconClick2414(event) {
+    if (event.target.closest('#path-2-414')) {
+        iconClickPath2414.classList.add('сlickToChangeColor');
+        iconClickText2414desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-414')) {
+        iconClickPath2414.classList.remove('сlickToChangeColor');
+        iconClickText2414desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-414')) {
+        iconClickText2414.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-414')) {
+        iconClickText2414.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-24414')) {
+        iconClickPath2414.classList.add('сlickToChangeColor');
+        iconClickText2414desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24414')) {
+        iconClickText2414.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2414.removeEventListener("click", funcIconClick2414);
+}
+document.addEventListener("click", funcIconClick2414);
+
 const iconClickPath24leftdown1 = document.getElementById('path-2-4-left-down-1');
 const iconClickText24leftdown1 = document.getElementById('text-2-4-left-down-1');
+const iconClickText24leftdown1desc = document.getElementById('desc24331');
 function funcIconClick24leftdown1(event) {
     if (event.target.closest('#path-2-4-left-down-1')) {
         iconClickPath24leftdown1.classList.add('сlickToChangeColor');
+        iconClickText24leftdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-down-1')) {
         iconClickPath24leftdown1.classList.remove('сlickToChangeColor');
+        iconClickText24leftdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-down-1')) {
         iconClickText24leftdown1.classList.add('сlickToChangeTextColor');
@@ -10699,12 +13717,15 @@ document.addEventListener("click", funcIconClick24leftdown1);
 
 const iconClickPath24leftdown2 = document.getElementById('path-2-4-left-down-2');
 const iconClickText24leftdown2 = document.getElementById('text-2-4-left-down-2');
+const iconClickText24leftdown2desc = document.getElementById('desc2434');
 function funcIconClick24leftdown2(event) {
     if (event.target.closest('#path-2-4-left-down-2')) {
         iconClickPath24leftdown2.classList.add('сlickToChangeColor');
+        iconClickText24leftdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-down-2')) {
         iconClickPath24leftdown2.classList.remove('сlickToChangeColor');
+        iconClickText24leftdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-down-2')) {
         iconClickText24leftdown2.classList.add('сlickToChangeTextColor');
@@ -10712,18 +13733,48 @@ function funcIconClick24leftdown2(event) {
     if (!event.target.closest('#path-2-4-left-down-2')) {
         iconClickText24leftdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24434')) {
+        iconClickPath24leftdown2.classList.add('сlickToChangeColor');
+        iconClickText24leftdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24434')) {
+        iconClickText24leftdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftdown2.removeEventListener("click", funcIconClick24leftdown2);
 }
 document.addEventListener("click", funcIconClick24leftdown2);
 
 const iconClickPath24leftdown3 = document.getElementById('path-2-4-left-down-3');
 const iconClickText24leftdown3 = document.getElementById('text-2-4-left-down-3');
+const iconClickText24leftdown3desc = document.getElementById('desc2432');
 function funcIconClick24leftdown3(event) {
     if (event.target.closest('#path-2-4-left-down-3')) {
         iconClickPath24leftdown3.classList.add('сlickToChangeColor');
+        iconClickText24leftdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-down-3')) {
         iconClickPath24leftdown3.classList.remove('сlickToChangeColor');
+        iconClickText24leftdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-down-3')) {
         iconClickText24leftdown3.classList.add('сlickToChangeTextColor');
@@ -10731,18 +13782,48 @@ function funcIconClick24leftdown3(event) {
     if (!event.target.closest('#path-2-4-left-down-3')) {
         iconClickText24leftdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24432')) {
+        iconClickPath24leftdown3.classList.add('сlickToChangeColor');
+        iconClickText24leftdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24432')) {
+        iconClickText24leftdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftdown3.removeEventListener("click", funcIconClick24leftdown3);
 }
 document.addEventListener("click", funcIconClick24leftdown3);
 
 const iconClickPath24leftdown6 = document.getElementById('path-2-4-left-down-6');
 const iconClickText24leftdown6 = document.getElementById('text-2-4-left-down-6');
+const iconClickText24leftdown6desc = document.getElementById('desc2431');
 function funcIconClick24leftdown6(event) {
     if (event.target.closest('#path-2-4-left-down-6')) {
         iconClickPath24leftdown6.classList.add('сlickToChangeColor');
+        iconClickText24leftdown6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-down-6')) {
         iconClickPath24leftdown6.classList.remove('сlickToChangeColor');
+        iconClickText24leftdown6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-down-6')) {
         iconClickText24leftdown6.classList.add('сlickToChangeTextColor');
@@ -10750,18 +13831,48 @@ function funcIconClick24leftdown6(event) {
     if (!event.target.closest('#path-2-4-left-down-6')) {
         iconClickText24leftdown6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24431')) {
+        iconClickPath24leftdown6.classList.add('сlickToChangeColor');
+        iconClickText24leftdown6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24431')) {
+        iconClickText24leftdown6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftdown6.removeEventListener("click", funcIconClick24leftdown6);
 }
 document.addEventListener("click", funcIconClick24leftdown6);
 
 const iconClickPath24leftdown7 = document.getElementById('path-2-4-left-down-7');
 const iconClickText24leftdown7 = document.getElementById('text-2-4-left-down-7');
+const iconClickText24leftdown7desc = document.getElementById('desc2430');
 function funcIconClick24leftdown7(event) {
     if (event.target.closest('#path-2-4-left-down-7')) {
         iconClickPath24leftdown7.classList.add('сlickToChangeColor');
+        iconClickText24leftdown7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-left-down-7')) {
         iconClickPath24leftdown7.classList.remove('сlickToChangeColor');
+        iconClickText24leftdown7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-left-down-7')) {
         iconClickText24leftdown7.classList.add('сlickToChangeTextColor');
@@ -10769,19 +13880,48 @@ function funcIconClick24leftdown7(event) {
     if (!event.target.closest('#path-2-4-left-down-7')) {
         iconClickText24leftdown7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24430')) {
+        iconClickPath24leftdown7.classList.add('сlickToChangeColor');
+        iconClickText24leftdown7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24430')) {
+        iconClickText24leftdown7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24leftdown7.removeEventListener("click", funcIconClick24leftdown7);
 }
 document.addEventListener("click", funcIconClick24leftdown7);
 
-// building2floor4 - right-down
 const iconClickPath24rightdown1 = document.getElementById('path-2-4-right-down-1');
 const iconClickText24rightdown1 = document.getElementById('text-2-4-right-down-1');
+const iconClickText24rightdown1desc = document.getElementById('desc2419');
 function funcIconClick24rightdown1(event) {
     if (event.target.closest('#path-2-4-right-down-1')) {
         iconClickPath24rightdown1.classList.add('сlickToChangeColor');
+        iconClickText24rightdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-down-1')) {
         iconClickPath24rightdown1.classList.remove('сlickToChangeColor');
+        iconClickText24rightdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-down-1')) {
         iconClickText24rightdown1.classList.add('сlickToChangeTextColor');
@@ -10789,18 +13929,48 @@ function funcIconClick24rightdown1(event) {
     if (!event.target.closest('#path-2-4-right-down-1')) {
         iconClickText24rightdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24419')) {
+        iconClickPath24rightdown1.classList.add('сlickToChangeColor');
+        iconClickText24rightdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24419')) {
+        iconClickText24rightdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightdown1.removeEventListener("click", funcIconClick24rightdown1);
 }
 document.addEventListener("click", funcIconClick24rightdown1);
 
 const iconClickPath24rightdown2 = document.getElementById('path-2-4-right-down-2');
 const iconClickText24rightdown2 = document.getElementById('text-2-4-right-down-2');
+const iconClickText24rightdown2desc = document.getElementById('desc2418');
 function funcIconClick24rightdown2(event) {
     if (event.target.closest('#path-2-4-right-down-2')) {
         iconClickPath24rightdown2.classList.add('сlickToChangeColor');
+        iconClickText24rightdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-down-2')) {
         iconClickPath24rightdown2.classList.remove('сlickToChangeColor');
+        iconClickText24rightdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-down-2')) {
         iconClickText24rightdown2.classList.add('сlickToChangeTextColor');
@@ -10808,18 +13978,48 @@ function funcIconClick24rightdown2(event) {
     if (!event.target.closest('#path-2-4-right-down-2')) {
         iconClickText24rightdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24418')) {
+        iconClickPath24rightdown2.classList.add('сlickToChangeColor');
+        iconClickText24rightdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24418')) {
+        iconClickText24rightdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightdown2.removeEventListener("click", funcIconClick24rightdown2);
 }
 document.addEventListener("click", funcIconClick24rightdown2);
 
 const iconClickPath24rightdown3 = document.getElementById('path-2-4-right-down-3');
 const iconClickText24rightdown3 = document.getElementById('text-2-4-right-down-3');
+const iconClickText24rightdown3desc = document.getElementById('desc2417');
 function funcIconClick24rightdown3(event) {
     if (event.target.closest('#path-2-4-right-down-3')) {
         iconClickPath24rightdown3.classList.add('сlickToChangeColor');
+        iconClickText24rightdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-down-3')) {
         iconClickPath24rightdown3.classList.remove('сlickToChangeColor');
+        iconClickText24rightdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-down-3')) {
         iconClickText24rightdown3.classList.add('сlickToChangeTextColor');
@@ -10827,18 +14027,48 @@ function funcIconClick24rightdown3(event) {
     if (!event.target.closest('#path-2-4-right-down-3')) {
         iconClickText24rightdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24417')) {
+        iconClickPath24rightdown3.classList.add('сlickToChangeColor');
+        iconClickText24rightdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24417')) {
+        iconClickText24rightdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightdown3.removeEventListener("click", funcIconClick24rightdown3);
 }
 document.addEventListener("click", funcIconClick24rightdown3);
 
 const iconClickPath24rightdown4 = document.getElementById('path-2-4-right-down-4');
 const iconClickText24rightdown4 = document.getElementById('text-2-4-right-down-4');
+const iconClickText24rightdown4desc = document.getElementById('desc2416');
 function funcIconClick24rightdown4(event) {
     if (event.target.closest('#path-2-4-right-down-4')) {
         iconClickPath24rightdown4.classList.add('сlickToChangeColor');
+        iconClickText24rightdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-right-down-4')) {
         iconClickPath24rightdown4.classList.remove('сlickToChangeColor');
+        iconClickText24rightdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-right-down-4')) {
         iconClickText24rightdown4.classList.add('сlickToChangeTextColor');
@@ -10846,38 +14076,147 @@ function funcIconClick24rightdown4(event) {
     if (!event.target.closest('#path-2-4-right-down-4')) {
         iconClickText24rightdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24416')) {
+        iconClickPath24rightdown4.classList.add('сlickToChangeColor');
+        iconClickText24rightdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24416')) {
+        iconClickText24rightdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24rightdown4.removeEventListener("click", funcIconClick24rightdown4);
 }
 document.addEventListener("click", funcIconClick24rightdown4);
 
-const iconClickPath24rightdown5 = document.getElementById('path-2-4-right-down-5');
-const iconClickText24rightdown5 = document.getElementById('text-2-4-right-down-5');
-function funcIconClick24rightdown5(event) {
-    if (event.target.closest('#path-2-4-right-down-5')) {
-        iconClickPath24rightdown5.classList.add('сlickToChangeColor');
+const iconClickPath2415a = document.getElementById('path-2-415a');
+const iconClickText2415a = document.getElementById('text-2-415a');
+const iconClickText2415adesc = document.getElementById('desc2415a');
+function funcIconClick2415a(event) {
+    if (event.target.closest('#path-2-415a')) {
+        iconClickPath2415a.classList.add('сlickToChangeColor');
+        iconClickText2415adesc.style.display = 'block';
     }
-    if (!event.target.closest('#path-2-4-right-down-5')) {
-        iconClickPath24rightdown5.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-2-415a')) {
+        iconClickPath2415a.classList.remove('сlickToChangeColor');
+        iconClickText2415adesc.style.display = 'none';
     }
-    if (event.target.closest('#path-2-4-right-down-5')) {
-        iconClickText24rightdown5.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-2-415a')) {
+        iconClickText2415a.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-2-4-right-down-5')) {
-        iconClickText24rightdown5.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-2-415a')) {
+        iconClickText2415a.classList.remove('сlickToChangeTextColor');
     }
-    iconClickPath24rightdown5.removeEventListener("click", funcIconClick24rightdown5);
+    if (event.target.closest('#si-24415a')) {
+        iconClickPath2415a.classList.add('сlickToChangeColor');
+        iconClickText2415adesc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24415a')) {
+        iconClickText2415a.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2415a.removeEventListener("click", funcIconClick2415a);
 }
-document.addEventListener("click", funcIconClick24rightdown5);
+document.addEventListener("click", funcIconClick2415a);
+
+const iconClickPath2415 = document.getElementById('path-2-415');
+const iconClickText2415 = document.getElementById('text-2-415');
+const iconClickText2415desc = document.getElementById('desc2415');
+function funcIconClick2415(event) {
+    if (event.target.closest('#path-2-415')) {
+        iconClickPath2415.classList.add('сlickToChangeColor');
+        iconClickText2415desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-415')) {
+        iconClickPath2415.classList.remove('сlickToChangeColor');
+        iconClickText2415desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-415')) {
+        iconClickText2415.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-415')) {
+        iconClickText2415.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-24415')) {
+        iconClickPath2415.classList.add('сlickToChangeColor');
+        iconClickText2415desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24415')) {
+        iconClickText2415.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2415.removeEventListener("click", funcIconClick2415);
+}
+document.addEventListener("click", funcIconClick2415);
 
 // building2floor4 - straight-left
 const iconClickPath24straightleft1 = document.getElementById('path-2-4-straight-left-1');
 const iconClickText24straightleft1 = document.getElementById('text-2-4-straight-left-1');
+const iconClickText24straightleft1desc = document.getElementById('desc2429');
 function funcIconClick24straightleft1(event) {
     if (event.target.closest('#path-2-4-straight-left-1')) {
         iconClickPath24straightleft1.classList.add('сlickToChangeColor');
+        iconClickText24straightleft1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-left-1')) {
         iconClickPath24straightleft1.classList.remove('сlickToChangeColor');
+        iconClickText24straightleft1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-left-1')) {
         iconClickText24straightleft1.classList.add('сlickToChangeTextColor');
@@ -10885,18 +14224,48 @@ function funcIconClick24straightleft1(event) {
     if (!event.target.closest('#path-2-4-straight-left-1')) {
         iconClickText24straightleft1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24429')) {
+        iconClickPath24straightleft1.classList.add('сlickToChangeColor');
+        iconClickText24straightleft1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24429')) {
+        iconClickText24straightleft1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightleft1.removeEventListener("click", funcIconClick24straightleft1);
 }
 document.addEventListener("click", funcIconClick24straightleft1);
 
 const iconClickPath24straightleft2 = document.getElementById('path-2-4-straight-left-2');
 const iconClickText24straightleft2 = document.getElementById('text-2-4-straight-left-2');
+const iconClickText24straightleft2desc = document.getElementById('desc2428');
 function funcIconClick24straightleft2(event) {
     if (event.target.closest('#path-2-4-straight-left-2')) {
         iconClickPath24straightleft2.classList.add('сlickToChangeColor');
+        iconClickText24straightleft2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-left-2')) {
         iconClickPath24straightleft2.classList.remove('сlickToChangeColor');
+        iconClickText24straightleft2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-left-2')) {
         iconClickText24straightleft2.classList.add('сlickToChangeTextColor');
@@ -10904,18 +14273,48 @@ function funcIconClick24straightleft2(event) {
     if (!event.target.closest('#path-2-4-straight-left-2')) {
         iconClickText24straightleft2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24428')) {
+        iconClickPath24straightleft2.classList.add('сlickToChangeColor');
+        iconClickText24straightleft2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24428')) {
+        iconClickText24straightleft2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightleft2.removeEventListener("click", funcIconClick24straightleft2);
 }
 document.addEventListener("click", funcIconClick24straightleft2);
 
 const iconClickPath24straightleft3 = document.getElementById('path-2-4-straight-left-3');
 const iconClickText24straightleft3 = document.getElementById('text-2-4-straight-left-3');
+const iconClickText24straightleft3desc = document.getElementById('desc2427');
 function funcIconClick24straightleft3(event) {
     if (event.target.closest('#path-2-4-straight-left-3')) {
         iconClickPath24straightleft3.classList.add('сlickToChangeColor');
+        iconClickText24straightleft3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-left-3')) {
         iconClickPath24straightleft3.classList.remove('сlickToChangeColor');
+        iconClickText24straightleft3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-left-3')) {
         iconClickText24straightleft3.classList.add('сlickToChangeTextColor');
@@ -10923,18 +14322,48 @@ function funcIconClick24straightleft3(event) {
     if (!event.target.closest('#path-2-4-straight-left-3')) {
         iconClickText24straightleft3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24427')) {
+        iconClickPath24straightleft3.classList.add('сlickToChangeColor');
+        iconClickText24straightleft3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24427')) {
+        iconClickText24straightleft3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightleft3.removeEventListener("click", funcIconClick24straightleft3);
 }
 document.addEventListener("click", funcIconClick24straightleft3);
 
 const iconClickPath24straightleft5 = document.getElementById('path-2-4-straight-left-5');
 const iconClickText24straightleft5 = document.getElementById('text-2-4-straight-left-5');
+const iconClickText24straightleft5desc = document.getElementById('desc2426');
 function funcIconClick24straightleft5(event) {
     if (event.target.closest('#path-2-4-straight-left-5')) {
         iconClickPath24straightleft5.classList.add('сlickToChangeColor');
+        iconClickText24straightleft5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-left-5')) {
         iconClickPath24straightleft5.classList.remove('сlickToChangeColor');
+        iconClickText24straightleft5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-left-5')) {
         iconClickText24straightleft5.classList.add('сlickToChangeTextColor');
@@ -10942,18 +14371,48 @@ function funcIconClick24straightleft5(event) {
     if (!event.target.closest('#path-2-4-straight-left-5')) {
         iconClickText24straightleft5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24426')) {
+        iconClickPath24straightleft5.classList.add('сlickToChangeColor');
+        iconClickText24straightleft5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24426')) {
+        iconClickText24straightleft5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightleft5.removeEventListener("click", funcIconClick24straightleft5);
 }
 document.addEventListener("click", funcIconClick24straightleft5);
 
 const iconClickPath24straightleft6 = document.getElementById('path-2-4-straight-left-6');
 const iconClickText24straightleft6 = document.getElementById('text-2-4-straight-left-6');
+const iconClickText24straightleft6desc = document.getElementById('desc2425');
 function funcIconClick24straightleft6(event) {
     if (event.target.closest('#path-2-4-straight-left-6')) {
         iconClickPath24straightleft6.classList.add('сlickToChangeColor');
+        iconClickText24straightleft6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-left-6')) {
         iconClickPath24straightleft6.classList.remove('сlickToChangeColor');
+        iconClickText24straightleft6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-left-6')) {
         iconClickText24straightleft6.classList.add('сlickToChangeTextColor');
@@ -10961,19 +14420,48 @@ function funcIconClick24straightleft6(event) {
     if (!event.target.closest('#path-2-4-straight-left-6')) {
         iconClickText24straightleft6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24425')) {
+        iconClickPath24straightleft6.classList.add('сlickToChangeColor');
+        iconClickText24straightleft6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24425')) {
+        iconClickText24straightleft6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightleft6.removeEventListener("click", funcIconClick24straightleft6);
 }
 document.addEventListener("click", funcIconClick24straightleft6);
 
-// building2floor4 - straight-right
 const iconClickPath24straightright1 = document.getElementById('path-2-4-straight-right-1');
 const iconClickText24straightright1 = document.getElementById('text-2-4-straight-right-1');
+const iconClickText24straightright1desc = document.getElementById('desc2420');
 function funcIconClick24straightright1(event) {
     if (event.target.closest('#path-2-4-straight-right-1')) {
         iconClickPath24straightright1.classList.add('сlickToChangeColor');
+        iconClickText24straightright1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-right-1')) {
         iconClickPath24straightright1.classList.remove('сlickToChangeColor');
+        iconClickText24straightright1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-right-1')) {
         iconClickText24straightright1.classList.add('сlickToChangeTextColor');
@@ -10981,18 +14469,48 @@ function funcIconClick24straightright1(event) {
     if (!event.target.closest('#path-2-4-straight-right-1')) {
         iconClickText24straightright1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24420')) {
+        iconClickPath24straightright1.classList.add('сlickToChangeColor');
+        iconClickText24straightright1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24420')) {
+        iconClickText24straightright1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightright1.removeEventListener("click", funcIconClick24straightright1);
 }
 document.addEventListener("click", funcIconClick24straightright1);
 
 const iconClickPath24straightright2 = document.getElementById('path-2-4-straight-right-2');
 const iconClickText24straightright2 = document.getElementById('text-2-4-straight-right-2');
+const iconClickText24straightright2desc = document.getElementById('desc2421');
 function funcIconClick24straightright2(event) {
     if (event.target.closest('#path-2-4-straight-right-2')) {
         iconClickPath24straightright2.classList.add('сlickToChangeColor');
+        iconClickText24straightright2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-right-2')) {
         iconClickPath24straightright2.classList.remove('сlickToChangeColor');
+        iconClickText24straightright2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-right-2')) {
         iconClickText24straightright2.classList.add('сlickToChangeTextColor');
@@ -11000,18 +14518,48 @@ function funcIconClick24straightright2(event) {
     if (!event.target.closest('#path-2-4-straight-right-2')) {
         iconClickText24straightright2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24421')) {
+        iconClickPath24straightright2.classList.add('сlickToChangeColor');
+        iconClickText24straightright2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24421')) {
+        iconClickText24straightright2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightright2.removeEventListener("click", funcIconClick24straightright2);
 }
 document.addEventListener("click", funcIconClick24straightright2);
 
 const iconClickPath24straightright3 = document.getElementById('path-2-4-straight-right-3');
 const iconClickText24straightright3 = document.getElementById('text-2-4-straight-right-3');
+const iconClickText24straightright3desc = document.getElementById('desc2422');
 function funcIconClick24straightright3(event) {
     if (event.target.closest('#path-2-4-straight-right-3')) {
         iconClickPath24straightright3.classList.add('сlickToChangeColor');
+        iconClickText24straightright3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-right-3')) {
         iconClickPath24straightright3.classList.remove('сlickToChangeColor');
+        iconClickText24straightright3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-right-3')) {
         iconClickText24straightright3.classList.add('сlickToChangeTextColor');
@@ -11019,18 +14567,48 @@ function funcIconClick24straightright3(event) {
     if (!event.target.closest('#path-2-4-straight-right-3')) {
         iconClickText24straightright3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24422')) {
+        iconClickPath24straightright3.classList.add('сlickToChangeColor');
+        iconClickText24straightright3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24422')) {
+        iconClickText24straightright3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightright3.removeEventListener("click", funcIconClick24straightright3);
 }
 document.addEventListener("click", funcIconClick24straightright3);
 
 const iconClickPath24straightright4 = document.getElementById('path-2-4-straight-right-4');
 const iconClickText24straightright4 = document.getElementById('text-2-4-straight-right-4');
+const iconClickText24straightright4desc = document.getElementById('desc2423');
 function funcIconClick24straightright4(event) {
     if (event.target.closest('#path-2-4-straight-right-4')) {
         iconClickPath24straightright4.classList.add('сlickToChangeColor');
+        iconClickText24straightright4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-right-4')) {
         iconClickPath24straightright4.classList.remove('сlickToChangeColor');
+        iconClickText24straightright4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-right-4')) {
         iconClickText24straightright4.classList.add('сlickToChangeTextColor');
@@ -11038,18 +14616,48 @@ function funcIconClick24straightright4(event) {
     if (!event.target.closest('#path-2-4-straight-right-4')) {
         iconClickText24straightright4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24423')) {
+        iconClickPath24straightright4.classList.add('сlickToChangeColor');
+        iconClickText24straightright4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24423')) {
+        iconClickText24straightright4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightright4.removeEventListener("click", funcIconClick24straightright4);
 }
 document.addEventListener("click", funcIconClick24straightright4);
 
 const iconClickPath24straightright5 = document.getElementById('path-2-4-straight-right-5');
 const iconClickText24straightright5 = document.getElementById('text-2-4-straight-right-5');
+const iconClickText24straightright5desc = document.getElementById('desc2424');
 function funcIconClick24straightright5(event) {
     if (event.target.closest('#path-2-4-straight-right-5')) {
         iconClickPath24straightright5.classList.add('сlickToChangeColor');
+        iconClickText24straightright5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-4-straight-right-5')) {
         iconClickPath24straightright5.classList.remove('сlickToChangeColor');
+        iconClickText24straightright5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-4-straight-right-5')) {
         iconClickText24straightright5.classList.add('сlickToChangeTextColor');
@@ -11057,37 +14665,49 @@ function funcIconClick24straightright5(event) {
     if (!event.target.closest('#path-2-4-straight-right-5')) {
         iconClickText24straightright5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-24424')) {
+        iconClickPath24straightright5.classList.add('сlickToChangeColor');
+        iconClickText24straightright5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-24424')) {
+        iconClickText24straightright5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath24straightright5.removeEventListener("click", funcIconClick24straightright5);
 }
 document.addEventListener("click", funcIconClick24straightright5);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// building2floor5
-// building2floor5 - left-up
+// building2floor5 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 const iconClickPath25leftup1 = document.getElementById('path-2-5-left-up-1');
 const iconClickText25leftup1 = document.getElementById('text-2-5-left-up-1');
+const iconClickText25leftup1desc = document.getElementById('desc2501a');
 function funcIconClick25leftup1(event) {
     if (event.target.closest('#path-2-5-left-up-1')) {
         iconClickPath25leftup1.classList.add('сlickToChangeColor');
+        iconClickText25leftup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-1')) {
         iconClickPath25leftup1.classList.remove('сlickToChangeColor');
+        iconClickText25leftup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-1')) {
         iconClickText25leftup1.classList.add('сlickToChangeTextColor');
@@ -11095,18 +14715,48 @@ function funcIconClick25leftup1(event) {
     if (!event.target.closest('#path-2-5-left-up-1')) {
         iconClickText25leftup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25501a')) {
+        iconClickPath25leftup1.classList.add('сlickToChangeColor');
+        iconClickText25leftup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25501a')) {
+        iconClickText25leftup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup1.removeEventListener("click", funcIconClick25leftup1);
 }
 document.addEventListener("click", funcIconClick25leftup1);
 
 const iconClickPath25leftup2 = document.getElementById('path-2-5-left-up-2');
 const iconClickText25leftup2 = document.getElementById('text-2-5-left-up-2');
+const iconClickText25leftup2desc = document.getElementById('desc2501');
 function funcIconClick25leftup2(event) {
     if (event.target.closest('#path-2-5-left-up-2')) {
         iconClickPath25leftup2.classList.add('сlickToChangeColor');
+        iconClickText25leftup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-2')) {
         iconClickPath25leftup2.classList.remove('сlickToChangeColor');
+        iconClickText25leftup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-2')) {
         iconClickText25leftup2.classList.add('сlickToChangeTextColor');
@@ -11114,18 +14764,48 @@ function funcIconClick25leftup2(event) {
     if (!event.target.closest('#path-2-5-left-up-2')) {
         iconClickText25leftup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25501')) {
+        iconClickPath25leftup2.classList.add('сlickToChangeColor');
+        iconClickText25leftup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25501')) {
+        iconClickText25leftup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup2.removeEventListener("click", funcIconClick25leftup2);
 }
 document.addEventListener("click", funcIconClick25leftup2);
 
 const iconClickPath25leftup3 = document.getElementById('path-2-5-left-up-3');
 const iconClickText25leftup3 = document.getElementById('text-2-5-left-up-3');
+const iconClickText25leftup3desc = document.getElementById('desc2502');
 function funcIconClick25leftup3(event) {
     if (event.target.closest('#path-2-5-left-up-3')) {
         iconClickPath25leftup3.classList.add('сlickToChangeColor');
+        iconClickText25leftup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-3')) {
         iconClickPath25leftup3.classList.remove('сlickToChangeColor');
+        iconClickText25leftup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-3')) {
         iconClickText25leftup3.classList.add('сlickToChangeTextColor');
@@ -11133,44 +14813,97 @@ function funcIconClick25leftup3(event) {
     if (!event.target.closest('#path-2-5-left-up-3')) {
         iconClickText25leftup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25502')) {
+        iconClickPath25leftup3.classList.add('сlickToChangeColor');
+        iconClickText25leftup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25502')) {
+        iconClickText25leftup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup3.removeEventListener("click", funcIconClick25leftup3);
 }
 document.addEventListener("click", funcIconClick25leftup3);
 
-const iconClickPath25leftup4 = document.getElementById('path-2-5-left-up-4');
-const iconClickText25leftup4 = document.getElementById('text-2-5-left-up-4');
-const iconClickText25leftup41 = document.getElementById('text-2-5-left-up-4-1');
-function funcIconClick25leftup4(event) {
-    if (event.target.closest('#path-2-5-left-up-4')) {
-        iconClickPath25leftup4.classList.add('сlickToChangeColor');
+const iconClickPath2502 = document.getElementById('path-2-502');
+const iconClickText2502 = document.getElementById('text-2-502');
+const iconClickText2502desc = document.getElementById('desc2502a');
+function funcIconClick2502(event) {
+    if (event.target.closest('#path-2-502')) {
+        iconClickPath2502.classList.add('сlickToChangeColor');
+        iconClickText2502desc.style.display = 'block';
     }
-    if (!event.target.closest('#path-2-5-left-up-4')) {
-        iconClickPath25leftup4.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-2-502')) {
+        iconClickPath2502.classList.remove('сlickToChangeColor');
+        iconClickText2502desc.style.display = 'none';
     }
-    if (event.target.closest('#path-2-5-left-up-4')) {
-        iconClickText25leftup4.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-2-502')) {
+        iconClickText2502.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-2-5-left-up-4')) {
-        iconClickText25leftup4.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-2-502')) {
+        iconClickText2502.classList.remove('сlickToChangeTextColor');
     }
-    if (event.target.closest('#path-2-5-left-up-4')) {
-        iconClickText25leftup41.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#si-25502a')) {
+        iconClickPath2502.classList.add('сlickToChangeColor');
+        iconClickText2502desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
     }
-    if (!event.target.closest('#path-2-5-left-up-4')) {
-        iconClickText25leftup41.classList.remove('сlickToChangeTextColor');
+    if (event.target.closest('#si-25502a')) {
+        iconClickText2502.classList.add('сlickToChangeTextColor');
     }
-    iconClickPath25leftup4.removeEventListener("click", funcIconClick25leftup4);
+    iconClickPath2502.removeEventListener("click", funcIconClick2502);
 }
-document.addEventListener("click", funcIconClick25leftup4);
+document.addEventListener("click", funcIconClick2502);
 
 const iconClickPath25leftup5 = document.getElementById('path-2-5-left-up-5');
 const iconClickText25leftup5 = document.getElementById('text-2-5-left-up-5');
+const iconClickText25leftup5desc = document.getElementById('desc2503');
 function funcIconClick25leftup5(event) {
     if (event.target.closest('#path-2-5-left-up-5')) {
         iconClickPath25leftup5.classList.add('сlickToChangeColor');
+        iconClickText25leftup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-5')) {
         iconClickPath25leftup5.classList.remove('сlickToChangeColor');
+        iconClickText25leftup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-5')) {
         iconClickText25leftup5.classList.add('сlickToChangeTextColor');
@@ -11178,18 +14911,48 @@ function funcIconClick25leftup5(event) {
     if (!event.target.closest('#path-2-5-left-up-5')) {
         iconClickText25leftup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25503')) {
+        iconClickPath25leftup5.classList.add('сlickToChangeColor');
+        iconClickText25leftup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25503')) {
+        iconClickText25leftup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup5.removeEventListener("click", funcIconClick25leftup5);
 }
 document.addEventListener("click", funcIconClick25leftup5);
 
 const iconClickPath25leftup6 = document.getElementById('path-2-5-left-up-6');
 const iconClickText25leftup6 = document.getElementById('text-2-5-left-up-6');
+const iconClickText25leftup6desc = document.getElementById('desc2504');
 function funcIconClick25leftup6(event) {
     if (event.target.closest('#path-2-5-left-up-6')) {
         iconClickPath25leftup6.classList.add('сlickToChangeColor');
+        iconClickText25leftup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-6')) {
         iconClickPath25leftup6.classList.remove('сlickToChangeColor');
+        iconClickText25leftup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-6')) {
         iconClickText25leftup6.classList.add('сlickToChangeTextColor');
@@ -11197,18 +14960,48 @@ function funcIconClick25leftup6(event) {
     if (!event.target.closest('#path-2-5-left-up-6')) {
         iconClickText25leftup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25504')) {
+        iconClickPath25leftup6.classList.add('сlickToChangeColor');
+        iconClickText25leftup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25504')) {
+        iconClickText25leftup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup6.removeEventListener("click", funcIconClick25leftup6);
 }
 document.addEventListener("click", funcIconClick25leftup6);
 
 const iconClickPath25leftup7 = document.getElementById('path-2-5-left-up-7');
 const iconClickText25leftup7 = document.getElementById('text-2-5-left-up-7');
+const iconClickText25leftup7desc = document.getElementById('desc2505');
 function funcIconClick25leftup7(event) {
     if (event.target.closest('#path-2-5-left-up-7')) {
         iconClickPath25leftup7.classList.add('сlickToChangeColor');
+        iconClickText25leftup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-7')) {
         iconClickPath25leftup7.classList.remove('сlickToChangeColor');
+        iconClickText25leftup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-7')) {
         iconClickText25leftup7.classList.add('сlickToChangeTextColor');
@@ -11216,18 +15009,48 @@ function funcIconClick25leftup7(event) {
     if (!event.target.closest('#path-2-5-left-up-7')) {
         iconClickText25leftup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25505')) {
+        iconClickPath25leftup7.classList.add('сlickToChangeColor');
+        iconClickText25leftup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25505')) {
+        iconClickText25leftup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup7.removeEventListener("click", funcIconClick25leftup7);
 }
 document.addEventListener("click", funcIconClick25leftup7);
 
 const iconClickPath25leftup8 = document.getElementById('path-2-5-left-up-8');
 const iconClickText25leftup8 = document.getElementById('text-2-5-left-up-8');
+const iconClickText25leftup8desc = document.getElementById('desc2506a');
 function funcIconClick25leftup8(event) {
     if (event.target.closest('#path-2-5-left-up-8')) {
         iconClickPath25leftup8.classList.add('сlickToChangeColor');
+        iconClickText25leftup8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-up-8')) {
         iconClickPath25leftup8.classList.remove('сlickToChangeColor');
+        iconClickText25leftup8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-up-8')) {
         iconClickText25leftup8.classList.add('сlickToChangeTextColor');
@@ -11235,19 +15058,97 @@ function funcIconClick25leftup8(event) {
     if (!event.target.closest('#path-2-5-left-up-8')) {
         iconClickText25leftup8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25506a')) {
+        iconClickPath25leftup8.classList.add('сlickToChangeColor');
+        iconClickText25leftup8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25506a')) {
+        iconClickText25leftup8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftup8.removeEventListener("click", funcIconClick25leftup8);
 }
 document.addEventListener("click", funcIconClick25leftup8);
 
-// building2floor5 - right-up
+const iconClickPath2506 = document.getElementById('path-2-506');
+const iconClickText2506 = document.getElementById('text-2-506');
+const iconClickText2506desc = document.getElementById('desc2506');
+function funcIconClick2506(event) {
+    if (event.target.closest('#path-2-506')) {
+        iconClickPath2506.classList.add('сlickToChangeColor');
+        iconClickText2506desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-506')) {
+        iconClickPath2506.classList.remove('сlickToChangeColor');
+        iconClickText2506desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-506')) {
+        iconClickText2506.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-506')) {
+        iconClickText2506.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-25506')) {
+        iconClickPath2506.classList.add('сlickToChangeColor');
+        iconClickText2506desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25506')) {
+        iconClickText2506.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2506.removeEventListener("click", funcIconClick2506);
+}
+document.addEventListener("click", funcIconClick2506);
+
 const iconClickPath25rightup1 = document.getElementById('path-2-5-right-up-1');
 const iconClickText25rightup1 = document.getElementById('text-2-5-right-up-1');
+const iconClickText25rightup1desc = document.getElementById('desc2507');
 function funcIconClick25rightup1(event) {
     if (event.target.closest('#path-2-5-right-up-1')) {
         iconClickPath25rightup1.classList.add('сlickToChangeColor');
+        iconClickText25rightup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-up-1')) {
         iconClickPath25rightup1.classList.remove('сlickToChangeColor');
+        iconClickText25rightup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-up-1')) {
         iconClickText25rightup1.classList.add('сlickToChangeTextColor');
@@ -11255,18 +15156,48 @@ function funcIconClick25rightup1(event) {
     if (!event.target.closest('#path-2-5-right-up-1')) {
         iconClickText25rightup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25507')) {
+        iconClickPath25rightup1.classList.add('сlickToChangeColor');
+        iconClickText25rightup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25507')) {
+        iconClickText25rightup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightup1.removeEventListener("click", funcIconClick25rightup1);
 }
 document.addEventListener("click", funcIconClick25rightup1);
 
 const iconClickPath25rightup2 = document.getElementById('path-2-5-right-up-2');
 const iconClickText25rightup2 = document.getElementById('text-2-5-right-up-2');
+const iconClickText25rightup2desc = document.getElementById('desc2508');
 function funcIconClick25rightup2(event) {
     if (event.target.closest('#path-2-5-right-up-2')) {
         iconClickPath25rightup2.classList.add('сlickToChangeColor');
+        iconClickText25rightup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-up-2')) {
         iconClickPath25rightup2.classList.remove('сlickToChangeColor');
+        iconClickText25rightup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-up-2')) {
         iconClickText25rightup2.classList.add('сlickToChangeTextColor');
@@ -11274,18 +15205,48 @@ function funcIconClick25rightup2(event) {
     if (!event.target.closest('#path-2-5-right-up-2')) {
         iconClickText25rightup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25508')) {
+        iconClickPath25rightup2.classList.add('сlickToChangeColor');
+        iconClickText25rightup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25508')) {
+        iconClickText25rightup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightup2.removeEventListener("click", funcIconClick25rightup2);
 }
 document.addEventListener("click", funcIconClick25rightup2);
 
 const iconClickPath25rightup3 = document.getElementById('path-2-5-right-up-3');
 const iconClickText25rightup3 = document.getElementById('text-2-5-right-up-3');
+const iconClickText25rightup3desc = document.getElementById('desc2509');
 function funcIconClick25rightup3(event) {
     if (event.target.closest('#path-2-5-right-up-3')) {
         iconClickPath25rightup3.classList.add('сlickToChangeColor');
+        iconClickText25rightup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-up-3')) {
         iconClickPath25rightup3.classList.remove('сlickToChangeColor');
+        iconClickText25rightup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-up-3')) {
         iconClickText25rightup3.classList.add('сlickToChangeTextColor');
@@ -11293,44 +15254,48 @@ function funcIconClick25rightup3(event) {
     if (!event.target.closest('#path-2-5-right-up-3')) {
         iconClickText25rightup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25509')) {
+        iconClickPath25rightup3.classList.add('сlickToChangeColor');
+        iconClickText25rightup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25509')) {
+        iconClickText25rightup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightup3.removeEventListener("click", funcIconClick25rightup3);
 }
 document.addEventListener("click", funcIconClick25rightup3);
 
-const iconClickPath25rightup4 = document.getElementById('path-2-5-right-up-4');
-const iconClickText25rightup4 = document.getElementById('text-2-5-right-up-4');
-const iconClickText25rightup41 = document.getElementById('text-2-5-right-up-4-1');
-function funcIconClick25rightup4(event) {
-    if (event.target.closest('#path-2-5-right-up-4')) {
-        iconClickPath25rightup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-5-right-up-4')) {
-        iconClickPath25rightup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-5-right-up-4')) {
-        iconClickText25rightup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-5-right-up-4')) {
-        iconClickText25rightup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-5-right-up-4')) {
-        iconClickText25rightup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-5-right-up-4')) {
-        iconClickText25rightup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath25rightup4.removeEventListener("click", funcIconClick25rightup4);
-}
-document.addEventListener("click", funcIconClick25rightup4);
-
 const iconClickPath25rightup5 = document.getElementById('path-2-5-right-up-5');
 const iconClickText25rightup5 = document.getElementById('text-2-5-right-up-5');
+const iconClickText25rightup5desc = document.getElementById('desc2510');
 function funcIconClick25rightup5(event) {
     if (event.target.closest('#path-2-5-right-up-5')) {
         iconClickPath25rightup5.classList.add('сlickToChangeColor');
+        iconClickText25rightup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-up-5')) {
         iconClickPath25rightup5.classList.remove('сlickToChangeColor');
+        iconClickText25rightup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-up-5')) {
         iconClickText25rightup5.classList.add('сlickToChangeTextColor');
@@ -11338,18 +15303,48 @@ function funcIconClick25rightup5(event) {
     if (!event.target.closest('#path-2-5-right-up-5')) {
         iconClickText25rightup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25510')) {
+        iconClickPath25rightup5.classList.add('сlickToChangeColor');
+        iconClickText25rightup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25510')) {
+        iconClickText25rightup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightup5.removeEventListener("click", funcIconClick25rightup5);
 }
 document.addEventListener("click", funcIconClick25rightup5);
 
 const iconClickPath25rightup6 = document.getElementById('path-2-5-right-up-6');
 const iconClickText25rightup6 = document.getElementById('text-2-5-right-up-6');
+const iconClickText25rightup6desc = document.getElementById('desc2511');
 function funcIconClick25rightup6(event) {
     if (event.target.closest('#path-2-5-right-up-6')) {
         iconClickPath25rightup6.classList.add('сlickToChangeColor');
+        iconClickText25rightup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-up-6')) {
         iconClickPath25rightup6.classList.remove('сlickToChangeColor');
+        iconClickText25rightup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-up-6')) {
         iconClickText25rightup6.classList.add('сlickToChangeTextColor');
@@ -11357,18 +15352,48 @@ function funcIconClick25rightup6(event) {
     if (!event.target.closest('#path-2-5-right-up-6')) {
         iconClickText25rightup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25511')) {
+        iconClickPath25rightup6.classList.add('сlickToChangeColor');
+        iconClickText25rightup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25511')) {
+        iconClickText25rightup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightup6.removeEventListener("click", funcIconClick25rightup6);
 }
 document.addEventListener("click", funcIconClick25rightup6);
 
 const iconClickPath25rightup7 = document.getElementById('path-2-5-right-up-7');
 const iconClickText25rightup7 = document.getElementById('text-2-5-right-up-7');
+const iconClickText25rightup7desc = document.getElementById('desc2511a');
 function funcIconClick25rightup7(event) {
     if (event.target.closest('#path-2-5-right-up-7')) {
         iconClickPath25rightup7.classList.add('сlickToChangeColor');
+        iconClickText25rightup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-up-7')) {
         iconClickPath25rightup7.classList.remove('сlickToChangeColor');
+        iconClickText25rightup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-up-7')) {
         iconClickText25rightup7.classList.add('сlickToChangeTextColor');
@@ -11376,19 +15401,48 @@ function funcIconClick25rightup7(event) {
     if (!event.target.closest('#path-2-5-right-up-7')) {
         iconClickText25rightup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25511a')) {
+        iconClickPath25rightup7.classList.add('сlickToChangeColor');
+        iconClickText25rightup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25511a')) {
+        iconClickText25rightup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightup7.removeEventListener("click", funcIconClick25rightup7);
 }
 document.addEventListener("click", funcIconClick25rightup7);
 
-// building2floor5 - left-down
 const iconClickPath25leftdown1 = document.getElementById('path-2-5-left-down-1');
 const iconClickText25leftdown1 = document.getElementById('text-2-5-left-down-1');
+const iconClickText25leftdown1desc = document.getElementById('desc2522');
 function funcIconClick25leftdown1(event) {
     if (event.target.closest('#path-2-5-left-down-1')) {
         iconClickPath25leftdown1.classList.add('сlickToChangeColor');
+        iconClickText25leftdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-1')) {
         iconClickPath25leftdown1.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-1')) {
         iconClickText25leftdown1.classList.add('сlickToChangeTextColor');
@@ -11396,18 +15450,97 @@ function funcIconClick25leftdown1(event) {
     if (!event.target.closest('#path-2-5-left-down-1')) {
         iconClickText25leftdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25522')) {
+        iconClickPath25leftdown1.classList.add('сlickToChangeColor');
+        iconClickText25leftdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25522')) {
+        iconClickText25leftdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown1.removeEventListener("click", funcIconClick25leftdown1);
 }
 document.addEventListener("click", funcIconClick25leftdown1);
 
+const iconClickPath2521 = document.getElementById('path-2-521');
+const iconClickText2521 = document.getElementById('text-2-521');
+const iconClickText2521desc = document.getElementById('desc2521a');
+function funcIconClick2521(event) {
+    if (event.target.closest('#path-2-521')) {
+        iconClickPath2521.classList.add('сlickToChangeColor');
+        iconClickText2521desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-521')) {
+        iconClickPath2521.classList.remove('сlickToChangeColor');
+        iconClickText2521desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-521')) {
+        iconClickText2521.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-521')) {
+        iconClickText2521.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-25521a')) {
+        iconClickPath2521.classList.add('сlickToChangeColor');
+        iconClickText2521desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25521a')) {
+        iconClickText2521.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2521.removeEventListener("click", funcIconClick2521);
+}
+document.addEventListener("click", funcIconClick2521);
+
 const iconClickPath25leftdown2 = document.getElementById('path-2-5-left-down-2');
 const iconClickText25leftdown2 = document.getElementById('text-2-5-left-down-2');
+const iconClickText25leftdown2desc = document.getElementById('desc2521');
 function funcIconClick25leftdown2(event) {
     if (event.target.closest('#path-2-5-left-down-2')) {
         iconClickPath25leftdown2.classList.add('сlickToChangeColor');
+        iconClickText25leftdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-2')) {
         iconClickPath25leftdown2.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-2')) {
         iconClickText25leftdown2.classList.add('сlickToChangeTextColor');
@@ -11415,18 +15548,48 @@ function funcIconClick25leftdown2(event) {
     if (!event.target.closest('#path-2-5-left-down-2')) {
         iconClickText25leftdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25521')) {
+        iconClickPath25leftdown2.classList.add('сlickToChangeColor');
+        iconClickText25leftdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25521')) {
+        iconClickText25leftdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown2.removeEventListener("click", funcIconClick25leftdown2);
 }
 document.addEventListener("click", funcIconClick25leftdown2);
 
 const iconClickPath25leftdown3 = document.getElementById('path-2-5-left-down-3');
 const iconClickText25leftdown3 = document.getElementById('text-2-5-left-down-3');
+const iconClickText25leftdown3desc = document.getElementById('desc2520a');
 function funcIconClick25leftdown3(event) {
     if (event.target.closest('#path-2-5-left-down-3')) {
         iconClickPath25leftdown3.classList.add('сlickToChangeColor');
+        iconClickText25leftdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-3')) {
         iconClickPath25leftdown3.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-3')) {
         iconClickText25leftdown3.classList.add('сlickToChangeTextColor');
@@ -11434,18 +15597,48 @@ function funcIconClick25leftdown3(event) {
     if (!event.target.closest('#path-2-5-left-down-3')) {
         iconClickText25leftdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25520a')) {
+        iconClickPath25leftdown3.classList.add('сlickToChangeColor');
+        iconClickText25leftdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25520a')) {
+        iconClickText25leftdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown3.removeEventListener("click", funcIconClick25leftdown3);
 }
 document.addEventListener("click", funcIconClick25leftdown3);
 
 const iconClickPath25leftdown4 = document.getElementById('path-2-5-left-down-4');
 const iconClickText25leftdown4 = document.getElementById('text-2-5-left-down-4');
+const iconClickText25leftdown4desc = document.getElementById('desc2520');
 function funcIconClick25leftdown4(event) {
     if (event.target.closest('#path-2-5-left-down-4')) {
         iconClickPath25leftdown4.classList.add('сlickToChangeColor');
+        iconClickText25leftdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-4')) {
         iconClickPath25leftdown4.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-4')) {
         iconClickText25leftdown4.classList.add('сlickToChangeTextColor');
@@ -11453,18 +15646,48 @@ function funcIconClick25leftdown4(event) {
     if (!event.target.closest('#path-2-5-left-down-4')) {
         iconClickText25leftdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25520')) {
+        iconClickPath25leftdown4.classList.add('сlickToChangeColor');
+        iconClickText25leftdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25520')) {
+        iconClickText25leftdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown4.removeEventListener("click", funcIconClick25leftdown4);
 }
 document.addEventListener("click", funcIconClick25leftdown4);
 
 const iconClickPath25leftdown5 = document.getElementById('path-2-5-left-down-5');
 const iconClickText25leftdown5 = document.getElementById('text-2-5-left-down-5');
+const iconClickText25leftdown5desc = document.getElementById('desc2519');
 function funcIconClick25leftdown5(event) {
     if (event.target.closest('#path-2-5-left-down-5')) {
         iconClickPath25leftdown5.classList.add('сlickToChangeColor');
+        iconClickText25leftdown5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-5')) {
         iconClickPath25leftdown5.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-5')) {
         iconClickText25leftdown5.classList.add('сlickToChangeTextColor');
@@ -11472,18 +15695,146 @@ function funcIconClick25leftdown5(event) {
     if (!event.target.closest('#path-2-5-left-down-5')) {
         iconClickText25leftdown5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25519')) {
+        iconClickPath25leftdown5.classList.add('сlickToChangeColor');
+        iconClickText25leftdown5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25519')) {
+        iconClickText25leftdown5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown5.removeEventListener("click", funcIconClick25leftdown5);
 }
 document.addEventListener("click", funcIconClick25leftdown5);
 
+const iconClickPath2520 = document.getElementById('path-2-520');
+const iconClickText2520 = document.getElementById('text-2-520');
+const iconClickText2520desc = document.getElementById('desc2518');
+function funcIconClick2520(event) {
+    if (event.target.closest('#path-2-520')) {
+        iconClickPath2520.classList.add('сlickToChangeColor');
+        iconClickText2520desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-520')) {
+        iconClickPath2520.classList.remove('сlickToChangeColor');
+        iconClickText2520desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-520')) {
+        iconClickText2520.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-520')) {
+        iconClickText2520.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-25518')) {
+        iconClickPath2520.classList.add('сlickToChangeColor');
+        iconClickText2520desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25518')) {
+        iconClickText2520.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2520.removeEventListener("click", funcIconClick2520);
+}
+document.addEventListener("click", funcIconClick2520);
+
+const iconClickPath2519 = document.getElementById('path-2-519');
+const iconClickText2519 = document.getElementById('text-2-519');
+const iconClickText2519desc = document.getElementById('desc2517');
+function funcIconClick2519(event) {
+    if (event.target.closest('#path-2-519')) {
+        iconClickPath2519.classList.add('сlickToChangeColor');
+        iconClickText2519desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-519')) {
+        iconClickPath2519.classList.remove('сlickToChangeColor');
+        iconClickText2519desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-519')) {
+        iconClickText2519.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-519')) {
+        iconClickText2519.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-25517')) {
+        iconClickPath2519.classList.add('сlickToChangeColor');
+        iconClickText2519desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25517')) {
+        iconClickText2519.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2519.removeEventListener("click", funcIconClick2519);
+}
+document.addEventListener("click", funcIconClick2519);
+
 const iconClickPath25leftdown6 = document.getElementById('path-2-5-left-down-6');
 const iconClickText25leftdown6 = document.getElementById('text-2-5-left-down-6');
+const iconClickText25leftdown6desc = document.getElementById('desc2516a');
 function funcIconClick25leftdown6(event) {
     if (event.target.closest('#path-2-5-left-down-6')) {
         iconClickPath25leftdown6.classList.add('сlickToChangeColor');
+        iconClickText25leftdown6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-6')) {
         iconClickPath25leftdown6.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-6')) {
         iconClickText25leftdown6.classList.add('сlickToChangeTextColor');
@@ -11491,18 +15842,48 @@ function funcIconClick25leftdown6(event) {
     if (!event.target.closest('#path-2-5-left-down-6')) {
         iconClickText25leftdown6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25516a')) {
+        iconClickPath25leftdown6.classList.add('сlickToChangeColor');
+        iconClickText25leftdown6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25516a')) {
+        iconClickText25leftdown6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown6.removeEventListener("click", funcIconClick25leftdown6);
 }
 document.addEventListener("click", funcIconClick25leftdown6);
 
 const iconClickPath25leftdown7 = document.getElementById('path-2-5-left-down-7');
 const iconClickText25leftdown7 = document.getElementById('text-2-5-left-down-7');
+const iconClickText25leftdown7desc = document.getElementById('desc2516');
 function funcIconClick25leftdown7(event) {
     if (event.target.closest('#path-2-5-left-down-7')) {
         iconClickPath25leftdown7.classList.add('сlickToChangeColor');
+        iconClickText25leftdown7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-left-down-7')) {
         iconClickPath25leftdown7.classList.remove('сlickToChangeColor');
+        iconClickText25leftdown7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-left-down-7')) {
         iconClickText25leftdown7.classList.add('сlickToChangeTextColor');
@@ -11510,19 +15891,48 @@ function funcIconClick25leftdown7(event) {
     if (!event.target.closest('#path-2-5-left-down-7')) {
         iconClickText25leftdown7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25516')) {
+        iconClickPath25leftdown7.classList.add('сlickToChangeColor');
+        iconClickText25leftdown7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25516')) {
+        iconClickText25leftdown7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25leftdown7.removeEventListener("click", funcIconClick25leftdown7);
 }
 document.addEventListener("click", funcIconClick25leftdown7);
 
-// building2floor5 - right-down
 const iconClickPath25rightdown1 = document.getElementById('path-2-5-right-down-1');
 const iconClickText25rightdown1 = document.getElementById('text-2-5-right-down-1');
+const iconClickText25rightdown1desc = document.getElementById('desc2515');
 function funcIconClick25rightdown1(event) {
     if (event.target.closest('#path-2-5-right-down-1')) {
         iconClickPath25rightdown1.classList.add('сlickToChangeColor');
+        iconClickText25rightdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-down-1')) {
         iconClickPath25rightdown1.classList.remove('сlickToChangeColor');
+        iconClickText25rightdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-down-1')) {
         iconClickText25rightdown1.classList.add('сlickToChangeTextColor');
@@ -11530,18 +15940,48 @@ function funcIconClick25rightdown1(event) {
     if (!event.target.closest('#path-2-5-right-down-1')) {
         iconClickText25rightdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25515')) {
+        iconClickPath25rightdown1.classList.add('сlickToChangeColor');
+        iconClickText25rightdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25515')) {
+        iconClickText25rightdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightdown1.removeEventListener("click", funcIconClick25rightdown1);
 }
 document.addEventListener("click", funcIconClick25rightdown1);
 
 const iconClickPath25rightdown2 = document.getElementById('path-2-5-right-down-2');
 const iconClickText25rightdown2 = document.getElementById('text-2-5-right-down-2');
+const iconClickText25rightdown2desc = document.getElementById('desc2514');
 function funcIconClick25rightdown2(event) {
     if (event.target.closest('#path-2-5-right-down-2')) {
         iconClickPath25rightdown2.classList.add('сlickToChangeColor');
+        iconClickText25rightdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-down-2')) {
         iconClickPath25rightdown2.classList.remove('сlickToChangeColor');
+        iconClickText25rightdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-down-2')) {
         iconClickText25rightdown2.classList.add('сlickToChangeTextColor');
@@ -11549,18 +15989,48 @@ function funcIconClick25rightdown2(event) {
     if (!event.target.closest('#path-2-5-right-down-2')) {
         iconClickText25rightdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25514')) {
+        iconClickPath25rightdown2.classList.add('сlickToChangeColor');
+        iconClickText25rightdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25514')) {
+        iconClickText25rightdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightdown2.removeEventListener("click", funcIconClick25rightdown2);
 }
 document.addEventListener("click", funcIconClick25rightdown2);
 
 const iconClickPath25rightdown4 = document.getElementById('path-2-5-right-down-4');
 const iconClickText25rightdown4 = document.getElementById('text-2-5-right-down-4');
+const iconClickText25rightdown4desc = document.getElementById('desc2512');
 function funcIconClick25rightdown4(event) {
     if (event.target.closest('#path-2-5-right-down-4')) {
         iconClickPath25rightdown4.classList.add('сlickToChangeColor');
+        iconClickText25rightdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-5-right-down-4')) {
         iconClickPath25rightdown4.classList.remove('сlickToChangeColor');
+        iconClickText25rightdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-5-right-down-4')) {
         iconClickText25rightdown4.classList.add('сlickToChangeTextColor');
@@ -11568,37 +16038,49 @@ function funcIconClick25rightdown4(event) {
     if (!event.target.closest('#path-2-5-right-down-4')) {
         iconClickText25rightdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-25512')) {
+        iconClickPath25rightdown4.classList.add('сlickToChangeColor');
+        iconClickText25rightdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'block';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.add("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-25512')) {
+        iconClickText25rightdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath25rightdown4.removeEventListener("click", funcIconClick25rightdown4);
 }
 document.addEventListener("click", funcIconClick25rightdown4);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// building2floor6
-// building2floor6 - left-up
+// building2floor6 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 const iconClickPath26leftup1 = document.getElementById('path-2-6-left-up-1');
 const iconClickText26leftup1 = document.getElementById('text-2-6-left-up-1');
+const iconClickText26leftup1desc = document.getElementById('desc2601');
 function funcIconClick26leftup1(event) {
     if (event.target.closest('#path-2-6-left-up-1')) {
         iconClickPath26leftup1.classList.add('сlickToChangeColor');
+        iconClickText26leftup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-up-1')) {
         iconClickPath26leftup1.classList.remove('сlickToChangeColor');
+        iconClickText26leftup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-up-1')) {
         iconClickText26leftup1.classList.add('сlickToChangeTextColor');
@@ -11606,18 +16088,48 @@ function funcIconClick26leftup1(event) {
     if (!event.target.closest('#path-2-6-left-up-1')) {
         iconClickText26leftup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26601')) {
+        iconClickPath26leftup1.classList.add('сlickToChangeColor');
+        iconClickText26leftup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26601')) {
+        iconClickText26leftup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftup1.removeEventListener("click", funcIconClick26leftup1);
 }
 document.addEventListener("click", funcIconClick26leftup1);
 
 const iconClickPath26leftup3 = document.getElementById('path-2-6-left-up-3');
 const iconClickText26leftup3 = document.getElementById('text-2-6-left-up-3');
+const iconClickText26leftup3desc = document.getElementById('desc2602');
 function funcIconClick26leftup3(event) {
     if (event.target.closest('#path-2-6-left-up-3')) {
         iconClickPath26leftup3.classList.add('сlickToChangeColor');
+        iconClickText26leftup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-up-3')) {
         iconClickPath26leftup3.classList.remove('сlickToChangeColor');
+        iconClickText26leftup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-up-3')) {
         iconClickText26leftup3.classList.add('сlickToChangeTextColor');
@@ -11625,44 +16137,48 @@ function funcIconClick26leftup3(event) {
     if (!event.target.closest('#path-2-6-left-up-3')) {
         iconClickText26leftup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26602')) {
+        iconClickPath26leftup3.classList.add('сlickToChangeColor');
+        iconClickText26leftup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26602')) {
+        iconClickText26leftup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftup3.removeEventListener("click", funcIconClick26leftup3);
 }
 document.addEventListener("click", funcIconClick26leftup3);
 
-const iconClickPath26leftup4 = document.getElementById('path-2-6-left-up-4');
-const iconClickText26leftup4 = document.getElementById('text-2-6-left-up-4');
-const iconClickText26leftup41 = document.getElementById('text-2-6-left-up-4-1');
-function funcIconClick26leftup4(event) {
-    if (event.target.closest('#path-2-6-left-up-4')) {
-        iconClickPath26leftup4.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-6-left-up-4')) {
-        iconClickPath26leftup4.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-6-left-up-4')) {
-        iconClickText26leftup4.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-6-left-up-4')) {
-        iconClickText26leftup4.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-2-6-left-up-4')) {
-        iconClickText26leftup41.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-6-left-up-4')) {
-        iconClickText26leftup41.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath26leftup4.removeEventListener("click", funcIconClick26leftup4);
-}
-document.addEventListener("click", funcIconClick26leftup4);
-
 const iconClickPath26leftup5 = document.getElementById('path-2-6-left-up-5');
 const iconClickText26leftup5 = document.getElementById('text-2-6-left-up-5');
+const iconClickText26leftup5desc = document.getElementById('desc2603');
 function funcIconClick26leftup5(event) {
     if (event.target.closest('#path-2-6-left-up-5')) {
         iconClickPath26leftup5.classList.add('сlickToChangeColor');
+        iconClickText26leftup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-up-5')) {
         iconClickPath26leftup5.classList.remove('сlickToChangeColor');
+        iconClickText26leftup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-up-5')) {
         iconClickText26leftup5.classList.add('сlickToChangeTextColor');
@@ -11670,18 +16186,48 @@ function funcIconClick26leftup5(event) {
     if (!event.target.closest('#path-2-6-left-up-5')) {
         iconClickText26leftup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26603')) {
+        iconClickPath26leftup5.classList.add('сlickToChangeColor');
+        iconClickText26leftup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26603')) {
+        iconClickText26leftup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftup5.removeEventListener("click", funcIconClick26leftup5);
 }
 document.addEventListener("click", funcIconClick26leftup5);
 
 const iconClickPath26leftup6 = document.getElementById('path-2-6-left-up-6');
 const iconClickText26leftup6 = document.getElementById('text-2-6-left-up-6');
+const iconClickText26leftup6desc = document.getElementById('desc2604');
 function funcIconClick26leftup6(event) {
     if (event.target.closest('#path-2-6-left-up-6')) {
         iconClickPath26leftup6.classList.add('сlickToChangeColor');
+        iconClickText26leftup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-up-6')) {
         iconClickPath26leftup6.classList.remove('сlickToChangeColor');
+        iconClickText26leftup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-up-6')) {
         iconClickText26leftup6.classList.add('сlickToChangeTextColor');
@@ -11689,18 +16235,48 @@ function funcIconClick26leftup6(event) {
     if (!event.target.closest('#path-2-6-left-up-6')) {
         iconClickText26leftup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26604')) {
+        iconClickPath26leftup6.classList.add('сlickToChangeColor');
+        iconClickText26leftup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26604')) {
+        iconClickText26leftup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftup6.removeEventListener("click", funcIconClick26leftup6);
 }
 document.addEventListener("click", funcIconClick26leftup6);
 
 const iconClickPath26leftup7 = document.getElementById('path-2-6-left-up-7');
 const iconClickText26leftup7 = document.getElementById('text-2-6-left-up-7');
+const iconClickText26leftup7desc = document.getElementById('desc2605');
 function funcIconClick26leftup7(event) {
     if (event.target.closest('#path-2-6-left-up-7')) {
         iconClickPath26leftup7.classList.add('сlickToChangeColor');
+        iconClickText26leftup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-up-7')) {
         iconClickPath26leftup7.classList.remove('сlickToChangeColor');
+        iconClickText26leftup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-up-7')) {
         iconClickText26leftup7.classList.add('сlickToChangeTextColor');
@@ -11708,18 +16284,48 @@ function funcIconClick26leftup7(event) {
     if (!event.target.closest('#path-2-6-left-up-7')) {
         iconClickText26leftup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26605')) {
+        iconClickPath26leftup7.classList.add('сlickToChangeColor');
+        iconClickText26leftup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26605')) {
+        iconClickText26leftup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftup7.removeEventListener("click", funcIconClick26leftup7);
 }
 document.addEventListener("click", funcIconClick26leftup7);
 
 const iconClickPath26leftup8 = document.getElementById('path-2-6-left-up-8');
 const iconClickText26leftup8 = document.getElementById('text-2-6-left-up-8');
+const iconClickText26leftup8desc = document.getElementById('desc2606');
 function funcIconClick26leftup8(event) {
     if (event.target.closest('#path-2-6-left-up-8')) {
         iconClickPath26leftup8.classList.add('сlickToChangeColor');
+        iconClickText26leftup8desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-up-8')) {
         iconClickPath26leftup8.classList.remove('сlickToChangeColor');
+        iconClickText26leftup8desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-up-8')) {
         iconClickText26leftup8.classList.add('сlickToChangeTextColor');
@@ -11727,19 +16333,97 @@ function funcIconClick26leftup8(event) {
     if (!event.target.closest('#path-2-6-left-up-8')) {
         iconClickText26leftup8.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26606')) {
+        iconClickPath26leftup8.classList.add('сlickToChangeColor');
+        iconClickText26leftup8desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26606')) {
+        iconClickText26leftup8.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftup8.removeEventListener("click", funcIconClick26leftup8);
 }
 document.addEventListener("click", funcIconClick26leftup8);
 
-// building2floor6 - right-up
+const iconClickPath2607 = document.getElementById('path-2-607');
+const iconClickText2607 = document.getElementById('text-2-607');
+const iconClickText2607desc = document.getElementById('desc2607');
+function funcIconClick2607(event) {
+    if (event.target.closest('#path-2-607')) {
+        iconClickPath2607.classList.add('сlickToChangeColor');
+        iconClickText2607desc.style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-607')) {
+        iconClickPath2607.classList.remove('сlickToChangeColor');
+        iconClickText2607desc.style.display = 'none';
+    }
+    if (event.target.closest('#path-2-607')) {
+        iconClickText2607.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-607')) {
+        iconClickText2607.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-26607')) {
+        iconClickPath2607.classList.add('сlickToChangeColor');
+        iconClickText2607desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26607')) {
+        iconClickText2607.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath2607.removeEventListener("click", funcIconClick2607);
+}
+document.addEventListener("click", funcIconClick2607);
+
 const iconClickPath26rightup1 = document.getElementById('path-2-6-right-up-1');
 const iconClickText26rightup1 = document.getElementById('text-2-6-right-up-1');
+const iconClickText26rightup1desc = document.getElementById('desc2608a');
 function funcIconClick26rightup1(event) {
     if (event.target.closest('#path-2-6-right-up-1')) {
         iconClickPath26rightup1.classList.add('сlickToChangeColor');
+        iconClickText26rightup1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-1')) {
         iconClickPath26rightup1.classList.remove('сlickToChangeColor');
+        iconClickText26rightup1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-1')) {
         iconClickText26rightup1.classList.add('сlickToChangeTextColor');
@@ -11747,18 +16431,48 @@ function funcIconClick26rightup1(event) {
     if (!event.target.closest('#path-2-6-right-up-1')) {
         iconClickText26rightup1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26608a')) {
+        iconClickPath26rightup1.classList.add('сlickToChangeColor');
+        iconClickText26rightup1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26608a')) {
+        iconClickText26rightup1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightup1.removeEventListener("click", funcIconClick26rightup1);
 }
 document.addEventListener("click", funcIconClick26rightup1);
 
 const iconClickPath26rightup2 = document.getElementById('path-2-6-right-up-2');
 const iconClickText26rightup2 = document.getElementById('text-2-6-right-up-2');
+const iconClickText26rightup2desc = document.getElementById('desc2608');
 function funcIconClick26rightup2(event) {
     if (event.target.closest('#path-2-6-right-up-2')) {
         iconClickPath26rightup2.classList.add('сlickToChangeColor');
+        iconClickText26rightup2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-2')) {
         iconClickPath26rightup2.classList.remove('сlickToChangeColor');
+        iconClickText26rightup2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-2')) {
         iconClickText26rightup2.classList.add('сlickToChangeTextColor');
@@ -11766,18 +16480,48 @@ function funcIconClick26rightup2(event) {
     if (!event.target.closest('#path-2-6-right-up-2')) {
         iconClickText26rightup2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26608')) {
+        iconClickPath26rightup2.classList.add('сlickToChangeColor');
+        iconClickText26rightup2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26608')) {
+        iconClickText26rightup2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightup2.removeEventListener("click", funcIconClick26rightup2);
 }
 document.addEventListener("click", funcIconClick26rightup2);
 
 const iconClickPath26rightup3 = document.getElementById('path-2-6-right-up-3');
 const iconClickText26rightup3 = document.getElementById('text-2-6-right-up-3');
+const iconClickText26rightup3desc = document.getElementById('desc2609');
 function funcIconClick26rightup3(event) {
     if (event.target.closest('#path-2-6-right-up-3')) {
         iconClickPath26rightup3.classList.add('сlickToChangeColor');
+        iconClickText26rightup3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-3')) {
         iconClickPath26rightup3.classList.remove('сlickToChangeColor');
+        iconClickText26rightup3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-3')) {
         iconClickText26rightup3.classList.add('сlickToChangeTextColor');
@@ -11785,18 +16529,48 @@ function funcIconClick26rightup3(event) {
     if (!event.target.closest('#path-2-6-right-up-3')) {
         iconClickText26rightup3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26609')) {
+        iconClickPath26rightup3.classList.add('сlickToChangeColor');
+        iconClickText26rightup3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26609')) {
+        iconClickText26rightup3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightup3.removeEventListener("click", funcIconClick26rightup3);
 }
 document.addEventListener("click", funcIconClick26rightup3);
 
 const iconClickPath26rightup4 = document.getElementById('path-2-6-right-up-4');
 const iconClickText26rightup4 = document.getElementById('text-2-6-right-up-4');
+const iconClickText26rightup4desc = document.getElementById('desc2611a');
 function funcIconClick26rightup4(event) {
     if (event.target.closest('#path-2-6-right-up-4')) {
         iconClickPath26rightup4.classList.add('сlickToChangeColor');
+        iconClickText26rightup4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-4')) {
         iconClickPath26rightup4.classList.remove('сlickToChangeColor');
+        iconClickText26rightup4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-4')) {
         iconClickText26rightup4.classList.add('сlickToChangeTextColor');
@@ -11810,12 +16584,15 @@ document.addEventListener("click", funcIconClick26rightup4);
 
 const iconClickPath26rightup5 = document.getElementById('path-2-6-right-up-5');
 const iconClickText26rightup5 = document.getElementById('text-2-6-right-up-5');
+const iconClickText26rightup5desc = document.getElementById('desc2610a');
 function funcIconClick26rightup5(event) {
     if (event.target.closest('#path-2-6-right-up-5')) {
         iconClickPath26rightup5.classList.add('сlickToChangeColor');
+        iconClickText26rightup5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-5')) {
         iconClickPath26rightup5.classList.remove('сlickToChangeColor');
+        iconClickText26rightup5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-5')) {
         iconClickText26rightup5.classList.add('сlickToChangeTextColor');
@@ -11823,18 +16600,48 @@ function funcIconClick26rightup5(event) {
     if (!event.target.closest('#path-2-6-right-up-5')) {
         iconClickText26rightup5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26610a')) {
+        iconClickPath26rightup5.classList.add('сlickToChangeColor');
+        iconClickText26rightup5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26610a')) {
+        iconClickText26rightup5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightup5.removeEventListener("click", funcIconClick26rightup5);
 }
 document.addEventListener("click", funcIconClick26rightup5);
 
 const iconClickPath26rightup6 = document.getElementById('path-2-6-right-up-6');
 const iconClickText26rightup6 = document.getElementById('text-2-6-right-up-6');
+const iconClickText26rightup6desc = document.getElementById('desc2610');
 function funcIconClick26rightup6(event) {
     if (event.target.closest('#path-2-6-right-up-6')) {
         iconClickPath26rightup6.classList.add('сlickToChangeColor');
+        iconClickText26rightup6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-6')) {
         iconClickPath26rightup6.classList.remove('сlickToChangeColor');
+        iconClickText26rightup6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-6')) {
         iconClickText26rightup6.classList.add('сlickToChangeTextColor');
@@ -11842,18 +16649,48 @@ function funcIconClick26rightup6(event) {
     if (!event.target.closest('#path-2-6-right-up-6')) {
         iconClickText26rightup6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26610')) {
+        iconClickPath26rightup6.classList.add('сlickToChangeColor');
+        iconClickText26rightup6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26610')) {
+        iconClickText26rightup6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightup6.removeEventListener("click", funcIconClick26rightup6);
 }
 document.addEventListener("click", funcIconClick26rightup6);
 
 const iconClickPath26rightup7 = document.getElementById('path-2-6-right-up-7');
 const iconClickText26rightup7 = document.getElementById('text-2-6-right-up-7');
+const iconClickText26rightup7desc = document.getElementById('desc2611');
 function funcIconClick26rightup7(event) {
     if (event.target.closest('#path-2-6-right-up-7')) {
         iconClickPath26rightup7.classList.add('сlickToChangeColor');
+        iconClickText26rightup7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-up-7')) {
         iconClickPath26rightup7.classList.remove('сlickToChangeColor');
+        iconClickText26rightup7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-up-7')) {
         iconClickText26rightup7.classList.add('сlickToChangeTextColor');
@@ -11861,19 +16698,48 @@ function funcIconClick26rightup7(event) {
     if (!event.target.closest('#path-2-6-right-up-7')) {
         iconClickText26rightup7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26611')) {
+        iconClickPath26rightup7.classList.add('сlickToChangeColor');
+        iconClickText26rightup7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26611')) {
+        iconClickText26rightup7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightup7.removeEventListener("click", funcIconClick26rightup7);
 }
 document.addEventListener("click", funcIconClick26rightup7);
 
-// building2floor6 - left-down
 const iconClickPath26leftdown2 = document.getElementById('path-2-6-left-down-2');
 const iconClickText26leftdown2 = document.getElementById('text-2-6-left-down-2');
+const iconClickText26leftdown2desc = document.getElementById('desc2624');
 function funcIconClick26leftdown2(event) {
     if (event.target.closest('#path-2-6-left-down-2')) {
         iconClickPath26leftdown2.classList.add('сlickToChangeColor');
+        iconClickText26leftdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-down-2')) {
         iconClickPath26leftdown2.classList.remove('сlickToChangeColor');
+        iconClickText26leftdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-down-2')) {
         iconClickText26leftdown2.classList.add('сlickToChangeTextColor');
@@ -11881,18 +16747,48 @@ function funcIconClick26leftdown2(event) {
     if (!event.target.closest('#path-2-6-left-down-2')) {
         iconClickText26leftdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26624')) {
+        iconClickPath26leftdown2.classList.add('сlickToChangeColor');
+        iconClickText26leftdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26624')) {
+        iconClickText26leftdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftdown2.removeEventListener("click", funcIconClick26leftdown2);
 }
 document.addEventListener("click", funcIconClick26leftdown2);
 
 const iconClickPath26leftdown3 = document.getElementById('path-2-6-left-down-3');
 const iconClickText26leftdown3 = document.getElementById('text-2-6-left-down-3');
+const iconClickText26leftdown3desc = document.getElementById('desc2623');
 function funcIconClick26leftdown3(event) {
     if (event.target.closest('#path-2-6-left-down-3')) {
         iconClickPath26leftdown3.classList.add('сlickToChangeColor');
+        iconClickText26leftdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-down-3')) {
         iconClickPath26leftdown3.classList.remove('сlickToChangeColor');
+        iconClickText26leftdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-down-3')) {
         iconClickText26leftdown3.classList.add('сlickToChangeTextColor');
@@ -11900,18 +16796,48 @@ function funcIconClick26leftdown3(event) {
     if (!event.target.closest('#path-2-6-left-down-3')) {
         iconClickText26leftdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26623')) {
+        iconClickPath26leftdown3.classList.add('сlickToChangeColor');
+        iconClickText26leftdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26623')) {
+        iconClickText26leftdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftdown3.removeEventListener("click", funcIconClick26leftdown3);
 }
 document.addEventListener("click", funcIconClick26leftdown3);
 
 const iconClickPath26leftdown4 = document.getElementById('path-2-6-left-down-4');
 const iconClickText26leftdown4 = document.getElementById('text-2-6-left-down-4');
+const iconClickText26leftdown4desc = document.getElementById('desc2622');
 function funcIconClick26leftdown4(event) {
     if (event.target.closest('#path-2-6-left-down-4')) {
         iconClickPath26leftdown4.classList.add('сlickToChangeColor');
+        iconClickText26leftdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-down-4')) {
         iconClickPath26leftdown4.classList.remove('сlickToChangeColor');
+        iconClickText26leftdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-down-4')) {
         iconClickText26leftdown4.classList.add('сlickToChangeTextColor');
@@ -11919,18 +16845,48 @@ function funcIconClick26leftdown4(event) {
     if (!event.target.closest('#path-2-6-left-down-4')) {
         iconClickText26leftdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26622')) {
+        iconClickPath26leftdown4.classList.add('сlickToChangeColor');
+        iconClickText26leftdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26622')) {
+        iconClickText26leftdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftdown4.removeEventListener("click", funcIconClick26leftdown4);
 }
 document.addEventListener("click", funcIconClick26leftdown4);
 
 const iconClickPath26leftdown5 = document.getElementById('path-2-6-left-down-5');
 const iconClickText26leftdown5 = document.getElementById('text-2-6-left-down-5');
+const iconClickText26leftdown5desc = document.getElementById('desc2621');
 function funcIconClick26leftdown5(event) {
     if (event.target.closest('#path-2-6-left-down-5')) {
         iconClickPath26leftdown5.classList.add('сlickToChangeColor');
+        iconClickText26leftdown5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-down-5')) {
         iconClickPath26leftdown5.classList.remove('сlickToChangeColor');
+        iconClickText26leftdown5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-down-5')) {
         iconClickText26leftdown5.classList.add('сlickToChangeTextColor');
@@ -11938,18 +16894,48 @@ function funcIconClick26leftdown5(event) {
     if (!event.target.closest('#path-2-6-left-down-5')) {
         iconClickText26leftdown5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26621')) {
+        iconClickPath26leftdown5.classList.add('сlickToChangeColor');
+        iconClickText26leftdown5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26621')) {
+        iconClickText26leftdown5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftdown5.removeEventListener("click", funcIconClick26leftdown5);
 }
 document.addEventListener("click", funcIconClick26leftdown5);
 
 const iconClickPath26leftdown6 = document.getElementById('path-2-6-left-down-6');
 const iconClickText26leftdown6 = document.getElementById('text-2-6-left-down-6');
+const iconClickText26leftdown6desc = document.getElementById('desc2620');
 function funcIconClick26leftdown6(event) {
     if (event.target.closest('#path-2-6-left-down-6')) {
         iconClickPath26leftdown6.classList.add('сlickToChangeColor');
+        iconClickText26leftdown6desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-down-6')) {
         iconClickPath26leftdown6.classList.remove('сlickToChangeColor');
+        iconClickText26leftdown6desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-down-6')) {
         iconClickText26leftdown6.classList.add('сlickToChangeTextColor');
@@ -11957,18 +16943,48 @@ function funcIconClick26leftdown6(event) {
     if (!event.target.closest('#path-2-6-left-down-6')) {
         iconClickText26leftdown6.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26620')) {
+        iconClickPath26leftdown6.classList.add('сlickToChangeColor');
+        iconClickText26leftdown6desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26620')) {
+        iconClickText26leftdown6.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftdown6.removeEventListener("click", funcIconClick26leftdown6);
 }
 document.addEventListener("click", funcIconClick26leftdown6);
 
 const iconClickPath26leftdown7 = document.getElementById('path-2-6-left-down-7');
 const iconClickText26leftdown7 = document.getElementById('text-2-6-left-down-7');
+const iconClickText26leftdown7desc = document.getElementById('desc2619');
 function funcIconClick26leftdown7(event) {
     if (event.target.closest('#path-2-6-left-down-7')) {
         iconClickPath26leftdown7.classList.add('сlickToChangeColor');
+        iconClickText26leftdown7desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-left-down-7')) {
         iconClickPath26leftdown7.classList.remove('сlickToChangeColor');
+        iconClickText26leftdown7desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-left-down-7')) {
         iconClickText26leftdown7.classList.add('сlickToChangeTextColor');
@@ -11976,19 +16992,48 @@ function funcIconClick26leftdown7(event) {
     if (!event.target.closest('#path-2-6-left-down-7')) {
         iconClickText26leftdown7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26619')) {
+        iconClickPath26leftdown7.classList.add('сlickToChangeColor');
+        iconClickText26leftdown7desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26619')) {
+        iconClickText26leftdown7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26leftdown7.removeEventListener("click", funcIconClick26leftdown7);
 }
 document.addEventListener("click", funcIconClick26leftdown7);
 
-// building2floor6 - right-down
 const iconClickPath26rightdown1 = document.getElementById('path-2-6-right-down-1');
 const iconClickText26rightdown1 = document.getElementById('text-2-6-right-down-1');
+const iconClickText26rightdown1desc = document.getElementById('desc2618');
 function funcIconClick26rightdown1(event) {
     if (event.target.closest('#path-2-6-right-down-1')) {
         iconClickPath26rightdown1.classList.add('сlickToChangeColor');
+        iconClickText26rightdown1desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-down-1')) {
         iconClickPath26rightdown1.classList.remove('сlickToChangeColor');
+        iconClickText26rightdown1desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-down-1')) {
         iconClickText26rightdown1.classList.add('сlickToChangeTextColor');
@@ -11996,18 +17041,48 @@ function funcIconClick26rightdown1(event) {
     if (!event.target.closest('#path-2-6-right-down-1')) {
         iconClickText26rightdown1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26618')) {
+        iconClickPath26rightdown1.classList.add('сlickToChangeColor');
+        iconClickText26rightdown1desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26618')) {
+        iconClickText26rightdown1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightdown1.removeEventListener("click", funcIconClick26rightdown1);
 }
 document.addEventListener("click", funcIconClick26rightdown1);
 
 const iconClickPath26rightdown2 = document.getElementById('path-2-6-right-down-2');
 const iconClickText26rightdown2 = document.getElementById('text-2-6-right-down-2');
+const iconClickText26rightdown2desc = document.getElementById('desc2617');
 function funcIconClick26rightdown2(event) {
     if (event.target.closest('#path-2-6-right-down-2')) {
         iconClickPath26rightdown2.classList.add('сlickToChangeColor');
+        iconClickText26rightdown2desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-down-2')) {
         iconClickPath26rightdown2.classList.remove('сlickToChangeColor');
+        iconClickText26rightdown2desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-down-2')) {
         iconClickText26rightdown2.classList.add('сlickToChangeTextColor');
@@ -12015,18 +17090,48 @@ function funcIconClick26rightdown2(event) {
     if (!event.target.closest('#path-2-6-right-down-2')) {
         iconClickText26rightdown2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26617')) {
+        iconClickPath26rightdown2.classList.add('сlickToChangeColor');
+        iconClickText26rightdown2desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26617')) {
+        iconClickText26rightdown2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightdown2.removeEventListener("click", funcIconClick26rightdown2);
 }
 document.addEventListener("click", funcIconClick26rightdown2);
 
 const iconClickPath26rightdown3 = document.getElementById('path-2-6-right-down-3');
 const iconClickText26rightdown3 = document.getElementById('text-2-6-right-down-3');
+const iconClickText26rightdown3desc = document.getElementById('desc2616');
 function funcIconClick26rightdown3(event) {
     if (event.target.closest('#path-2-6-right-down-3')) {
         iconClickPath26rightdown3.classList.add('сlickToChangeColor');
+        iconClickText26rightdown3desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-down-3')) {
         iconClickPath26rightdown3.classList.remove('сlickToChangeColor');
+        iconClickText26rightdown3desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-down-3')) {
         iconClickText26rightdown3.classList.add('сlickToChangeTextColor');
@@ -12034,18 +17139,48 @@ function funcIconClick26rightdown3(event) {
     if (!event.target.closest('#path-2-6-right-down-3')) {
         iconClickText26rightdown3.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26616')) {
+        iconClickPath26rightdown3.classList.add('сlickToChangeColor');
+        iconClickText26rightdown3desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26616')) {
+        iconClickText26rightdown3.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightdown3.removeEventListener("click", funcIconClick26rightdown3);
 }
 document.addEventListener("click", funcIconClick26rightdown3);
 
 const iconClickPath26rightdown4 = document.getElementById('path-2-6-right-down-4');
 const iconClickText26rightdown4 = document.getElementById('text-2-6-right-down-4');
+const iconClickText26rightdown4desc = document.getElementById('desc2615');
 function funcIconClick26rightdown4(event) {
     if (event.target.closest('#path-2-6-right-down-4')) {
         iconClickPath26rightdown4.classList.add('сlickToChangeColor');
+        iconClickText26rightdown4desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-down-4')) {
         iconClickPath26rightdown4.classList.remove('сlickToChangeColor');
+        iconClickText26rightdown4desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-down-4')) {
         iconClickText26rightdown4.classList.add('сlickToChangeTextColor');
@@ -12053,18 +17188,48 @@ function funcIconClick26rightdown4(event) {
     if (!event.target.closest('#path-2-6-right-down-4')) {
         iconClickText26rightdown4.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26615')) {
+        iconClickPath26rightdown4.classList.add('сlickToChangeColor');
+        iconClickText26rightdown4desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26615')) {
+        iconClickText26rightdown4.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightdown4.removeEventListener("click", funcIconClick26rightdown4);
 }
 document.addEventListener("click", funcIconClick26rightdown4);
 
 const iconClickPath26rightdown5 = document.getElementById('path-2-6-right-down-5');
 const iconClickText26rightdown5 = document.getElementById('text-2-6-right-down-5');
+const iconClickText26rightdown5desc = document.getElementById('desc2614');
 function funcIconClick26rightdown5(event) {
     if (event.target.closest('#path-2-6-right-down-5')) {
         iconClickPath26rightdown5.classList.add('сlickToChangeColor');
+        iconClickText26rightdown5desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-6-right-down-5')) {
         iconClickPath26rightdown5.classList.remove('сlickToChangeColor');
+        iconClickText26rightdown5desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-6-right-down-5')) {
         iconClickText26rightdown5.classList.add('сlickToChangeTextColor');
@@ -12072,410 +17237,48 @@ function funcIconClick26rightdown5(event) {
     if (!event.target.closest('#path-2-6-right-down-5')) {
         iconClickText26rightdown5.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26614')) {
+        iconClickPath26rightdown5.classList.add('сlickToChangeColor');
+        iconClickText26rightdown5desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26614')) {
+        iconClickText26rightdown5.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath26rightdown5.removeEventListener("click", funcIconClick26rightdown5);
 }
 document.addEventListener("click", funcIconClick26rightdown5);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const iconClickPath2125 = document.getElementById('path-2-125');
-const iconClickText2125 = document.getElementById('text-2-125');
-function funcIconClick2125(event) {
-    if (event.target.closest('#path-2-125')) {
-        iconClickPath2125.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-125')) {
-        iconClickPath2125.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-125')) {
-        iconClickText2125.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-125')) {
-        iconClickText2125.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2125.removeEventListener("click", funcIconClick2125);
-}
-document.addEventListener("click", funcIconClick2125);
-
-const iconClickPath2127 = document.getElementById('path-2-127');
-const iconClickText2127 = document.getElementById('text-2-127');
-function funcIconClick2127(event) {
-    if (event.target.closest('#path-2-127')) {
-        iconClickPath2127.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-127')) {
-        iconClickPath2127.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-127')) {
-        iconClickText2127.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-127')) {
-        iconClickText2127.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2127.removeEventListener("click", funcIconClick2127);
-}
-document.addEventListener("click", funcIconClick2127);
-
-const iconClickPath2205 = document.getElementById('path-2-205');
-const iconClickText2205 = document.getElementById('text-2-205');
-function funcIconClick2205(event) {
-    if (event.target.closest('#path-2-205')) {
-        iconClickPath2205.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-205')) {
-        iconClickPath2205.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-205')) {
-        iconClickText2205.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-205')) {
-        iconClickText2205.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2205.removeEventListener("click", funcIconClick2205);
-}
-document.addEventListener("click", funcIconClick2205);
-
-const iconClickPath2209 = document.getElementById('path-2-209');
-const iconClickText2209 = document.getElementById('text-2-209');
-function funcIconClick2209(event) {
-    if (event.target.closest('#path-2-209')) {
-        iconClickPath2209.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-209')) {
-        iconClickPath2209.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-209')) {
-        iconClickText2209.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-209')) {
-        iconClickText2209.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2209.removeEventListener("click", funcIconClick2209);
-}
-document.addEventListener("click", funcIconClick2209);
-
-const iconClickPath2214 = document.getElementById('path-2-214');
-const iconClickText2214 = document.getElementById('text-2-214');
-function funcIconClick2214(event) {
-    if (event.target.closest('#path-2-214')) {
-        iconClickPath2214.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-214')) {
-        iconClickPath2214.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-214')) {
-        iconClickText2214.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-214')) {
-        iconClickText2214.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2214.removeEventListener("click", funcIconClick2214);
-}
-document.addEventListener("click", funcIconClick2214);
-
-const iconClickPath2216 = document.getElementById('path-2-216');
-const iconClickText2216 = document.getElementById('text-2-216');
-function funcIconClick2216(event) {
-    if (event.target.closest('#path-2-216')) {
-        iconClickPath2216.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-216')) {
-        iconClickPath2216.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-216')) {
-        iconClickText2216.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-216')) {
-        iconClickText2216.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2216.removeEventListener("click", funcIconClick2216);
-}
-document.addEventListener("click", funcIconClick2216);
-
-const iconClickPath2217 = document.getElementById('path-2-217');
-const iconClickText2217 = document.getElementById('text-2-217');
-function funcIconClick2217(event) {
-    if (event.target.closest('#path-2-217')) {
-        iconClickPath2217.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-217')) {
-        iconClickPath2217.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-217')) {
-        iconClickText2217.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-217')) {
-        iconClickText2217.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2217.removeEventListener("click", funcIconClick2217);
-}
-document.addEventListener("click", funcIconClick2217);
-
-const iconClickPath2227 = document.getElementById('path-2-227');
-const iconClickText2227 = document.getElementById('text-2-227');
-function funcIconClick2227(event) {
-    if (event.target.closest('#path-2-227')) {
-        iconClickPath2227.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-227')) {
-        iconClickPath2227.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-227')) {
-        iconClickText2227.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-227')) {
-        iconClickText2227.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2227.removeEventListener("click", funcIconClick2227);
-}
-document.addEventListener("click", funcIconClick2227);
-
-const iconClickPath2330 = document.getElementById('path-2-330');
-const iconClickText2330 = document.getElementById('text-2-330');
-function funcIconClick2330(event) {
-    if (event.target.closest('#path-2-330')) {
-        iconClickPath2330.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-330')) {
-        iconClickPath2330.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-330')) {
-        iconClickText2330.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-330')) {
-        iconClickText2330.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2330.removeEventListener("click", funcIconClick2330);
-}
-document.addEventListener("click", funcIconClick2330);
-
-const iconClickPath2413 = document.getElementById('path-2-413');
-const iconClickText2413 = document.getElementById('text-2-413');
-function funcIconClick2413(event) {
-    if (event.target.closest('#path-2-413')) {
-        iconClickPath2413.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-413')) {
-        iconClickPath2413.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-413')) {
-        iconClickText2413.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-413')) {
-        iconClickText2413.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2413.removeEventListener("click", funcIconClick2413);
-}
-document.addEventListener("click", funcIconClick2413);
-
-const iconClickPath2414 = document.getElementById('path-2-414');
-const iconClickText2414 = document.getElementById('text-2-414');
-function funcIconClick2414(event) {
-    if (event.target.closest('#path-2-414')) {
-        iconClickPath2414.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-414')) {
-        iconClickPath2414.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-414')) {
-        iconClickText2414.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-414')) {
-        iconClickText2414.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2414.removeEventListener("click", funcIconClick2414);
-}
-document.addEventListener("click", funcIconClick2414);
-
-const iconClickPath2415 = document.getElementById('path-2-415');
-const iconClickText2415 = document.getElementById('text-2-415');
-function funcIconClick2415(event) {
-    if (event.target.closest('#path-2-415')) {
-        iconClickPath2415.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-415')) {
-        iconClickPath2415.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-415')) {
-        iconClickText2415.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-415')) {
-        iconClickText2415.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2415.removeEventListener("click", funcIconClick2415);
-}
-document.addEventListener("click", funcIconClick2415);
-
-const iconClickPath2415a = document.getElementById('path-2-415a');
-const iconClickText2415a = document.getElementById('text-2-415a');
-function funcIconClick2415a(event) {
-    if (event.target.closest('#path-2-415a')) {
-        iconClickPath2415a.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-415a')) {
-        iconClickPath2415a.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-415a')) {
-        iconClickText2415a.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-415a')) {
-        iconClickText2415a.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2415a.removeEventListener("click", funcIconClick2415a);
-}
-document.addEventListener("click", funcIconClick2415a);
-
-const iconClickPath2502 = document.getElementById('path-2-502');
-const iconClickText2502 = document.getElementById('text-2-502');
-function funcIconClick2502(event) {
-    if (event.target.closest('#path-2-502')) {
-        iconClickPath2502.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-502')) {
-        iconClickPath2502.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-502')) {
-        iconClickText2502.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-502')) {
-        iconClickText2502.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2502.removeEventListener("click", funcIconClick2502);
-}
-document.addEventListener("click", funcIconClick2502);
-
-const iconClickPath2506 = document.getElementById('path-2-506');
-const iconClickText2506 = document.getElementById('text-2-506');
-function funcIconClick2506(event) {
-    if (event.target.closest('#path-2-506')) {
-        iconClickPath2506.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-506')) {
-        iconClickPath2506.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-506')) {
-        iconClickText2506.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-506')) {
-        iconClickText2506.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2506.removeEventListener("click", funcIconClick2506);
-}
-document.addEventListener("click", funcIconClick2506);
-
-const iconClickPath2519 = document.getElementById('path-2-519');
-const iconClickText2519 = document.getElementById('text-2-519');
-function funcIconClick2519(event) {
-    if (event.target.closest('#path-2-519')) {
-        iconClickPath2519.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-519')) {
-        iconClickPath2519.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-519')) {
-        iconClickText2519.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-519')) {
-        iconClickText2519.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2519.removeEventListener("click", funcIconClick2519);
-}
-document.addEventListener("click", funcIconClick2519);
-
-const iconClickPath2520 = document.getElementById('path-2-520');
-const iconClickText2520 = document.getElementById('text-2-520');
-function funcIconClick2520(event) {
-    if (event.target.closest('#path-2-520')) {
-        iconClickPath2520.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-520')) {
-        iconClickPath2520.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-520')) {
-        iconClickText2520.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-520')) {
-        iconClickText2520.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2520.removeEventListener("click", funcIconClick2520);
-}
-document.addEventListener("click", funcIconClick2520);
-
-const iconClickPath2521 = document.getElementById('path-2-521');
-const iconClickText2521 = document.getElementById('text-2-521');
-function funcIconClick2521(event) {
-    if (event.target.closest('#path-2-521')) {
-        iconClickPath2521.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-521')) {
-        iconClickPath2521.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-521')) {
-        iconClickText2521.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-521')) {
-        iconClickText2521.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2521.removeEventListener("click", funcIconClick2521);
-}
-document.addEventListener("click", funcIconClick2521);
-
-const iconClickPath2607 = document.getElementById('path-2-607');
-const iconClickText2607 = document.getElementById('text-2-607');
-function funcIconClick2607(event) {
-    if (event.target.closest('#path-2-607')) {
-        iconClickPath2607.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-2-607')) {
-        iconClickPath2607.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-2-607')) {
-        iconClickText2607.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-2-607')) {
-        iconClickText2607.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath2607.removeEventListener("click", funcIconClick2607);
-}
-document.addEventListener("click", funcIconClick2607);
-
 const iconClickPath2613 = document.getElementById('path-2-613');
 const iconClickText2613 = document.getElementById('text-2-613');
+const iconClickText2613desc = document.getElementById('desc2613');
 function funcIconClick2613(event) {
     if (event.target.closest('#path-2-613')) {
         iconClickPath2613.classList.add('сlickToChangeColor');
+        iconClickText2613desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-613')) {
         iconClickPath2613.classList.remove('сlickToChangeColor');
+        iconClickText2613desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-613')) {
         iconClickText2613.classList.add('сlickToChangeTextColor');
@@ -12483,24 +17286,81 @@ function funcIconClick2613(event) {
     if (!event.target.closest('#path-2-613')) {
         iconClickText2613.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-26613')) {
+        iconClickPath2613.classList.add('сlickToChangeColor');
+        iconClickText2613desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26613')) {
+        iconClickText2613.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath2613.removeEventListener("click", funcIconClick2613);
 }
 document.addEventListener("click", funcIconClick2613);
 
 const iconClickPath2612 = document.getElementById('path-2-612');
 const iconClickText2612 = document.getElementById('text-2-612');
+const iconClickText2612desc = document.getElementById('desc2612');
 function funcIconClick2612(event) {
     if (event.target.closest('#path-2-612')) {
         iconClickPath2612.classList.add('сlickToChangeColor');
+        iconClickText2612desc.style.display = 'block';
     }
     if (!event.target.closest('#path-2-612')) {
         iconClickPath2612.classList.remove('сlickToChangeColor');
+        iconClickText2612desc.style.display = 'none';
     }
     if (event.target.closest('#path-2-612')) {
         iconClickText2612.classList.add('сlickToChangeTextColor');
     }
     if (!event.target.closest('#path-2-612')) {
         iconClickText2612.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-26612')) {
+        iconClickPath2612.classList.add('сlickToChangeColor');
+        iconClickText2612desc.style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'block';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.add("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-26612')) {
+        iconClickText2612.classList.add('сlickToChangeTextColor');
     }
     iconClickPath2612.removeEventListener("click", funcIconClick2612);
 }
@@ -12512,79 +17372,57 @@ document.addEventListener("click", funcIconClick2612);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 1 - 2 - left - boxroom
-const iconClickPath1LeftBoxroom = document.getElementById('path-1-left-boxroom');
-const iconClickText1LeftBoxroom = document.getElementById('text-1-left-boxroom');
-function funcIconClick1LeftBoxroom(event) {
-    if (event.target.closest('#path-1-left-boxroom')) {
-        iconClickPath1LeftBoxroom.classList.add('сlickToChangeColor');
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// wc - man
+const iconClickPath1rightWcman = document.getElementById('path-1-1wc-man');
+const iconClickText1rightWcman = document.getElementById('text-1-1wc-man');
+const iconClickText1rightWc1man = document.getElementById('text-1-1wc-man1');
+function funcIconClick1rightWcman(event) {
+    if (event.target.closest('#path-1-1wc-man')) {
+        iconClickPath1rightWcman.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen11').style.display = 'block';
     }
-    if (!event.target.closest('#path-1-left-boxroom')) {
-        iconClickPath1LeftBoxroom.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-1wc-man')) {
+        iconClickPath1rightWcman.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcmen11').style.display = 'none';
     }
-    if (event.target.closest('#path-1-left-boxroom')) {
-        iconClickText1LeftBoxroom.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWcman.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-left-boxroom')) {
-        iconClickText1LeftBoxroom.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWcman.classList.remove('сlickToChangeTextColor');
     }
-    iconClickPath1LeftBoxroom.removeEventListener("click", funcIconClick1LeftBoxroom);
+    if (event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWc1man.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-1wc-man')) {
+        iconClickText1rightWc1man.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickPath1rightWcman.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText1rightWcman.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText1rightWc1man.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath1rightWcman.removeEventListener("click", funcIconClick1rightWcman);
 }
-document.addEventListener("click", funcIconClick1LeftBoxroom);
+document.addEventListener("click", funcIconClick1rightWcman);
 
-// 1 - 2 - left - wc
 const iconClickPath1LeftWc = document.getElementById('path-1-left-wc');
 const iconClickText1LeftWc = document.getElementById('text-1-left-wc');
 const iconClickText1LeftWc1 = document.getElementById('text-1-left-wc1');
 function funcIconClick1LeftWc(event) {
     if (event.target.closest('#path-1-left-wc')) {
         iconClickPath1LeftWc.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'block';
     }
     if (!event.target.closest('#path-1-left-wc')) {
         iconClickPath1LeftWc.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'none';
     }
     if (event.target.closest('#path-1-left-wc')) {
         iconClickText1LeftWc.classList.add('сlickToChangeTextColor');
@@ -12598,29 +17436,612 @@ function funcIconClick1LeftWc(event) {
     if (!event.target.closest('#path-1-left-wc')) {
         iconClickText1LeftWc1.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickPath1LeftWc.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText1LeftWc.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText1LeftWc1.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath1LeftWc.removeEventListener("click", funcIconClick1LeftWc);
 }
 document.addEventListener("click", funcIconClick1LeftWc);
 
-// 1 - 2 - maz
-const iconClickPath1maz = document.getElementById('path-1-maz');
-const iconClickText1maz = document.getElementById('text-1-maz');
-function funcIconClick1maz(event) {
-    if (event.target.closest('#path-1-maz')) {
-        iconClickPath1maz.classList.add('сlickToChangeColor');
+const iconClickPath14rightwing1part2 = document.getElementById('path-1-4-right-wing-1part-2');
+const iconClickText14rightwing1part2 = document.getElementById('text-1-4-right-wing-1part-2');
+const iconClickText14rightwing1part21 = document.getElementById('text-1-4-right-wing-1part-2-1');
+function funcIconClick14rightwing1part2(event) {
+    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickPath14rightwing1part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen14').style.display = 'block';
     }
-    if (!event.target.closest('#path-1-maz')) {
-        iconClickPath1maz.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickPath14rightwing1part2.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcmen14').style.display = 'none';
     }
-    if (event.target.closest('#path-1-maz')) {
-        iconClickText1maz.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickText14rightwing1part2.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-maz')) {
-        iconClickText1maz.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickText14rightwing1part2.classList.remove('сlickToChangeTextColor');
     }
-    iconClickPath1maz.removeEventListener("click", funcIconClick1maz);
+    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickText14rightwing1part21.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
+        iconClickText14rightwing1part21.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickPath14rightwing1part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText14rightwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText14rightwing1part21.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath14rightwing1part2.removeEventListener("click", funcIconClick14rightwing1part2);
 }
-document.addEventListener("click", funcIconClick1maz);
+document.addEventListener("click", funcIconClick14rightwing1part2);
+
+const iconClickPath21leftup4 = document.getElementById('path-2-1-left-up-4');
+const iconClickText21leftup4 = document.getElementById('text-2-1-left-up-4');
+const iconClickText21leftup41 = document.getElementById('text-2-1-left-up-4-1');
+function funcIconClick21leftup4(event) {
+    if (event.target.closest('#path-2-1-left-up-4')) {
+        iconClickPath21leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen21').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-1-left-up-4')) {
+        iconClickPath21leftup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcmen21').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-1-left-up-4')) {
+        iconClickText21leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-1-left-up-4')) {
+        iconClickText21leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-1-left-up-4')) {
+        iconClickText21leftup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-1-left-up-4')) {
+        iconClickText21leftup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickPath21leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText21leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText21leftup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath21leftup4.removeEventListener("click", funcIconClick21leftup4);
+}
+document.addEventListener("click", funcIconClick21leftup4);
+
+const iconClickPath25leftup4 = document.getElementById('path-2-5-left-up-4');
+const iconClickText25leftup4 = document.getElementById('text-2-5-left-up-4');
+const iconClickText25leftup41 = document.getElementById('text-2-5-left-up-4-1');
+function funcIconClick25leftup4(event) {
+    if (event.target.closest('#path-2-5-left-up-4')) {
+        iconClickPath25leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen25').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-5-left-up-4')) {
+        iconClickPath25leftup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcmen25').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-5-left-up-4')) {
+        iconClickText25leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-5-left-up-4')) {
+        iconClickText25leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-5-left-up-4')) {
+        iconClickText25leftup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-5-left-up-4')) {
+        iconClickText25leftup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickPath25leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcmen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText25leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcmen')) {
+        iconClickText25leftup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath25leftup4.removeEventListener("click", funcIconClick25leftup4);
+}
+document.addEventListener("click", funcIconClick25leftup4);
+
+// wc - women
+const iconClickPath1rightWc = document.getElementById('path-1-right-wc');
+const iconClickText1rightWc = document.getElementById('text-1-right-wc');
+const iconClickText1rightWc1 = document.getElementById('text-1-right-wc1');
+function funcIconClick1rightWc(event) {
+    if (event.target.closest('#path-1-right-wc')) {
+        iconClickPath1rightWc.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-right-wc')) {
+        iconClickPath1rightWc.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-right-wc')) {
+        iconClickText1rightWc.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-right-wc')) {
+        iconClickText1rightWc.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-right-wc')) {
+        iconClickText1rightWc1.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-right-wc')) {
+        iconClickText1rightWc1.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath1rightWc.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText1rightWc.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText1rightWc1.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath1rightWc.removeEventListener("click", funcIconClick1rightWc);
+}
+document.addEventListener("click", funcIconClick1rightWc);
+
+const iconClickPath13leftwing2part2 = document.getElementById('path-1-3-left-wing-2part-2');
+const iconClickText13leftwing2part2 = document.getElementById('text-1-3-left-wing-2part-2');
+const iconClickText13leftwing2part21 = document.getElementById('text-1-3-left-wing-2part-2-1');
+function funcIconClick13leftwing2part2(event) {
+    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickPath13leftwing2part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen13').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickPath13leftwing2part2.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen13').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickText13leftwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickText13leftwing2part2.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickText13leftwing2part21.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
+        iconClickText13leftwing2part21.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath13leftwing2part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText13leftwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText13leftwing2part21.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath13leftwing2part2.removeEventListener("click", funcIconClick13leftwing2part2);
+}
+document.addEventListener("click", funcIconClick13leftwing2part2);
+
+const iconClickPath13rightwing1part2 = document.getElementById('path-1-3-right-wing-1part-2');
+const iconClickText13rightwing1part2 = document.getElementById('text-1-3-right-wing-1part-2');
+const iconClickText13rightwing1part21 = document.getElementById('text-1-3-right-wing-1part-2-1');
+function funcIconClick13rightwing1part2(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickPath13rightwing1part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen131').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickPath13rightwing1part2.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen131').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickText13rightwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickText13rightwing1part2.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickText13rightwing1part21.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
+        iconClickText13rightwing1part21.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath13rightwing1part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText13rightwing1part2.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText13rightwing1part21.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath13rightwing1part2.removeEventListener("click", funcIconClick13rightwing1part2);
+}
+document.addEventListener("click", funcIconClick13rightwing1part2);
+
+const iconClickPath14leftwing2part2 = document.getElementById('path-1-4-left-wing-2part-2');
+const iconClickText14leftwing2part2 = document.getElementById('text-1-4-left-wing-2part-2');
+const iconClickText14leftwing2part21 = document.getElementById('text-1-4-left-wing-2part-2-1');
+function funcIconClick14leftwing2part2(event) {
+    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickPath14leftwing2part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen14').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickPath14leftwing2part2.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen14').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickText14leftwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickText14leftwing2part2.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickText14leftwing2part21.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
+        iconClickText14leftwing2part21.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath14leftwing2part2.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText14leftwing2part2.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText14leftwing2part21.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath14leftwing2part2.removeEventListener("click", funcIconClick14leftwing2part2);
+}
+document.addEventListener("click", funcIconClick14leftwing2part2);
+
+const iconClickPath22leftup4 = document.getElementById('path-2-2-left-up-4');
+const iconClickText22leftup4 = document.getElementById('text-2-2-left-up-4');
+const iconClickText22leftup41 = document.getElementById('text-2-2-left-up-4-1');
+function funcIconClick22leftup4(event) {
+    if (event.target.closest('#path-2-2-left-up-4')) {
+        iconClickPath22leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen22').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-2-left-up-4')) {
+        iconClickPath22leftup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen22').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-2-left-up-4')) {
+        iconClickText22leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-2-left-up-4')) {
+        iconClickText22leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-2-left-up-4')) {
+        iconClickText22leftup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-2-left-up-4')) {
+        iconClickText22leftup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath22leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText22leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText22leftup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath22leftup4.removeEventListener("click", funcIconClick22leftup4);
+}
+document.addEventListener("click", funcIconClick22leftup4);
+
+const iconClickPath23leftup4 = document.getElementById('path-2-3-left-up-4');
+const iconClickText23leftup4 = document.getElementById('text-2-3-left-up-4');
+const iconClickText23leftup41 = document.getElementById('text-2-3-left-up-4-1');
+function funcIconClick23leftup4(event) {
+    if (event.target.closest('#path-2-3-left-up-4')) {
+        iconClickPath23leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen23').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-3-left-up-4')) {
+        iconClickPath23leftup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen23').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-3-left-up-4')) {
+        iconClickText23leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-3-left-up-4')) {
+        iconClickText23leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-3-left-up-4')) {
+        iconClickText23leftup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-3-left-up-4')) {
+        iconClickText23leftup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath23leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText23leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText23leftup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath23leftup4.removeEventListener("click", funcIconClick23leftup4);
+}
+document.addEventListener("click", funcIconClick23leftup4);
+
+const iconClickPath23rightup4 = document.getElementById('path-2-3-right-up-4');
+const iconClickText23rightup4 = document.getElementById('text-2-3-right-up-4');
+const iconClickText23rightup41 = document.getElementById('text-2-3-right-up-4-1');
+function funcIconClick23rightup4(event) {
+    if (event.target.closest('#path-2-3-right-up-4')) {
+        iconClickPath23rightup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen231').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-3-right-up-4')) {
+        iconClickPath23rightup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen231').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-3-right-up-4')) {
+        iconClickText23rightup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-3-right-up-4')) {
+        iconClickText23rightup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-3-right-up-4')) {
+        iconClickText23rightup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-3-right-up-4')) {
+        iconClickText23rightup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath23rightup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText23rightup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText23rightup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath23rightup4.removeEventListener("click", funcIconClick23rightup4);
+}
+document.addEventListener("click", funcIconClick23rightup4);
+
+const iconClickPath24leftup4 = document.getElementById('path-2-4-left-up-4');
+const iconClickText24leftup4 = document.getElementById('text-2-4-left-up-4');
+const iconClickText24leftup41 = document.getElementById('text-2-4-left-up-4-1');
+function funcIconClick24leftup4(event) {
+    if (event.target.closest('#path-2-4-left-up-4')) {
+        iconClickPath24leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen24').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-4-left-up-4')) {
+        iconClickPath24leftup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen24').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-4-left-up-4')) {
+        iconClickText24leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-4-left-up-4')) {
+        iconClickText24leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-4-left-up-4')) {
+        iconClickText24leftup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-4-left-up-4')) {
+        iconClickText24leftup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath24leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText24leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText24leftup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath24leftup4.removeEventListener("click", funcIconClick24leftup4);
+}
+document.addEventListener("click", funcIconClick24leftup4);
+
+const iconClickPath25rightup4 = document.getElementById('path-2-5-right-up-4');
+const iconClickText25rightup4 = document.getElementById('text-2-5-right-up-4');
+const iconClickText25rightup41 = document.getElementById('text-2-5-right-up-4-1');
+function funcIconClick25rightup4(event) {
+    if (event.target.closest('#path-2-5-right-up-4')) {
+        iconClickPath25rightup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen25').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-5-right-up-4')) {
+        iconClickPath25rightup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen25').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-5-right-up-4')) {
+        iconClickText25rightup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-5-right-up-4')) {
+        iconClickText25rightup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-5-right-up-4')) {
+        iconClickText25rightup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-5-right-up-4')) {
+        iconClickText25rightup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath25rightup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText25rightup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText25rightup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath25rightup4.removeEventListener("click", funcIconClick25rightup4);
+}
+document.addEventListener("click", funcIconClick25rightup4);
+
+const iconClickPath26leftup4 = document.getElementById('path-2-6-left-up-4');
+const iconClickText26leftup4 = document.getElementById('text-2-6-left-up-4');
+const iconClickText26leftup41 = document.getElementById('text-2-6-left-up-4-1');
+function funcIconClick26leftup4(event) {
+    if (event.target.closest('#path-2-6-left-up-4')) {
+        iconClickPath26leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen26').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-6-left-up-4')) {
+        iconClickPath26leftup4.classList.remove('сlickToChangeColor');
+        document.getElementById('descwcwomen26').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-6-left-up-4')) {
+        iconClickText26leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-6-left-up-4')) {
+        iconClickText26leftup4.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#path-2-6-left-up-4')) {
+        iconClickText26leftup41.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-6-left-up-4')) {
+        iconClickText26leftup41.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickPath26leftup4.classList.add('сlickToChangeColor');
+        document.getElementById('descwcwomen').style.display = 'block';
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText26leftup4.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-wcwomen')) {
+        iconClickText26leftup41.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath26leftup4.removeEventListener("click", funcIconClick26leftup4);
+}
+document.addEventListener("click", funcIconClick26leftup4);
+
+// 1 - 1 - fablab
+const iconClickPath172 = document.getElementById('path-1-172');
+const iconClickText172 = document.getElementById('text-1-172');
+function funcIconClick172(event) {
+    if (event.target.closest('#path-1-172')) {
+        iconClickPath172.classList.add('сlickToChangeColor');
+        document.getElementById('descfablab').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-172')) {
+        iconClickPath172.classList.remove('сlickToChangeColor');
+        document.getElementById('descfablab').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-172')) {
+        iconClickText172.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-172')) {
+        iconClickText172.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-fablab')) {
+        iconClickPath172.classList.add('сlickToChangeColor');
+        document.getElementById('descfablab').style.display = 'block';
+        b1f1.style.display = 'block';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.add("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-fablab')) {
+        iconClickText172.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath172.removeEventListener("click", funcIconClick172);
+}
+document.addEventListener("click", funcIconClick172);
+
+// 1 - 1 - stolovaya
+const iconClickPathstolovaya = document.getElementById('path-1-stolovaya');
+const iconClickTextstolovaya = document.getElementById('text-1-stolovaya');
+function funcIconClickstolovaya(event) {
+    if (event.target.closest('#path-1-stolovaya')) {
+        iconClickPathstolovaya.classList.add('сlickToChangeColor');
+        document.getElementById('descstolovaya').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-stolovaya')) {
+        iconClickPathstolovaya.classList.remove('сlickToChangeColor');
+        document.getElementById('descstolovaya').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-stolovaya')) {
+        iconClickTextstolovaya.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-stolovaya')) {
+        iconClickTextstolovaya.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-stolovaya')) {
+        iconClickPathstolovaya.classList.add('сlickToChangeColor');
+        document.getElementById('descstolovaya').style.display = 'block';
+        b1f1.style.display = 'block';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.add("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-stolovaya')) {
+        iconClickTextstolovaya.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPathstolovaya.removeEventListener("click", funcIconClickstolovaya);
+}
+document.addEventListener("click", funcIconClickstolovaya);
 
 // 1 - 2 - book-storage
 const iconClickPath1bookstorage = document.getElementById('path-1-book-storage');
@@ -12630,9 +18051,11 @@ const iconClickText1bookstorage2 = document.getElementById('text-1-book-storage2
 function funcIconClick1bookstorage(event) {
     if (event.target.closest('#path-1-book-storage')) {
         iconClickPath1bookstorage.classList.add('сlickToChangeColor');
+        document.getElementById('descbook').style.display = 'block';
     }
     if (!event.target.closest('#path-1-book-storage')) {
         iconClickPath1bookstorage.classList.remove('сlickToChangeColor');
+        document.getElementById('descbook').style.display = 'none';
     }
     if (event.target.closest('#path-1-book-storage')) {
         iconClickText1bookstorage.classList.add('сlickToChangeTextColor');
@@ -12652,153 +18075,152 @@ function funcIconClick1bookstorage(event) {
     if (!event.target.closest('#path-1-book-storage')) {
         iconClickText1bookstorage2.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-book')) {
+        iconClickPath1bookstorage.classList.add('сlickToChangeColor');
+        document.getElementById('descbook').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'block';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.add("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-book')) {
+        iconClickText1bookstorage.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-book')) {
+        iconClickText1bookstorage1.classList.add('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-book')) {
+        iconClickText1bookstorage2.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath1bookstorage.removeEventListener("click", funcIconClick1bookstorage);
 }
 document.addEventListener("click", funcIconClick1bookstorage);
 
-// 1 - 2 - right - boxroom
-const iconClickPath1rightBoxroom = document.getElementById('path-1-right-boxroom');
-const iconClickText1rightBoxroom = document.getElementById('text-1-right-boxroom');
-function funcIconClick1rightBoxroom(event) {
-    if (event.target.closest('#path-1-right-boxroom')) {
-        iconClickPath1rightBoxroom.classList.add('сlickToChangeColor');
+// 1 - 2 - maz
+const iconClickPath1maz = document.getElementById('path-1-maz');
+const iconClickText1maz = document.getElementById('text-1-maz');
+function funcIconClick1maz(event) {
+    if (event.target.closest('#path-1-maz')) {
+        iconClickPath1maz.classList.add('сlickToChangeColor');
+        document.getElementById('descmaz').style.display = 'block';
     }
-    if (!event.target.closest('#path-1-right-boxroom')) {
-        iconClickPath1rightBoxroom.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-maz')) {
+        iconClickPath1maz.classList.remove('сlickToChangeColor');
+        document.getElementById('descmaz').style.display = 'none';
     }
-    if (event.target.closest('#path-1-right-boxroom')) {
-        iconClickText1rightBoxroom.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-maz')) {
+        iconClickText1maz.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-right-boxroom')) {
-        iconClickText1rightBoxroom.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-maz')) {
+        iconClickText1maz.classList.remove('сlickToChangeTextColor');
     }
-    iconClickPath1rightBoxroom.removeEventListener("click", funcIconClick1rightBoxroom);
+    if (event.target.closest('#si-maz')) {
+        iconClickPath1maz.classList.add('сlickToChangeColor');
+        document.getElementById('descmaz').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'block';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.add("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-maz')) {
+        iconClickText1maz.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath1maz.removeEventListener("click", funcIconClick1maz);
 }
-document.addEventListener("click", funcIconClick1rightBoxroom);
+document.addEventListener("click", funcIconClick1maz);
 
-// 1 - 2 - right - wc
-const iconClickPath1rightWc = document.getElementById('path-1-right-wc');
-const iconClickText1rightWc = document.getElementById('text-1-right-wc');
-const iconClickText1rightWc1 = document.getElementById('text-1-right-wc1');
-function funcIconClick1rightWc(event) {
-    if (event.target.closest('#path-1-right-wc')) {
-        iconClickPath1rightWc.classList.add('сlickToChangeColor');
+// 1b - 3floor  -  biblioteka
+const iconClickPath13rightwing1part6 = document.getElementById('path-1-3-right-wing-1part-6');
+const iconClickText13rightwing1part6 = document.getElementById('text-1-3-right-wing-1part-6');
+function funcIconClick13rightwing1part6(event) {
+    if (event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickPath13rightwing1part6.classList.add('сlickToChangeColor');
+        document.getElementById('descbibl').style.display = 'block';
     }
-    if (!event.target.closest('#path-1-right-wc')) {
-        iconClickPath1rightWc.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickPath13rightwing1part6.classList.remove('сlickToChangeColor');
+        document.getElementById('descbibl').style.display = 'none';
     }
-    if (event.target.closest('#path-1-right-wc')) {
-        iconClickText1rightWc.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickText13rightwing1part6.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-right-wc')) {
-        iconClickText1rightWc.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-3-right-wing-1part-6')) {
+        iconClickText13rightwing1part6.classList.remove('сlickToChangeTextColor');
     }
-    if (event.target.closest('#path-1-right-wc')) {
-        iconClickText1rightWc1.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#si-bibl')) {
+        iconClickPath13rightwing1part6.classList.add('сlickToChangeColor');
+        document.getElementById('descbibl').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'block';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.add("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
     }
-    if (!event.target.closest('#path-1-right-wc')) {
-        iconClickText1rightWc1.classList.remove('сlickToChangeTextColor');
+    if (event.target.closest('#si-bibl')) {
+        iconClickText13rightwing1part6.classList.add('сlickToChangeTextColor');
     }
-    iconClickPath1rightWc.removeEventListener("click", funcIconClick1rightWc);
+    iconClickPath13rightwing1part6.removeEventListener("click", funcIconClick13rightwing1part6);
 }
-document.addEventListener("click", funcIconClick1rightWc);
+document.addEventListener("click", funcIconClick13rightwing1part6);
 
-// 1 - 1 - right - wc - man
-const iconClickPath1rightWcman = document.getElementById('path-1-1wc-man');
-const iconClickText1rightWcman = document.getElementById('text-1-1wc-man');
-const iconClickText1rightWc1man = document.getElementById('text-1-1wc-man1');
-function funcIconClick1rightWcman(event) {
-    if (event.target.closest('#path-1-1wc-man')) {
-        iconClickPath1rightWcman.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-1wc-man')) {
-        iconClickPath1rightWcman.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-1wc-man')) {
-        iconClickText1rightWcman.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-1wc-man')) {
-        iconClickText1rightWcman.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-1-1wc-man')) {
-        iconClickText1rightWc1man.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-1wc-man')) {
-        iconClickText1rightWc1man.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath1rightWcman.removeEventListener("click", funcIconClick1rightWcman);
-}
-document.addEventListener("click", funcIconClick1rightWcman);
-
-// 1 - 1 - boxroom
-const iconClickPath1right1Boxroom = document.getElementById('path-1-1boxroom');
-const iconClickText1right1Boxroom = document.getElementById('text-1-1boxroom');
-function funcIconClick1right1Boxroom(event) {
-    if (event.target.closest('#path-1-1boxroom')) {
-        iconClickPath1right1Boxroom.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-1boxroom')) {
-        iconClickPath1right1Boxroom.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-1boxroom')) {
-        iconClickText1right1Boxroom.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-1boxroom')) {
-        iconClickText1right1Boxroom.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath1right1Boxroom.removeEventListener("click", funcIconClick1right1Boxroom);
-}
-document.addEventListener("click", funcIconClick1right1Boxroom);
-
-// 1 - 1 - 172 - fablab
-const iconClickPath172 = document.getElementById('path-1-172');
-const iconClickText172 = document.getElementById('text-1-172');
-function funcIconClick172(event) {
-    if (event.target.closest('#path-1-172')) {
-        iconClickPath172.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-172')) {
-        iconClickPath172.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-172')) {
-        iconClickText172.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-172')) {
-        iconClickText172.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath172.removeEventListener("click", funcIconClick172);
-}
-document.addEventListener("click", funcIconClick172);
-
-// 1 - 1 - stolovaya
-const iconClickPathstolovaya = document.getElementById('path-1-stolovaya');
-const iconClickTextstolovaya = document.getElementById('text-1-stolovaya');
-function funcIconClickstolovaya(event) {
-    if (event.target.closest('#path-1-stolovaya')) {
-        iconClickPathstolovaya.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-stolovaya')) {
-        iconClickPathstolovaya.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-stolovaya')) {
-        iconClickTextstolovaya.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-stolovaya')) {
-        iconClickTextstolovaya.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPathstolovaya.removeEventListener("click", funcIconClickstolovaya);
-}
-document.addEventListener("click", funcIconClickstolovaya);
-
-// 1b - 3floor  -  straight
+// 1b - 3floor  -  baz
 const iconClickPath13straight = document.getElementById('path-1-3-straight');
 const iconClickText13straight = document.getElementById('text-1-3-straight');
 function funcIconClick13straight(event) {
     if (event.target.closest('#path-1-3-straight')) {
         iconClickPath13straight.classList.add('сlickToChangeColor');
+        document.getElementById('descbaz').style.display = 'block';
     }
     if (!event.target.closest('#path-1-3-straight')) {
         iconClickPath13straight.classList.remove('сlickToChangeColor');
+        document.getElementById('descbaz').style.display = 'none';
     }
     if (event.target.closest('#path-1-3-straight')) {
         iconClickText13straight.classList.add('сlickToChangeTextColor');
@@ -12806,46 +18228,48 @@ function funcIconClick13straight(event) {
     if (!event.target.closest('#path-1-3-straight')) {
         iconClickText13straight.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-baz')) {
+        iconClickPath13straight.classList.add('сlickToChangeColor');
+        document.getElementById('descbaz').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'block';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.add("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-baz')) {
+        iconClickText13straight.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath13straight.removeEventListener("click", funcIconClick13straight);
 }
 document.addEventListener("click", funcIconClick13straight);
 
-// 1b - 3floor  -  wc-women-left
-const iconClickPath13leftwing2part2 = document.getElementById('path-1-3-left-wing-2part-2');
-const iconClickText13leftwing2part2 = document.getElementById('text-1-3-left-wing-2part-2');
-const iconClickText13leftwing2part21 = document.getElementById('text-1-3-left-wing-2part-2-1');
-function funcIconClick13leftwing2part2(event) {
-    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
-        iconClickPath13leftwing2part2.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
-        iconClickPath13leftwing2part2.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
-        iconClickText13leftwing2part2.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
-        iconClickText13leftwing2part2.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-1-3-left-wing-2part-2')) {
-        iconClickText13leftwing2part21.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-3-left-wing-2part-2')) {
-        iconClickText13leftwing2part21.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath13leftwing2part2.removeEventListener("click", funcIconClick13leftwing2part2);
-}
-document.addEventListener("click", funcIconClick13leftwing2part2);
-
-// 1b - 3floor  -  konferenz-zal-left
+// 1b - 3floor  -  konferenz-zal
 const iconClickPath13leftwing2part7 = document.getElementById('path-1-3-left-wing-2part-7');
 const iconClickText13leftwing2part7 = document.getElementById('text-1-3-left-wing-2part-7');
 function funcIconClick13leftwing2part7(event) {
     if (event.target.closest('#path-1-3-left-wing-2part-7')) {
         iconClickPath13leftwing2part7.classList.add('сlickToChangeColor');
+        document.getElementById('desckonf').style.display = 'block';
     }
     if (!event.target.closest('#path-1-3-left-wing-2part-7')) {
         iconClickPath13leftwing2part7.classList.remove('сlickToChangeColor');
+        document.getElementById('desckonf').style.display = 'none';
     }
     if (event.target.closest('#path-1-3-left-wing-2part-7')) {
         iconClickText13leftwing2part7.classList.add('сlickToChangeTextColor');
@@ -12853,9 +18277,147 @@ function funcIconClick13leftwing2part7(event) {
     if (!event.target.closest('#path-1-3-left-wing-2part-7')) {
         iconClickText13leftwing2part7.classList.remove('сlickToChangeTextColor');
     }
+    if (event.target.closest('#si-konf')) {
+        iconClickPath13leftwing2part7.classList.add('сlickToChangeColor');
+        document.getElementById('desckonf').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'block';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.add("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-konf')) {
+        iconClickText13leftwing2part7.classList.add('сlickToChangeTextColor');
+    }
     iconClickPath13leftwing2part7.removeEventListener("click", funcIconClick13leftwing2part7);
 }
 document.addEventListener("click", funcIconClick13leftwing2part7);
+
+// 1b - 4floor  -  straight
+const iconClickPath14straight = document.getElementById('path-1-4-straight');
+const iconClickText14straight = document.getElementById('text-1-4-straight');
+function funcIconClick14straight(event) {
+    if (event.target.closest('#path-1-4-straight')) {
+        iconClickPath14straight.classList.add('сlickToChangeColor');
+        document.getElementById('descbbaz').style.display = 'block';
+    }
+    if (!event.target.closest('#path-1-4-straight')) {
+        iconClickPath14straight.classList.remove('сlickToChangeColor');
+        document.getElementById('descbbaz').style.display = 'none';
+    }
+    if (event.target.closest('#path-1-4-straight')) {
+        iconClickText14straight.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-1-4-straight')) {
+        iconClickText14straight.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-bbaz')) {
+        iconClickPath14straight.classList.add('сlickToChangeColor');
+        document.getElementById('descbbaz').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'block';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'none';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.add("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-bbaz')) {
+        iconClickText14straight.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath14straight.removeEventListener("click", funcIconClick14straight);
+}
+document.addEventListener("click", funcIconClick14straight);
+
+// 2b - 4floor  -  sport
+const iconClickPath24rightdown5 = document.getElementById('path-2-4-right-down-5');
+const iconClickText24rightdown5 = document.getElementById('text-2-4-right-down-5');
+function funcIconClick24rightdown5(event) {
+    if (event.target.closest('#path-2-4-right-down-5')) {
+        iconClickPath24rightdown5.classList.add('сlickToChangeColor');
+        document.getElementById('descsport').style.display = 'block';
+    }
+    if (!event.target.closest('#path-2-4-right-down-5')) {
+        iconClickPath24rightdown5.classList.remove('сlickToChangeColor');
+        document.getElementById('descsport').style.display = 'none';
+    }
+    if (event.target.closest('#path-2-4-right-down-5')) {
+        iconClickText24rightdown5.classList.add('сlickToChangeTextColor');
+    }
+    if (!event.target.closest('#path-2-4-right-down-5')) {
+        iconClickText24rightdown5.classList.remove('сlickToChangeTextColor');
+    }
+    if (event.target.closest('#si-sport')) {
+        iconClickPath24rightdown5.classList.add('сlickToChangeColor');
+        document.getElementById('descsport').style.display = 'block';
+        b1f1.style.display = 'none';
+        b1f2.style.display = 'none';
+        b1f3.style.display = 'none';
+        b1f4.style.display = 'none';
+        b2f1.style.display = 'none';
+        b2f2.style.display = 'none';
+        b2f3.style.display = 'none';
+        b2f4.style.display = 'block';
+        b2f5.style.display = 'none';
+        b2f6.style.display = 'none';
+        b1f1list.classList.remove("сlickToChangeColorDropdown");
+        b1f2list.classList.remove("сlickToChangeColorDropdown");
+        b1f3list.classList.remove("сlickToChangeColorDropdown");
+        b1f4list.classList.remove("сlickToChangeColorDropdown");
+        b2f1list.classList.remove("сlickToChangeColorDropdown");
+        b2f2list.classList.remove("сlickToChangeColorDropdown");
+        b2f3list.classList.remove("сlickToChangeColorDropdown");
+        b2f4list.classList.add("сlickToChangeColorDropdown");
+        b2f5list.classList.remove("сlickToChangeColorDropdown");
+        b2f6list.classList.remove("сlickToChangeColorDropdown");
+    }
+    if (event.target.closest('#si-sport')) {
+        iconClickText24rightdown5.classList.add('сlickToChangeTextColor');
+    }
+    iconClickPath24rightdown5.removeEventListener("click", funcIconClick24rightdown5);
+}
+document.addEventListener("click", funcIconClick24rightdown5);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 1b - 3floor  -  right-wing-1part - right-boxroom
 const iconClickPath13rightwing1part1 = document.getElementById('path-1-3-right-wing-1part-1');
@@ -12877,123 +18439,62 @@ function funcIconClick13rightwing1part1(event) {
 }
 document.addEventListener("click", funcIconClick13rightwing1part1);
 
-// 1b - 3floor  -  right-wing-1part - wc-women
-const iconClickPath13rightwing1part2 = document.getElementById('path-1-3-right-wing-1part-2');
-const iconClickText13rightwing1part2 = document.getElementById('text-1-3-right-wing-1part-2');
-const iconClickText13rightwing1part21 = document.getElementById('text-1-3-right-wing-1part-2-1');
-function funcIconClick13rightwing1part2(event) {
-    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
-        iconClickPath13rightwing1part2.classList.add('сlickToChangeColor');
+// 1 - 2 - left - boxroom 
+const iconClickPath1LeftBoxroom = document.getElementById('path-1-left-boxroom');
+const iconClickText1LeftBoxroom = document.getElementById('text-1-left-boxroom');
+function funcIconClick1LeftBoxroom(event) {
+    if (event.target.closest('#path-1-left-boxroom')) {
+        iconClickPath1LeftBoxroom.classList.add('сlickToChangeColor');
     }
-    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
-        iconClickPath13rightwing1part2.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-left-boxroom')) {
+        iconClickPath1LeftBoxroom.classList.remove('сlickToChangeColor');
     }
-    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
-        iconClickText13rightwing1part2.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-left-boxroom')) {
+        iconClickText1LeftBoxroom.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
-        iconClickText13rightwing1part2.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-left-boxroom')) {
+        iconClickText1LeftBoxroom.classList.remove('сlickToChangeTextColor');
     }
-    if (event.target.closest('#path-1-3-right-wing-1part-2')) {
-        iconClickText13rightwing1part21.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-3-right-wing-1part-2')) {
-        iconClickText13rightwing1part21.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath13rightwing1part2.removeEventListener("click", funcIconClick13rightwing1part2);
+    iconClickPath1LeftBoxroom.removeEventListener("click", funcIconClick1LeftBoxroom);
 }
-document.addEventListener("click", funcIconClick13rightwing1part2);
+document.addEventListener("click", funcIconClick1LeftBoxroom);
 
-// 1b - 3floor  -  biblioteka
-const iconClickPath13rightwing1part6 = document.getElementById('path-1-3-right-wing-1part-6');
-const iconClickText13rightwing1part6 = document.getElementById('text-1-3-right-wing-1part-6');
-function funcIconClick13rightwing1part6(event) {
-    if (event.target.closest('#path-1-3-right-wing-1part-6')) {
-        iconClickPath13rightwing1part6.classList.add('сlickToChangeColor');
+// 1 - 2 - right - boxroom
+const iconClickPath1rightBoxroom = document.getElementById('path-1-right-boxroom');
+const iconClickText1rightBoxroom = document.getElementById('text-1-right-boxroom');
+function funcIconClick1rightBoxroom(event) {
+    if (event.target.closest('#path-1-right-boxroom')) {
+        iconClickPath1rightBoxroom.classList.add('сlickToChangeColor');
     }
-    if (!event.target.closest('#path-1-3-right-wing-1part-6')) {
-        iconClickPath13rightwing1part6.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-right-boxroom')) {
+        iconClickPath1rightBoxroom.classList.remove('сlickToChangeColor');
     }
-    if (event.target.closest('#path-1-3-right-wing-1part-6')) {
-        iconClickText13rightwing1part6.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-right-boxroom')) {
+        iconClickText1rightBoxroom.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-3-right-wing-1part-6')) {
-        iconClickText13rightwing1part6.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-right-boxroom')) {
+        iconClickText1rightBoxroom.classList.remove('сlickToChangeTextColor');
     }
-    iconClickPath13rightwing1part6.removeEventListener("click", funcIconClick13rightwing1part6);
+    iconClickPath1rightBoxroom.removeEventListener("click", funcIconClick1rightBoxroom);
 }
-document.addEventListener("click", funcIconClick13rightwing1part6);
+document.addEventListener("click", funcIconClick1rightBoxroom);
 
-// 1b - 4floor  -  straight
-const iconClickPath14straight = document.getElementById('path-1-4-straight');
-const iconClickText14straight = document.getElementById('text-1-4-straight');
-function funcIconClick14straight(event) {
-    if (event.target.closest('#path-1-4-straight')) {
-        iconClickPath14straight.classList.add('сlickToChangeColor');
+// 1 - 1 - boxroom
+const iconClickPath1right1Boxroom = document.getElementById('path-1-1boxroom');
+const iconClickText1right1Boxroom = document.getElementById('text-1-1boxroom');
+function funcIconClick1right1Boxroom(event) {
+    if (event.target.closest('#path-1-1boxroom')) {
+        iconClickPath1right1Boxroom.classList.add('сlickToChangeColor');
     }
-    if (!event.target.closest('#path-1-4-straight')) {
-        iconClickPath14straight.classList.remove('сlickToChangeColor');
+    if (!event.target.closest('#path-1-1boxroom')) {
+        iconClickPath1right1Boxroom.classList.remove('сlickToChangeColor');
     }
-    if (event.target.closest('#path-1-4-straight')) {
-        iconClickText14straight.classList.add('сlickToChangeTextColor');
+    if (event.target.closest('#path-1-1boxroom')) {
+        iconClickText1right1Boxroom.classList.add('сlickToChangeTextColor');
     }
-    if (!event.target.closest('#path-1-4-straight')) {
-        iconClickText14straight.classList.remove('сlickToChangeTextColor');
+    if (!event.target.closest('#path-1-1boxroom')) {
+        iconClickText1right1Boxroom.classList.remove('сlickToChangeTextColor');
     }
-    iconClickPath14straight.removeEventListener("click", funcIconClick14straight);
+    iconClickPath1right1Boxroom.removeEventListener("click", funcIconClick1right1Boxroom);
 }
-document.addEventListener("click", funcIconClick14straight);
-
-// 1b - 4floor  -  left-wc
-const iconClickPath14leftwing2part2 = document.getElementById('path-1-4-left-wing-2part-2');
-const iconClickText14leftwing2part2 = document.getElementById('text-1-4-left-wing-2part-2');
-const iconClickText14leftwing2part21 = document.getElementById('text-1-4-left-wing-2part-2-1');
-function funcIconClick14leftwing2part2(event) {
-    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
-        iconClickPath14leftwing2part2.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
-        iconClickPath14leftwing2part2.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
-        iconClickText14leftwing2part2.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
-        iconClickText14leftwing2part2.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-1-4-left-wing-2part-2')) {
-        iconClickText14leftwing2part21.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-4-left-wing-2part-2')) {
-        iconClickText14leftwing2part21.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath14leftwing2part2.removeEventListener("click", funcIconClick14leftwing2part2);
-}
-document.addEventListener("click", funcIconClick14leftwing2part2);
-
-// 1b - 4floor  -  right-wc
-const iconClickPath14rightwing1part2 = document.getElementById('path-1-4-right-wing-1part-2');
-const iconClickText14rightwing1part2 = document.getElementById('text-1-4-right-wing-1part-2');
-const iconClickText14rightwing1part21 = document.getElementById('text-1-4-right-wing-1part-2-1');
-function funcIconClick14rightwing1part2(event) {
-    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
-        iconClickPath14rightwing1part2.classList.add('сlickToChangeColor');
-    }
-    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
-        iconClickPath14rightwing1part2.classList.remove('сlickToChangeColor');
-    }
-    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
-        iconClickText14rightwing1part2.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
-        iconClickText14rightwing1part2.classList.remove('сlickToChangeTextColor');
-    }
-    if (event.target.closest('#path-1-4-right-wing-1part-2')) {
-        iconClickText14rightwing1part21.classList.add('сlickToChangeTextColor');
-    }
-    if (!event.target.closest('#path-1-4-right-wing-1part-2')) {
-        iconClickText14rightwing1part21.classList.remove('сlickToChangeTextColor');
-    }
-    iconClickPath14rightwing1part2.removeEventListener("click", funcIconClick14rightwing1part2);
-}
-document.addEventListener("click", funcIconClick14rightwing1part2);
+document.addEventListener("click", funcIconClick1right1Boxroom);
